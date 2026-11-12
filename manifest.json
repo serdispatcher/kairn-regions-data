@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T06:50:25Z",
+  "updated_at": "2026-11-12T07:34:03Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
-      "version": 2,
+      "version": 3,
       "name_en": "Antalya & Western Taurus",
       "name_ru": "Анталья и Западный Тавр",
       "bbox": [
@@ -46,7 +46,7 @@
     },
     "lycia_mugla": {
       "id": "lycia_mugla",
-      "version": 2,
+      "version": 3,
       "name_en": "Lycia, Fethiye & Muğla",
       "name_ru": "Ликия, Фетхие и Мугла",
       "bbox": [
@@ -66,14 +66,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/lycia_mugla/trails.bin.gz",
-          "size": 71269,
-          "raw_size": 119129,
-          "sha256": "ffe7a0c24988f126b930a67d7cba2aff75fb24618b31ad79a9302cb3187880a7"
+          "size": 71065,
+          "raw_size": 119008,
+          "sha256": "4f2817ec39c2ad82be57edb909f42adb0b9eb4fb7fd106f5b9f798ea7e2d1b17"
         },
         "trails.bin": {
           "url": "regions/lycia_mugla/trails.bin",
-          "size": 119129,
-          "sha256": "0948057b0063128b31f62aaddafe15fe793191f3907e178dbe80f0e8e3116845"
+          "size": 119008,
+          "sha256": "61c9c942e6b68f40ca6b4e8c2203812cc31a3cc2bdd570af0fb7325d79d6874d"
         },
         "pois.json.gz": {
           "url": "regions/lycia_mugla/pois.json.gz",
@@ -90,7 +90,7 @@
     },
     "aegean_izmir": {
       "id": "aegean_izmir",
-      "version": 2,
+      "version": 3,
       "name_en": "Aegean Coast & İzmir",
       "name_ru": "Эгейское побережье и Измир",
       "bbox": [
@@ -112,14 +112,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/aegean_izmir/trails.bin.gz",
-          "size": 41330,
-          "raw_size": 57716,
-          "sha256": "3ac6a854cefd4954af524b3e0f0b242e6d2c69f4dc4f8789c370495e9a06ca99"
+          "size": 41286,
+          "raw_size": 57872,
+          "sha256": "d56733a45fcf516519f23c548d0af6c8671f175011cd3709961d9c22bd4ba79c"
         },
         "trails.bin": {
           "url": "regions/aegean_izmir/trails.bin",
-          "size": 57716,
-          "sha256": "5095433cbf223a4972e4b9eb441efd7a3bf51d69c4c0e5842788a5ad7ba57d4d"
+          "size": 57872,
+          "sha256": "e3d4b5ce7b13c2b69b6d547d714d899693a48edc23646fdc9d4591d82dde8781"
         },
         "pois.json.gz": {
           "url": "regions/aegean_izmir/pois.json.gz",
@@ -136,7 +136,7 @@
     },
     "marmara_uludag": {
       "id": "marmara_uludag",
-      "version": 2,
+      "version": 3,
       "name_en": "Istanbul, Marmara & Uludağ",
       "name_ru": "Стамбул, Мраморное море и Улудаг",
       "bbox": [
@@ -160,14 +160,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/marmara_uludag/trails.bin.gz",
-          "size": 58886,
-          "raw_size": 81779,
-          "sha256": "438f25704824915c796e48af944cc39808aedb30d36bd2dc9961eec7fdf2336e"
+          "size": 58846,
+          "raw_size": 82066,
+          "sha256": "e639625e995a93bb01eed088e6f10b3363c6d6bf0d99228f785030994978c780"
         },
         "trails.bin": {
           "url": "regions/marmara_uludag/trails.bin",
-          "size": 81779,
-          "sha256": "ae2a5869bae0cf58e7acdd2bb84a6976870a4baf59620e0c7cde900ae7e95987"
+          "size": 82066,
+          "sha256": "0c26276a8bd9d0017bc6374b6f9fb3c43c1ad808eee580a4daf5ade4feb26166"
         },
         "pois.json.gz": {
           "url": "regions/marmara_uludag/pois.json.gz",
@@ -184,7 +184,7 @@
     },
     "central_west_stpaul": {
       "id": "central_west_stpaul",
-      "version": 2,
+      "version": 3,
       "name_en": "Ankara, Phrygia & Central Taurus",
       "name_ru": "Анкара, Фригия и Центральный Тавр",
       "bbox": [
@@ -210,14 +210,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/central_west_stpaul/trails.bin.gz",
-          "size": 68431,
-          "raw_size": 97955,
-          "sha256": "0e69926cec97c53328cea5e591ba1a568aad0e2f53f8d5ac490a382a46877f5d"
+          "size": 66964,
+          "raw_size": 95944,
+          "sha256": "b2c45fa3cffd294da15954622cd24bdea23697be2613ccbddcfce3a7c65f6f74"
         },
         "trails.bin": {
           "url": "regions/central_west_stpaul/trails.bin",
-          "size": 97955,
-          "sha256": "1b00a3aa39774c70a30d59c86595047893e3cb889723ba7c49c0556a059ae6a1"
+          "size": 95944,
+          "sha256": "7496260c318fb4b4d9e09523fa87d51fea87398fc1347cedd17252672b8cedf2"
         },
         "pois.json.gz": {
           "url": "regions/central_west_stpaul/pois.json.gz",
@@ -234,7 +234,7 @@
     },
     "cappadocia_aladaglar": {
       "id": "cappadocia_aladaglar",
-      "version": 2,
+      "version": 3,
       "name_en": "Cappadocia, Erciyes & Aladağlar",
       "name_ru": "Каппадокия, Эрджиес и Аладаглар",
       "bbox": [
@@ -260,14 +260,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/cappadocia_aladaglar/trails.bin.gz",
-          "size": 82819,
-          "raw_size": 125096,
-          "sha256": "77359c3c05837a2a58dea59a42385a3c49964b6b824680ae766d7c4c32ec009c"
+          "size": 82701,
+          "raw_size": 125538,
+          "sha256": "37e4090dcccf9d08e75f39db5961e2185cc5686a1c6f36a70acf547ddb54e243"
         },
         "trails.bin": {
           "url": "regions/cappadocia_aladaglar/trails.bin",
-          "size": 125096,
-          "sha256": "51030218de6f5ede7857987aa8fbe295a007c23422ffcfeed2831bc277701d80"
+          "size": 125538,
+          "sha256": "e71005de6f11655661563e3cbf4cc7b5afaf34928cb4fd9398f6394b84bf9d25"
         },
         "pois.json.gz": {
           "url": "regions/cappadocia_aladaglar/pois.json.gz",
@@ -284,7 +284,7 @@
     },
     "western_black_sea": {
       "id": "western_black_sea",
-      "version": 2,
+      "version": 3,
       "name_en": "Western Black Sea & Ilgaz",
       "name_ru": "Западное Причерноморье и Илгаз",
       "bbox": [
@@ -310,14 +310,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/western_black_sea/trails.bin.gz",
-          "size": 45321,
-          "raw_size": 63320,
-          "sha256": "8da17a8b69169a36a87afd5b6ca6827fbcae25087121ebf38d045bfddb400946"
+          "size": 45343,
+          "raw_size": 63734,
+          "sha256": "733ba004ebad8de7eceb63b41c89360aba637fc370796d5c70bec11077a0b054"
         },
         "trails.bin": {
           "url": "regions/western_black_sea/trails.bin",
-          "size": 63320,
-          "sha256": "799faadc539bc049ef29c8461b9b5e19ba93ac4b0569293d6381b269bfad04c6"
+          "size": 63734,
+          "sha256": "618bb4af32076eb01844585ac6ce5822be739658e2bf9f9a962725ee67924afa"
         },
         "pois.json.gz": {
           "url": "regions/western_black_sea/pois.json.gz",
@@ -334,7 +334,7 @@
     },
     "kackar_black_sea": {
       "id": "kackar_black_sea",
-      "version": 2,
+      "version": 3,
       "name_en": "Kaçkar & Eastern Black Sea",
       "name_ru": "Качкар и Восточное Причерноморье",
       "bbox": [
@@ -360,14 +360,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/kackar_black_sea/trails.bin.gz",
-          "size": 34220,
-          "raw_size": 49364,
-          "sha256": "9ebae2730158c2a381368e6c6d73b1c6a32a3ffd29a823a62b53a1291b006897"
+          "size": 34164,
+          "raw_size": 49582,
+          "sha256": "8dca8f45fac19b55ec8ea61c8501fb7c3be0513243d6f6481518f305f9284bdd"
         },
         "trails.bin": {
           "url": "regions/kackar_black_sea/trails.bin",
-          "size": 49364,
-          "sha256": "6006e63d7c06b30639009e9dcf86fb741181d48151f3bb09b1e84f9a5ff6e20a"
+          "size": 49582,
+          "sha256": "57fcb01be5e6aff190ecaa1417ecfaf599a77bf1909a40469525432507457c3e"
         },
         "pois.json.gz": {
           "url": "regions/kackar_black_sea/pois.json.gz",
@@ -384,7 +384,7 @@
     },
     "eastern_anatolia_ararat": {
       "id": "eastern_anatolia_ararat",
-      "version": 2,
+      "version": 3,
       "name_en": "Eastern Anatolia, Van & Ararat",
       "name_ru": "Восточная Анатолия, Ван и Арарат",
       "bbox": [
@@ -426,14 +426,14 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/eastern_anatolia_ararat/trails.bin.gz",
-          "size": 147713,
-          "raw_size": 205593,
-          "sha256": "52e82b63b81cb0742433af7d64624c2b606109df9f3f8234bdbb48e6347c178d"
+          "size": 147626,
+          "raw_size": 206707,
+          "sha256": "245b4cc82b05ed1f74586295a12c58fd6b2ba2ac9278a4d1ed5fb88b4119bea6"
         },
         "trails.bin": {
           "url": "regions/eastern_anatolia_ararat/trails.bin",
-          "size": 205593,
-          "sha256": "b4d9e8c4be0dd13fa6ed8f158f3d3f0df5547a1f30ee77e7d670b23aee1d532c"
+          "size": 206707,
+          "sha256": "84ff529d9dd56ddba0d881597af4094d856326b86039727f9991e5216e93574e"
         },
         "pois.json.gz": {
           "url": "regions/eastern_anatolia_ararat/pois.json.gz",
