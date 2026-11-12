@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-12T09:35:00Z",
+  "regions": {
+    "antalya_taurus": {
+      "id": "antalya_taurus",
+      "version": 2,
+      "name_en": "Antalya & Western Taurus",
+      "name_ru": "Анталья и Западный Тавр",
+      "bbox": [
+        36.0,
+        30.0,
+        38.0,
+        32.0
+      ],
+      "tiles": [
+        "N36E030.hgt",
+        "N36E031.hgt",
+        "N37E030.hgt",
+        "N37E031.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/antalya_taurus/trails.bin.gz",
+          "size": 1995621,
+          "raw_size": 3288752,
+          "sha256": "fa2dbcf8b62589df2588da52e6e36010ca0ecc2c3dbfc4c90915040f16fea7d2"
+        },
+        "trails.bin": {
+          "url": "regions/antalya_taurus/trails.bin",
+          "size": 3288752,
+          "sha256": "6202933bdb8d505c786e4a0bb9e2edee2103743e7eb673385dccf0f3134f9a50"
+        },
+        "pois.json.gz": {
+          "url": "regions/antalya_taurus/pois.json.gz",
+          "size": 74838,
+          "raw_size": 452867,
+          "sha256": "a432a3ecf5ce56a2101af4288314939b136e5011df68ef3ee1f8bf377d92d50e"
+        },
+        "pois.json": {
+          "url": "regions/antalya_taurus/pois.json",
+          "size": 452867,
+          "sha256": "e6f283e67f5f8eb88693332dd094cc5cfab35627ca22861d3d9e131a3fab8252"
+        }
+      }
+    }
+  },
+  "tiles": {
+    "N36E030.hgt": {
+      "url": "tiles/N36E030.hgt.gz",
+      "size": 928948,
+      "raw_size": 2884802,
+      "sha256": "208809bb2b343480a0a9fc05b1c7cc1a892fda6971ef7f6356268c5aa6036b87"
+    },
+    "N36E031.hgt": {
+      "url": "tiles/N36E031.hgt.gz",
+      "size": 505731,
+      "raw_size": 2884802,
+      "sha256": "ce1748a5651a6cd8929061576bdf7f1dc6ddb463cbd0f534159639ab1d73d4ae"
+    },
+    "N37E030.hgt": {
+      "url": "tiles/N37E030.hgt.gz",
+      "size": 1779615,
+      "raw_size": 2884802,
+      "sha256": "10dd5c574bbf826dbee90211d3af37ff3fb31931db8d2aa5c129806e40faff96"
+    },
+    "N37E031.hgt": {
+      "url": "tiles/N37E031.hgt.gz",
+      "size": 1801334,
+      "raw_size": 2884802,
+      "sha256": "9f36bf04001fb52cbb433a34eae95f1e2812c74fcf3a470b3b716109c03a5da6"
+    }
+  }
+}
