@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-11-12T13:59:32Z",
+  "schema_version": 2,
+  "updated_at": "2026-11-12T14:09:24Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
-      "version": 3,
+      "version": 4,
       "name_en": "Antalya & Western Taurus",
       "name_ru": "Анталья и Западный Тавр",
       "bbox": [
@@ -19,34 +19,28 @@
         "N37E030.hgt",
         "N37E031.hgt"
       ],
+      "horizon_tiles": [
+        "N36E029.hgt",
+        "N37E029.hgt"
+      ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/antalya_taurus/trails.bin.gz",
-          "size": 2506436,
-          "raw_size": 5252729,
-          "sha256": "3853a85089bc720884fbe6b37a518007ca9a6ef2e44e1f53178b1841464eef15"
-        },
-        "trails.bin": {
-          "url": "regions/antalya_taurus/trails.bin",
-          "size": 5252729,
-          "sha256": "f7987ad026313965708b6b23f2b2de1056da363642206b2b55aff006984c0618"
+          "size": 2506583,
+          "raw_size": 5252905,
+          "sha256": "13cddc906ee9fd76d79759f1f6eb3790ff21c46ba76292848f1ceed7dacc3f16"
         },
         "pois.json.gz": {
           "url": "regions/antalya_taurus/pois.json.gz",
-          "size": 74838,
-          "raw_size": 452867,
-          "sha256": "a432a3ecf5ce56a2101af4288314939b136e5011df68ef3ee1f8bf377d92d50e"
-        },
-        "pois.json": {
-          "url": "regions/antalya_taurus/pois.json",
-          "size": 452867,
-          "sha256": "e6f283e67f5f8eb88693332dd094cc5cfab35627ca22861d3d9e131a3fab8252"
+          "size": 59601,
+          "raw_size": 380176,
+          "sha256": "801e2e4be6669a29e1366488fbb221ca66573a0bf15fd625bf62e5478e9dadc5"
         }
       }
     },
     "lycia_mugla": {
       "id": "lycia_mugla",
-      "version": 3,
+      "version": 4,
       "name_en": "Lycia, Fethiye & Muğla",
       "name_ru": "Ликия, Фетхие и Мугла",
       "bbox": [
@@ -63,34 +57,28 @@
         "N37E028.hgt",
         "N37E029.hgt"
       ],
+      "horizon_tiles": [
+        "N36E030.hgt",
+        "N37E030.hgt"
+      ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/lycia_mugla/trails.bin.gz",
-          "size": 3253912,
-          "raw_size": 6658645,
-          "sha256": "b5f2c1e42cb4e5a2e8e706bbc6716ec45b42ed50fc5ac7645f9c959156589715"
-        },
-        "trails.bin": {
-          "url": "regions/lycia_mugla/trails.bin",
-          "size": 6658645,
-          "sha256": "b93f6b3324763396ea8bec3fca3d1a2d3dc3d6e425922d5b2e4cd0c7cddc421e"
+          "size": 3254019,
+          "raw_size": 6659053,
+          "sha256": "6b3fba8acf0ac1152a5f9496e66947fd19a3bd4bccbb18811604821a81e3e81e"
         },
         "pois.json.gz": {
           "url": "regions/lycia_mugla/pois.json.gz",
-          "size": 59795,
-          "raw_size": 383685,
-          "sha256": "ba74e630df0a51ada73f10bb0b88ad1eea06db1b7295fdd4861985c2d0494a37"
-        },
-        "pois.json": {
-          "url": "regions/lycia_mugla/pois.json",
-          "size": 383685,
-          "sha256": "6d53ee33c937f124de45f27a1f61a2b5846b5b219c604beefc729d9a335dbf91"
+          "size": 60707,
+          "raw_size": 388721,
+          "sha256": "65587a1d59fd868888717a8958ab1f4f2e5e5cf7cdf39030cc49559ac0401e55"
         }
       }
     },
     "aegean_izmir": {
       "id": "aegean_izmir",
-      "version": 3,
+      "version": 4,
       "name_en": "Aegean Coast & İzmir",
       "name_ru": "Эгейское побережье и Измир",
       "bbox": [
@@ -109,91 +97,160 @@
         "N39E028.hgt",
         "N39E029.hgt"
       ],
+      "horizon_tiles": [
+        "N38E030.hgt",
+        "N39E030.hgt"
+      ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/aegean_izmir/trails.bin.gz",
-          "size": 6226444,
-          "raw_size": 13018124,
-          "sha256": "2aeb11b0b2112707594b58480f14911d5ace7db28d7312a73a557aaf60961257"
-        },
-        "trails.bin": {
-          "url": "regions/aegean_izmir/trails.bin",
-          "size": 13018124,
-          "sha256": "4eb9df5bd3010bf223106be08ffdc92e649ed2403127eed194d32594e55bd161"
+          "size": 6226363,
+          "raw_size": 13018817,
+          "sha256": "c89273031444b5aed649c328ace39c0497482f527bf86c8a9d607e05ff9ad180"
         },
         "pois.json.gz": {
           "url": "regions/aegean_izmir/pois.json.gz",
-          "size": 104416,
-          "raw_size": 692576,
-          "sha256": "97a78430846cd2b7e001490ce3f71f64b698ca0c8cc5f72c6cec087fbbe5b74a"
-        },
-        "pois.json": {
-          "url": "regions/aegean_izmir/pois.json",
-          "size": 692576,
-          "sha256": "c17c630e6aba36e61716914d8ccb04d80a4d4ce47b5575f66d6cb4ddfd1f89e0"
+          "size": 105234,
+          "raw_size": 696836,
+          "sha256": "a5275ec563f05001802ff5fe1a60e4f863f4ea2c11d36c4b4162c0f6c0fc7736"
         }
       }
     },
     "marmara_uludag": {
       "id": "marmara_uludag",
-      "version": 3,
+      "version": 4,
       "name_en": "Istanbul, Marmara & Uludağ",
       "name_ru": "Стамбул, Мраморное море и Улудаг",
       "bbox": [
         40.0,
-        26.0,
+        25.0,
         42.0,
         31.0
       ],
       "tiles": [
+        "N40E025.hgt",
         "N40E026.hgt",
         "N40E027.hgt",
         "N40E028.hgt",
         "N40E029.hgt",
         "N40E030.hgt",
+        "N41E025.hgt",
         "N41E026.hgt",
         "N41E027.hgt",
         "N41E028.hgt",
         "N41E029.hgt",
         "N41E030.hgt"
       ],
+      "horizon_tiles": [
+        "N40E031.hgt",
+        "N41E031.hgt"
+      ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/marmara_uludag/trails.bin.gz",
-          "size": 11676850,
-          "raw_size": 25702886,
-          "sha256": "b4187e6805b50f42f8eef5ba5529c6c5f9a3985df4e13f591dc769087498250b"
-        },
-        "trails.bin": {
-          "url": "regions/marmara_uludag/trails.bin",
-          "size": 25702886,
-          "sha256": "28eeb940ca07737f81471e6b5d7abbf1d3d64c578e22b37ad231f976047dfde2"
+          "size": 11706592,
+          "raw_size": 25763097,
+          "sha256": "96b8bbb93e9ac0e0cff19428794604d82b77e51b84b93d67ac90c4996e94d29a"
         },
         "pois.json.gz": {
           "url": "regions/marmara_uludag/pois.json.gz",
-          "size": 79339,
-          "raw_size": 524964,
-          "sha256": "a7c4ec1051956ae81844225209cc229de43a197eafcae525a04d5c3236b06910"
+          "size": 79815,
+          "raw_size": 527849,
+          "sha256": "cc271360c7bd9d9d6a5102b1fc47e8cc31867bc5aa706fd987d940380e427798"
+        }
+      }
+    },
+    "phrygia_ankara": {
+      "id": "phrygia_ankara",
+      "version": 4,
+      "name_en": "Ankara, Phrygia & Eskişehir",
+      "name_ru": "Анкара, Фригия и Эскишехир",
+      "bbox": [
+        38.0,
+        30.0,
+        40.0,
+        32.0
+      ],
+      "tiles": [
+        "N38E030.hgt",
+        "N38E031.hgt",
+        "N39E030.hgt",
+        "N39E031.hgt"
+      ],
+      "horizon_tiles": [
+        "N37E030.hgt",
+        "N37E031.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/phrygia_ankara/trails.bin.gz",
+          "size": 2029853,
+          "raw_size": 4190188,
+          "sha256": "ff0a1746d4556aa3aeca61f21752738a3665e9723d84ab335494f7f664d5d485"
         },
-        "pois.json": {
-          "url": "regions/marmara_uludag/pois.json",
-          "size": 524964,
-          "sha256": "6b64215fac3d9c4f602f9015ac431785b60f2746e6e15c6ee6b9c311ecd929d2"
+        "pois.json.gz": {
+          "url": "regions/phrygia_ankara/pois.json.gz",
+          "size": 40348,
+          "raw_size": 262822,
+          "sha256": "94d5818cfc1aa9974d73c3b24c0155b6370b7ad9978fa0eb911fa8298c88b152"
+        }
+      }
+    },
+    "cilicia_central_taurus": {
+      "id": "cilicia_central_taurus",
+      "version": 4,
+      "name_en": "Konya, Cilician Taurus & Mersin",
+      "name_ru": "Конья, Киликийский Тавр и Мерсин",
+      "bbox": [
+        36.0,
+        32.0,
+        40.0,
+        34.0
+      ],
+      "tiles": [
+        "N36E032.hgt",
+        "N36E033.hgt",
+        "N37E032.hgt",
+        "N37E033.hgt",
+        "N38E032.hgt",
+        "N38E033.hgt",
+        "N39E032.hgt",
+        "N39E033.hgt"
+      ],
+      "horizon_tiles": [
+        "N36E031.hgt",
+        "N37E031.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/cilicia_central_taurus/trails.bin.gz",
+          "size": 4533272,
+          "raw_size": 9697276,
+          "sha256": "59aa74602079b47f9c02d1020f030fb88eab34d7fb20e75a5a4b3f9ae2b63a72"
+        },
+        "pois.json.gz": {
+          "url": "regions/cilicia_central_taurus/pois.json.gz",
+          "size": 137755,
+          "raw_size": 941877,
+          "sha256": "90ff600645b7d6173c87d2bd7f2e4d9469e0a14c334a32e8f0b22f6daeb30d7e"
         }
       }
     },
     "cappadocia_aladaglar": {
       "id": "cappadocia_aladaglar",
-      "version": 3,
+      "version": 4,
       "name_en": "Cappadocia, Erciyes & Aladağlar",
       "name_ru": "Каппадокия, Эрджиес и Аладаглар",
       "bbox": [
-        36.0,
+        35.0,
         34.0,
         40.0,
         37.0
       ],
       "tiles": [
+        "N35E034.hgt",
+        "N35E035.hgt",
+        "N35E036.hgt",
         "N36E034.hgt",
         "N36E035.hgt",
         "N36E036.hgt",
@@ -207,34 +264,29 @@
         "N39E035.hgt",
         "N39E036.hgt"
       ],
+      "horizon_tiles": [
+        "N36E033.hgt",
+        "N37E033.hgt",
+        "N38E033.hgt"
+      ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/cappadocia_aladaglar/trails.bin.gz",
-          "size": 8268502,
-          "raw_size": 17522018,
-          "sha256": "e2f5fcf69eeb8295c04f47cd341f939b9fd76936f4b47a816c9594c3a40bd282"
-        },
-        "trails.bin": {
-          "url": "regions/cappadocia_aladaglar/trails.bin",
-          "size": 17522018,
-          "sha256": "48ffb060f94d4b6459209a648caec8a5bda3c7d0f9701ac36dde4aaaf7b895fb"
+          "size": 8337345,
+          "raw_size": 17648042,
+          "sha256": "01df8395452fdb9e40e633fae98afd8d521d4746cd5665bcf5393fd6b141ab47"
         },
         "pois.json.gz": {
           "url": "regions/cappadocia_aladaglar/pois.json.gz",
-          "size": 140079,
-          "raw_size": 948855,
-          "sha256": "0522eb6942a3741f663d47c020015f38e5c8b59b19e310d88d1cef1757f12dda"
-        },
-        "pois.json": {
-          "url": "regions/cappadocia_aladaglar/pois.json",
-          "size": 948855,
-          "sha256": "38cbc4cfbf1b90d96f227929e49859ce619e2db99dc1eb28fdf13e3e163009e5"
+          "size": 140689,
+          "raw_size": 949263,
+          "sha256": "367b89d700d656e6c90855381d460ec95638528e93719e71c51496470ca4a0e2"
         }
       }
     },
     "western_black_sea": {
       "id": "western_black_sea",
-      "version": 3,
+      "version": 4,
       "name_en": "Western Black Sea & Ilgaz",
       "name_ru": "Западное Причерноморье и Илгаз",
       "bbox": [
@@ -257,41 +309,36 @@
         "N41E035.hgt",
         "N41E036.hgt"
       ],
+      "horizon_tiles": [
+        "N39E032.hgt",
+        "N39E033.hgt",
+        "N39E034.hgt"
+      ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/western_black_sea/trails.bin.gz",
-          "size": 7154483,
-          "raw_size": 14271196,
-          "sha256": "bd2dd987659790607b88716130b6545121cda9a9720909546ab508d34421751d"
-        },
-        "trails.bin": {
-          "url": "regions/western_black_sea/trails.bin",
-          "size": 14271196,
-          "sha256": "9530c8bf32a36754b7f06e4e99abe44c9d98a022fd12e3e5e22e1c3114d75cba"
+          "size": 7154336,
+          "raw_size": 14272120,
+          "sha256": "46df4d7eb5511d29001c5b0008724da0ec0590e4a9e884b65cca7bc375a32008"
         },
         "pois.json.gz": {
           "url": "regions/western_black_sea/pois.json.gz",
-          "size": 136220,
-          "raw_size": 928608,
-          "sha256": "21948342cdd65d14bf439097ec2a52d9efe7da8ec2369165e4cc1057ced9ad92"
-        },
-        "pois.json": {
-          "url": "regions/western_black_sea/pois.json",
-          "size": 928608,
-          "sha256": "dff6bdbcff3c26ed4b0b722ee766a2e4c22a0730198dc74f19c14b8596951b38"
+          "size": 136440,
+          "raw_size": 928680,
+          "sha256": "284f11cbcf1608effae8c290790b68e541b31cc5502c890821b3613f52ea63f5"
         }
       }
     },
     "kackar_black_sea": {
       "id": "kackar_black_sea",
-      "version": 3,
-      "name_en": "Kaçkar & Eastern Black Sea",
-      "name_ru": "Качкар и Восточное Причерноморье",
+      "version": 4,
+      "name_en": "Kaçkar, Pontic Alps & Kars",
+      "name_ru": "Качкар, Понтийские горы и Карс",
       "bbox": [
         40.0,
         37.0,
         42.0,
-        43.0
+        45.0
       ],
       "tiles": [
         "N40E037.hgt",
@@ -300,50 +347,59 @@
         "N40E040.hgt",
         "N40E041.hgt",
         "N40E042.hgt",
+        "N40E043.hgt",
+        "N40E044.hgt",
         "N41E037.hgt",
         "N41E038.hgt",
         "N41E039.hgt",
         "N41E040.hgt",
         "N41E041.hgt",
-        "N41E042.hgt"
+        "N41E042.hgt",
+        "N41E043.hgt",
+        "N41E044.hgt"
+      ],
+      "horizon_tiles": [
+        "N39E040.hgt",
+        "N39E041.hgt",
+        "N39E042.hgt",
+        "N39E043.hgt",
+        "N39E044.hgt"
       ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/kackar_black_sea/trails.bin.gz",
-          "size": 4453713,
-          "raw_size": 8479731,
-          "sha256": "8d9b7d5bd1d58e9ebaf152e1fdf1538010dff558a02e0e3625779a57c4c94e5f"
-        },
-        "trails.bin": {
-          "url": "regions/kackar_black_sea/trails.bin",
-          "size": 8479731,
-          "sha256": "50889dbcbd754da2d89742a7ca85540fca28f56289b013877ab5569ec34d4d91"
+          "size": 4663045,
+          "raw_size": 8875660,
+          "sha256": "0e8363f6a11e3648daeedf0fae6b0ae61a3fdbe5fa8d2d3dd24a9ef33872721b"
         },
         "pois.json.gz": {
           "url": "regions/kackar_black_sea/pois.json.gz",
-          "size": 122144,
-          "raw_size": 824162,
-          "sha256": "bf1fdbb5918a958483ae6c785e2b7b85f9566536cf0889cc834f7bc817a9d766"
-        },
-        "pois.json": {
-          "url": "regions/kackar_black_sea/pois.json",
-          "size": 824162,
-          "sha256": "4dd6c68086293e6dcef1217d6167ebf814f413f483dbb04aa4497f5e9afc945b"
+          "size": 138336,
+          "raw_size": 923551,
+          "sha256": "c62ed28a780c79f598bd957dde8c03c937ec9032afed888b61fde28fe16d71c2"
         }
       }
     },
     "eastern_anatolia_ararat": {
       "id": "eastern_anatolia_ararat",
-      "version": 3,
-      "name_en": "Eastern Anatolia, Van & Ararat",
-      "name_ru": "Восточная Анатолия, Ван и Арарат",
+      "version": 4,
+      "name_en": "Eastern Anatolia, Van, Ararat & Cilo",
+      "name_ru": "Восточная Анатолия, Ван, Арарат и Джило",
       "bbox": [
+        36.0,
         37.0,
-        37.0,
-        42.0,
+        40.0,
         45.0
       ],
       "tiles": [
+        "N36E037.hgt",
+        "N36E038.hgt",
+        "N36E039.hgt",
+        "N36E040.hgt",
+        "N36E041.hgt",
+        "N36E042.hgt",
+        "N36E043.hgt",
+        "N36E044.hgt",
         "N37E037.hgt",
         "N37E038.hgt",
         "N37E039.hgt",
@@ -367,127 +423,43 @@
         "N39E041.hgt",
         "N39E042.hgt",
         "N39E043.hgt",
-        "N39E044.hgt",
+        "N39E044.hgt"
+      ],
+      "horizon_tiles": [
+        "N40E041.hgt",
+        "N40E042.hgt",
         "N40E043.hgt",
-        "N40E044.hgt",
-        "N41E043.hgt",
-        "N41E044.hgt"
+        "N40E044.hgt"
       ],
       "files": {
         "trails.bin.gz": {
           "url": "regions/eastern_anatolia_ararat/trails.bin.gz",
-          "size": 13537523,
-          "raw_size": 26384018,
-          "sha256": "1fe91a5cf7685a0fd0d589c85035e1722ea827d2a11c5f42f1c5f85a575ee94c"
-        },
-        "trails.bin": {
-          "url": "regions/eastern_anatolia_ararat/trails.bin",
-          "size": 26384018,
-          "sha256": "e846613f0c296b7505067e911cc055d0ce0c3ddce79a1c188fbde8ad9cdcc5e4"
+          "size": 9535274,
+          "raw_size": 18892998,
+          "sha256": "61a1f2b35eb0d679934a93cbe5b4fe8db28063ca762ee6b79aa1508f7a48b369"
         },
         "pois.json.gz": {
           "url": "regions/eastern_anatolia_ararat/pois.json.gz",
-          "size": 146186,
-          "raw_size": 969563,
-          "sha256": "d78216302ba4bbead724c1460b9a53610cd73ad30f97a1bd655ed69fc32ee9be"
-        },
-        "pois.json": {
-          "url": "regions/eastern_anatolia_ararat/pois.json",
-          "size": 969563,
-          "sha256": "6e25c3a78d8e88432ae73e7cbfc91e038987c0b973e4bc902b5ab4af2fe2f31e"
-        }
-      }
-    },
-    "phrygia_ankara": {
-      "id": "phrygia_ankara",
-      "version": 3,
-      "name_en": "Ankara, Phrygia & Eskişehir",
-      "name_ru": "Анкара, Фригия и Эскишехир",
-      "bbox": [
-        38.0,
-        30.0,
-        40.0,
-        32.0
-      ],
-      "tiles": [
-        "N38E030.hgt",
-        "N38E031.hgt",
-        "N39E030.hgt",
-        "N39E031.hgt"
-      ],
-      "files": {
-        "trails.bin.gz": {
-          "url": "regions/phrygia_ankara/trails.bin.gz",
-          "size": 2029951,
-          "raw_size": 4190142,
-          "sha256": "b50e71d5de1883fbb72ab6a510291d7069e3e02b1e640dfd89b0e4b206e7ce9d"
-        },
-        "trails.bin": {
-          "url": "regions/phrygia_ankara/trails.bin",
-          "size": 4190142,
-          "sha256": "32acf87e7478c01bbf38d5c2e70ba65e2049866c12561503525d4b99d79bf5c9"
-        },
-        "pois.json.gz": {
-          "url": "regions/phrygia_ankara/pois.json.gz",
-          "size": 38931,
-          "raw_size": 254667,
-          "sha256": "093c9675e6a4a44bbc9b4c6ba6cee2f7a3745f63e8bfcc879a8107751d47468c"
-        },
-        "pois.json": {
-          "url": "regions/phrygia_ankara/pois.json",
-          "size": 254667,
-          "sha256": "5a94610699ed8b651ebdd780df4cbca54350cee365fe677afd1f0d6096071956"
-        }
-      }
-    },
-    "cilicia_central_taurus": {
-      "id": "cilicia_central_taurus",
-      "version": 3,
-      "name_en": "Konya, Cilician Taurus & Mersin",
-      "name_ru": "Конья, Киликийский Тавр и Мерсин",
-      "bbox": [
-        36.0,
-        32.0,
-        40.0,
-        34.0
-      ],
-      "tiles": [
-        "N36E032.hgt",
-        "N36E033.hgt",
-        "N37E032.hgt",
-        "N37E033.hgt",
-        "N38E032.hgt",
-        "N38E033.hgt",
-        "N39E032.hgt",
-        "N39E033.hgt"
-      ],
-      "files": {
-        "trails.bin.gz": {
-          "url": "regions/cilicia_central_taurus/trails.bin.gz",
-          "size": 4533436,
-          "raw_size": 9696755,
-          "sha256": "cb7fc034ff62a4d33b39086c55ceab9c9962e0819d1ca17a032e93085ca7ddc0"
-        },
-        "trails.bin": {
-          "url": "regions/cilicia_central_taurus/trails.bin",
-          "size": 9696755,
-          "sha256": "4c7eb6e1fa90464ef315f7eb2b01cc58f5e5eb1f4190049f2ea96a2af33e4b8c"
-        },
-        "pois.json.gz": {
-          "url": "regions/cilicia_central_taurus/pois.json.gz",
-          "size": 135412,
-          "raw_size": 927602,
-          "sha256": "58d68d5469912b62a25767896f422287188a24ac1b716aaa69fb4e2245d28b66"
-        },
-        "pois.json": {
-          "url": "regions/cilicia_central_taurus/pois.json",
-          "size": 927602,
-          "sha256": "ed650954d133b42031845f476f056978360cef15adc3b24d9e40c28038b65244"
+          "size": 146658,
+          "raw_size": 969662,
+          "sha256": "cea5c790e2d114e00b0046b9217ff14963e692c6454c71d112d2686a7b57d485"
         }
       }
     }
   },
   "tiles": {
+    "N35E035.hgt": {
+      "url": "tiles/N35E035.hgt.gz",
+      "size": 966395,
+      "raw_size": 2884802,
+      "sha256": "bf321342825237b42c29f1d4aca1049c359d5a4e971dade17d1fbf4a01b32ce5"
+    },
+    "N35E036.hgt": {
+      "url": "tiles/N35E036.hgt.gz",
+      "size": 1573438,
+      "raw_size": 2884802,
+      "sha256": "4570ab531dca741a0b778b0b7433ad369e49dc833c1f39a67e2c74c53f5dba3c"
+    },
     "N36E027.hgt": {
       "url": "tiles/N36E027.hgt.gz",
       "size": 358654,
@@ -547,6 +519,18 @@
       "size": 1325359,
       "raw_size": 2884802,
       "sha256": "12326ec14a33a0d69425b2b7760ea522e098d12ab9436dbccbfbee7dbee71fed"
+    },
+    "N36E043.hgt": {
+      "url": "tiles/N36E043.hgt.gz",
+      "size": 1418859,
+      "raw_size": 2884802,
+      "sha256": "551b860345b008972c865b656ca04e13a6498f73bd07e08f20819ed311ed19c7"
+    },
+    "N36E044.hgt": {
+      "url": "tiles/N36E044.hgt.gz",
+      "size": 1913224,
+      "raw_size": 2884802,
+      "sha256": "6150240593dc89e140d6218c2ed5c45fb554192078b9158a2cd63acc53dd8bf3"
     },
     "N37E027.hgt": {
       "url": "tiles/N37E027.hgt.gz",
@@ -884,6 +868,12 @@
       "raw_size": 2884802,
       "sha256": "cb8dfa35e8b1b6789b0cd70819b7ddebcca9c1c9573b3430697afa9fe803b2dc"
     },
+    "N40E025.hgt": {
+      "url": "tiles/N40E025.hgt.gz",
+      "size": 708442,
+      "raw_size": 2884802,
+      "sha256": "a3f028ddad9a6abe2fd588b61fd4cce0d240affe5aa094648e3fe59fba20b229"
+    },
     "N40E026.hgt": {
       "url": "tiles/N40E026.hgt.gz",
       "size": 845725,
@@ -997,6 +987,12 @@
       "size": 1601195,
       "raw_size": 2884802,
       "sha256": "435c807203aa4273cf54690bd01159556c60c60e36c18b41a0b5f2fa2363b7d2"
+    },
+    "N41E025.hgt": {
+      "url": "tiles/N41E025.hgt.gz",
+      "size": 1697154,
+      "raw_size": 2884802,
+      "sha256": "e2c04276068c250d84f35089ee5444eabbb0ec577b86bd37476359aa765b8b39"
     },
     "N41E026.hgt": {
       "url": "tiles/N41E026.hgt.gz",
