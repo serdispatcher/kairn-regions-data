@@ -1,12 +1,13 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T14:09:24Z",
+  "updated_at": "2026-11-12T14:34:56Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
       "version": 4,
       "name_en": "Antalya & Western Taurus",
       "name_ru": "Анталья и Западный Тавр",
+      "name_tr": "Antalya ve Batı Toroslar",
       "bbox": [
         36.0,
         30.0,
@@ -21,7 +22,13 @@
       ],
       "horizon_tiles": [
         "N36E029.hgt",
-        "N37E029.hgt"
+        "N36E032.hgt",
+        "N37E029.hgt",
+        "N37E032.hgt",
+        "N38E029.hgt",
+        "N38E030.hgt",
+        "N38E031.hgt",
+        "N38E032.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -32,9 +39,9 @@
         },
         "pois.json.gz": {
           "url": "regions/antalya_taurus/pois.json.gz",
-          "size": 59601,
-          "raw_size": 380176,
-          "sha256": "801e2e4be6669a29e1366488fbb221ca66573a0bf15fd625bf62e5478e9dadc5"
+          "size": 83984,
+          "raw_size": 508220,
+          "sha256": "b99617da97abe8262fed64cc47c53bb86803fbbe04399ac21f09d156adc23898"
         }
       }
     },
@@ -43,6 +50,7 @@
       "version": 4,
       "name_en": "Lycia, Fethiye & Muğla",
       "name_ru": "Ликия, Фетхие и Мугла",
+      "name_tr": "Likya, Fethiye ve Muğla",
       "bbox": [
         36.0,
         27.0,
@@ -59,7 +67,12 @@
       ],
       "horizon_tiles": [
         "N36E030.hgt",
-        "N37E030.hgt"
+        "N37E030.hgt",
+        "N38E026.hgt",
+        "N38E027.hgt",
+        "N38E028.hgt",
+        "N38E029.hgt",
+        "N38E030.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -81,6 +94,7 @@
       "version": 4,
       "name_en": "Aegean Coast & İzmir",
       "name_ru": "Эгейское побережье и Измир",
+      "name_tr": "Ege Kıyıları ve İzmir",
       "bbox": [
         38.0,
         26.0,
@@ -98,8 +112,18 @@
         "N39E029.hgt"
       ],
       "horizon_tiles": [
+        "N37E027.hgt",
+        "N37E028.hgt",
+        "N37E029.hgt",
+        "N37E030.hgt",
         "N38E030.hgt",
-        "N39E030.hgt"
+        "N39E030.hgt",
+        "N40E025.hgt",
+        "N40E026.hgt",
+        "N40E027.hgt",
+        "N40E028.hgt",
+        "N40E029.hgt",
+        "N40E030.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -121,6 +145,7 @@
       "version": 4,
       "name_en": "Istanbul, Marmara & Uludağ",
       "name_ru": "Стамбул, Мраморное море и Улудаг",
+      "name_tr": "İstanbul, Marmara ve Uludağ",
       "bbox": [
         40.0,
         25.0,
@@ -142,6 +167,12 @@
         "N41E030.hgt"
       ],
       "horizon_tiles": [
+        "N39E026.hgt",
+        "N39E027.hgt",
+        "N39E028.hgt",
+        "N39E029.hgt",
+        "N39E030.hgt",
+        "N39E031.hgt",
         "N40E031.hgt",
         "N41E031.hgt"
       ],
@@ -165,6 +196,7 @@
       "version": 4,
       "name_en": "Ankara, Phrygia & Eskişehir",
       "name_ru": "Анкара, Фригия и Эскишехир",
+      "name_tr": "Ankara, Frigya ve Eskişehir",
       "bbox": [
         38.0,
         30.0,
@@ -178,8 +210,18 @@
         "N39E031.hgt"
       ],
       "horizon_tiles": [
+        "N37E029.hgt",
         "N37E030.hgt",
-        "N37E031.hgt"
+        "N37E031.hgt",
+        "N37E032.hgt",
+        "N38E029.hgt",
+        "N38E032.hgt",
+        "N39E029.hgt",
+        "N39E032.hgt",
+        "N40E029.hgt",
+        "N40E030.hgt",
+        "N40E031.hgt",
+        "N40E032.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -201,6 +243,7 @@
       "version": 4,
       "name_en": "Konya, Cilician Taurus & Mersin",
       "name_ru": "Конья, Киликийский Тавр и Мерсин",
+      "name_tr": "Konya, Kilikya Torosları ve Mersin",
       "bbox": [
         36.0,
         32.0,
@@ -218,8 +261,19 @@
         "N39E033.hgt"
       ],
       "horizon_tiles": [
+        "N35E034.hgt",
         "N36E031.hgt",
-        "N37E031.hgt"
+        "N36E034.hgt",
+        "N37E031.hgt",
+        "N37E034.hgt",
+        "N38E031.hgt",
+        "N38E034.hgt",
+        "N39E031.hgt",
+        "N39E034.hgt",
+        "N40E031.hgt",
+        "N40E032.hgt",
+        "N40E033.hgt",
+        "N40E034.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -241,6 +295,7 @@
       "version": 4,
       "name_en": "Cappadocia, Erciyes & Aladağlar",
       "name_ru": "Каппадокия, Эрджиес и Аладаглар",
+      "name_tr": "Kapadokya, Erciyes ve Aladağlar",
       "bbox": [
         35.0,
         34.0,
@@ -266,8 +321,18 @@
       ],
       "horizon_tiles": [
         "N36E033.hgt",
+        "N36E037.hgt",
         "N37E033.hgt",
-        "N38E033.hgt"
+        "N37E037.hgt",
+        "N38E033.hgt",
+        "N38E037.hgt",
+        "N39E033.hgt",
+        "N39E037.hgt",
+        "N40E033.hgt",
+        "N40E034.hgt",
+        "N40E035.hgt",
+        "N40E036.hgt",
+        "N40E037.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -289,6 +354,7 @@
       "version": 4,
       "name_en": "Western Black Sea & Ilgaz",
       "name_ru": "Западное Причерноморье и Илгаз",
+      "name_tr": "Batı Karadeniz ve Ilgaz",
       "bbox": [
         40.0,
         31.0,
@@ -310,9 +376,18 @@
         "N41E036.hgt"
       ],
       "horizon_tiles": [
+        "N39E030.hgt",
+        "N39E031.hgt",
         "N39E032.hgt",
         "N39E033.hgt",
-        "N39E034.hgt"
+        "N39E034.hgt",
+        "N39E035.hgt",
+        "N39E036.hgt",
+        "N39E037.hgt",
+        "N40E030.hgt",
+        "N40E037.hgt",
+        "N41E030.hgt",
+        "N41E037.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -334,6 +409,7 @@
       "version": 4,
       "name_en": "Kaçkar, Pontic Alps & Kars",
       "name_ru": "Качкар, Понтийские горы и Карс",
+      "name_tr": "Kaçkar, Pontus Alpleri ve Kars",
       "bbox": [
         40.0,
         37.0,
@@ -359,11 +435,17 @@
         "N41E044.hgt"
       ],
       "horizon_tiles": [
+        "N39E036.hgt",
+        "N39E037.hgt",
+        "N39E038.hgt",
+        "N39E039.hgt",
         "N39E040.hgt",
         "N39E041.hgt",
         "N39E042.hgt",
         "N39E043.hgt",
-        "N39E044.hgt"
+        "N39E044.hgt",
+        "N40E036.hgt",
+        "N41E036.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -385,6 +467,7 @@
       "version": 4,
       "name_en": "Eastern Anatolia, Van, Ararat & Cilo",
       "name_ru": "Восточная Анатолия, Ван, Арарат и Джило",
+      "name_tr": "Doğu Anadolu, Van, Ağrı Dağı ve Cilo",
       "bbox": [
         36.0,
         37.0,
@@ -426,6 +509,16 @@
         "N39E044.hgt"
       ],
       "horizon_tiles": [
+        "N35E036.hgt",
+        "N36E036.hgt",
+        "N37E036.hgt",
+        "N38E036.hgt",
+        "N39E036.hgt",
+        "N40E036.hgt",
+        "N40E037.hgt",
+        "N40E038.hgt",
+        "N40E039.hgt",
+        "N40E040.hgt",
         "N40E041.hgt",
         "N40E042.hgt",
         "N40E043.hgt",
@@ -448,6 +541,12 @@
     }
   },
   "tiles": {
+    "N35E034.hgt": {
+      "url": "tiles/N35E034.hgt.gz",
+      "size": 671450,
+      "raw_size": 2884802,
+      "sha256": "7d98df8a923e8e5ba2582c95b055d2e449f068ef47088c86d0ae90ccf164cf0d"
+    },
     "N35E035.hgt": {
       "url": "tiles/N35E035.hgt.gz",
       "size": 966395,
@@ -519,6 +618,42 @@
       "size": 1325359,
       "raw_size": 2884802,
       "sha256": "12326ec14a33a0d69425b2b7760ea522e098d12ab9436dbccbfbee7dbee71fed"
+    },
+    "N36E037.hgt": {
+      "url": "tiles/N36E037.hgt.gz",
+      "size": 1141388,
+      "raw_size": 2884802,
+      "sha256": "c1dbae886668184957466eb4ddd94bbc3d8208d1f55b9a11a61ec056b0c27dbc"
+    },
+    "N36E038.hgt": {
+      "url": "tiles/N36E038.hgt.gz",
+      "size": 1176572,
+      "raw_size": 2884802,
+      "sha256": "81ab13e7afced5933e5a41270d24349d3ef40d653e5bb7e4ee1d3e77d645fb97"
+    },
+    "N36E039.hgt": {
+      "url": "tiles/N36E039.hgt.gz",
+      "size": 1036902,
+      "raw_size": 2884802,
+      "sha256": "150265e422937b247c456481b2b676db6f2f4be351ddee51560877646b47f7c0"
+    },
+    "N36E040.hgt": {
+      "url": "tiles/N36E040.hgt.gz",
+      "size": 1074827,
+      "raw_size": 2884802,
+      "sha256": "0ed3e5e40644b7aa3c48ec9e9fab4e61cd7deef5e5e5cd871755c4cf887dbeaa"
+    },
+    "N36E041.hgt": {
+      "url": "tiles/N36E041.hgt.gz",
+      "size": 960353,
+      "raw_size": 2884802,
+      "sha256": "e86b0d825c074e64128bc014fe0e15c7df147e11d457057e5a65aeb04677ff7f"
+    },
+    "N36E042.hgt": {
+      "url": "tiles/N36E042.hgt.gz",
+      "size": 1144332,
+      "raw_size": 2884802,
+      "sha256": "62fd46386209b2ad1248c3bda6d97536f586be0cfc6ecb68217279b7cca6cf35"
     },
     "N36E043.hgt": {
       "url": "tiles/N36E043.hgt.gz",
