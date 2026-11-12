@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T15:08:00Z",
+  "updated_at": "2026-11-12T15:22:07Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
@@ -33,15 +33,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/antalya_taurus/trails.bin.gz",
-          "size": 2506583,
-          "raw_size": 5252905,
-          "sha256": "13cddc906ee9fd76d79759f1f6eb3790ff21c46ba76292848f1ceed7dacc3f16"
+          "size": 2527156,
+          "raw_size": 5280736,
+          "sha256": "71e73d6684974bd92a1f530e29d9d4470d34f4ba228af9a8fc6d4400c760203e"
         },
         "pois.json.gz": {
           "url": "regions/antalya_taurus/pois.json.gz",
           "size": 98687,
           "raw_size": 599503,
           "sha256": "276065e00d5f4f6a121e8f9b4495ee0f563a563f8825f81550d5f4d679d99c6f"
+        },
+        "water.bin.gz": {
+          "url": "regions/antalya_taurus/water.bin.gz",
+          "size": 20273,
+          "raw_size": 27839,
+          "sha256": "b65dbe9c77e01107c268ad3180c4307023755838e52c16d0f8b29ee5ef1db607"
         }
       }
     },
@@ -81,15 +87,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/lycia_mugla/trails.bin.gz",
-          "size": 3254019,
-          "raw_size": 6659053,
-          "sha256": "6b3fba8acf0ac1152a5f9496e66947fd19a3bd4bccbb18811604821a81e3e81e"
+          "size": 3277109,
+          "raw_size": 6690596,
+          "sha256": "8eb3d1f774faaea33196a6498524034d7a34784930e1a93549c227b3341e40d7"
         },
         "pois.json.gz": {
           "url": "regions/lycia_mugla/pois.json.gz",
           "size": 63079,
           "raw_size": 403506,
           "sha256": "9d589043739974d3fe18b77de2bdcb28814b2b627944c7aff81c63866d1f3c2a"
+        },
+        "water.bin.gz": {
+          "url": "regions/lycia_mugla/water.bin.gz",
+          "size": 22934,
+          "raw_size": 31551,
+          "sha256": "ed74f911e0133a0fd5b85099caa258ab33dec8b8831323bfe40c54edd3f4a1bc"
         }
       }
     },
@@ -133,15 +145,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/aegean_izmir/trails.bin.gz",
-          "size": 6226363,
-          "raw_size": 13018817,
-          "sha256": "c89273031444b5aed649c328ace39c0497482f527bf86c8a9d607e05ff9ad180"
+          "size": 6266061,
+          "raw_size": 13073592,
+          "sha256": "57e228f496607af2912160de66b39482b118733c6c666df341ddde42262a06cc"
         },
         "pois.json.gz": {
           "url": "regions/aegean_izmir/pois.json.gz",
           "size": 109909,
           "raw_size": 725123,
           "sha256": "7a086e2fd9adec93aa235c3506a18c172ffffc7f6cee9189183138ab7587e8c9"
+        },
+        "water.bin.gz": {
+          "url": "regions/aegean_izmir/water.bin.gz",
+          "size": 39511,
+          "raw_size": 54783,
+          "sha256": "fd3d94ea97fa750a7c4fc002b16173674ac3a78ae1f5c7da6a31f8a4912976b9"
         }
       }
     },
@@ -187,15 +205,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/marmara_uludag/trails.bin.gz",
-          "size": 11706592,
-          "raw_size": 25763097,
-          "sha256": "96b8bbb93e9ac0e0cff19428794604d82b77e51b84b93d67ac90c4996e94d29a"
+          "size": 11759653,
+          "raw_size": 25836284,
+          "sha256": "7197e9d562401574621bf61795db3043e11abe80271156240a5addc84661c4aa"
         },
         "pois.json.gz": {
           "url": "regions/marmara_uludag/pois.json.gz",
           "size": 82109,
           "raw_size": 541032,
           "sha256": "cb66e247b58f45e6f1f944f310f007167dc3332839a90306529708a8176fe22b"
+        },
+        "water.bin.gz": {
+          "url": "regions/marmara_uludag/water.bin.gz",
+          "size": 52786,
+          "raw_size": 73195,
+          "sha256": "abcd9411fa07b6ce14be2b0168cd8a7288b6adcc4ad40eebc724f405529ac898"
         }
       }
     },
@@ -234,15 +258,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/phrygia_ankara/trails.bin.gz",
-          "size": 2029853,
-          "raw_size": 4190188,
-          "sha256": "ff0a1746d4556aa3aeca61f21752738a3665e9723d84ab335494f7f664d5d485"
+          "size": 2052755,
+          "raw_size": 4220852,
+          "sha256": "305a939a7fe19964526be5b8b05a1676c189f23eae1ff7a1aa18288cd330f3a0"
         },
         "pois.json.gz": {
           "url": "regions/phrygia_ankara/pois.json.gz",
           "size": 49071,
           "raw_size": 317314,
           "sha256": "202e5cb26e3c9b7ee11cee9acad8bae26fdfbd5877af12f53dbb8c34ed41c2dc"
+        },
+        "water.bin.gz": {
+          "url": "regions/phrygia_ankara/water.bin.gz",
+          "size": 22715,
+          "raw_size": 30672,
+          "sha256": "ff89a007da1644b0c00cbbb16954cc54e9a320b201d200edf600ae24ce8d6618"
         }
       }
     },
@@ -286,15 +316,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/cilicia_central_taurus/trails.bin.gz",
-          "size": 4533272,
-          "raw_size": 9697276,
-          "sha256": "59aa74602079b47f9c02d1020f030fb88eab34d7fb20e75a5a4b3f9ae2b63a72"
+          "size": 4565479,
+          "raw_size": 9741207,
+          "sha256": "b3eeab612c2cf02a476d835059159e876e8777caceb0769b75f4a7a9ab12c9de"
         },
         "pois.json.gz": {
           "url": "regions/cilicia_central_taurus/pois.json.gz",
           "size": 143315,
           "raw_size": 976092,
           "sha256": "c5d6ea3d29a8664da7025d2b1af25f7167740e5f9d86c7fcb00d51fb96ae9e3b"
+        },
+        "water.bin.gz": {
+          "url": "regions/cilicia_central_taurus/water.bin.gz",
+          "size": 31995,
+          "raw_size": 43939,
+          "sha256": "a7ee00aa95038dd176df4a6f54e3f9f00e4862014159d466ce4aa52743da61ac"
         }
       }
     },
@@ -345,15 +381,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/cappadocia_aladaglar/trails.bin.gz",
-          "size": 8337345,
-          "raw_size": 17648042,
-          "sha256": "01df8395452fdb9e40e633fae98afd8d521d4746cd5665bcf5393fd6b141ab47"
+          "size": 8394019,
+          "raw_size": 17725189,
+          "sha256": "2534b212794cdd420c0ae41e5e248a3d97894392f249221f39e88980f947c3dd"
         },
         "pois.json.gz": {
           "url": "regions/cappadocia_aladaglar/pois.json.gz",
           "size": 141716,
           "raw_size": 950135,
           "sha256": "f00e463604b7d138b0251e5d3554b39571a66062aa46c38695f2d5f09c32494d"
+        },
+        "water.bin.gz": {
+          "url": "regions/cappadocia_aladaglar/water.bin.gz",
+          "size": 56525,
+          "raw_size": 77155,
+          "sha256": "258cf2eff8960114b5b4335ac9d6892105901d4552f7389863945eb50991abfd"
         }
       }
     },
@@ -400,15 +442,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/western_black_sea/trails.bin.gz",
-          "size": 7154336,
-          "raw_size": 14272120,
-          "sha256": "46df4d7eb5511d29001c5b0008724da0ec0590e4a9e884b65cca7bc375a32008"
+          "size": 7198268,
+          "raw_size": 14331784,
+          "sha256": "2c0395fda007079d4f67535b3fab81a760fa5e56a6e17491b98d6385acde8b37"
         },
         "pois.json.gz": {
           "url": "regions/western_black_sea/pois.json.gz",
           "size": 137134,
           "raw_size": 929025,
           "sha256": "d6f49d3426bf22bedb00acd34e46882f4767e9498805e22d64e4ee49ceb4adb3"
+        },
+        "water.bin.gz": {
+          "url": "regions/western_black_sea/water.bin.gz",
+          "size": 43581,
+          "raw_size": 59672,
+          "sha256": "35bf118f2b2a0fd74d3286e63b455e531f3ad458dcdfa9d6094e48c58a3a0e79"
         }
       }
     },
@@ -460,15 +508,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/kackar_black_sea/trails.bin.gz",
-          "size": 4663045,
-          "raw_size": 8875660,
-          "sha256": "0e8363f6a11e3648daeedf0fae6b0ae61a3fdbe5fa8d2d3dd24a9ef33872721b"
+          "size": 4698549,
+          "raw_size": 8922816,
+          "sha256": "6d2fdbdd1161d4343d29e374a21b7f1dfec068e0a88ee7612a8a273968e7e544"
         },
         "pois.json.gz": {
           "url": "regions/kackar_black_sea/pois.json.gz",
           "size": 139490,
           "raw_size": 924003,
           "sha256": "067858ff4d04d1c8bfa14f4700c17bf39fad4257348520a097556e88cb1dc0bf"
+        },
+        "water.bin.gz": {
+          "url": "regions/kackar_black_sea/water.bin.gz",
+          "size": 35442,
+          "raw_size": 47164,
+          "sha256": "dfe4becef60df8ebb9304dbdc4c6c1b8e347b3766f4a13e88371f653a76c354e"
         }
       }
     },
@@ -541,15 +595,21 @@
       "files": {
         "trails.bin.gz": {
           "url": "regions/eastern_anatolia_ararat/trails.bin.gz",
-          "size": 9535274,
-          "raw_size": 18892998,
-          "sha256": "61a1f2b35eb0d679934a93cbe5b4fe8db28063ca762ee6b79aa1508f7a48b369"
+          "size": 9651624,
+          "raw_size": 19046397,
+          "sha256": "ce1d37a6868798a4b81f7491457ab67ff40ff2eaa420590c12ff809471016d8e"
         },
         "pois.json.gz": {
           "url": "regions/eastern_anatolia_ararat/pois.json.gz",
           "size": 147543,
           "raw_size": 969829,
           "sha256": "bee3a2e6a6a5e1f9a7bd5ee5eaf5e02387c5f932d3f5f2425064b2a3da669c71"
+        },
+        "water.bin.gz": {
+          "url": "regions/eastern_anatolia_ararat/water.bin.gz",
+          "size": 116594,
+          "raw_size": 153407,
+          "sha256": "132689864443ae6a15148eecd1ac28c93a28bc914600994c05083690b443636a"
         }
       }
     }
