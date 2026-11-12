@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T11:41:49Z",
+  "updated_at": "2026-11-12T13:59:32Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
@@ -179,56 +179,6 @@
           "url": "regions/marmara_uludag/pois.json",
           "size": 524964,
           "sha256": "6b64215fac3d9c4f602f9015ac431785b60f2746e6e15c6ee6b9c311ecd929d2"
-        }
-      }
-    },
-    "central_west_stpaul": {
-      "id": "central_west_stpaul",
-      "version": 3,
-      "name_en": "Ankara, Phrygia & Central Taurus",
-      "name_ru": "Анкара, Фригия и Центральный Тавр",
-      "bbox": [
-        36.0,
-        30.0,
-        40.0,
-        34.0
-      ],
-      "tiles": [
-        "N38E030.hgt",
-        "N38E031.hgt",
-        "N39E030.hgt",
-        "N39E031.hgt",
-        "N36E032.hgt",
-        "N36E033.hgt",
-        "N37E032.hgt",
-        "N37E033.hgt",
-        "N38E032.hgt",
-        "N38E033.hgt",
-        "N39E032.hgt",
-        "N39E033.hgt"
-      ],
-      "files": {
-        "trails.bin.gz": {
-          "url": "regions/central_west_stpaul/trails.bin.gz",
-          "size": 8840530,
-          "raw_size": 18633911,
-          "sha256": "e0b00f3d9c378c442b160b0190373c7819fc43e93308cecda4b448402942fa82"
-        },
-        "trails.bin": {
-          "url": "regions/central_west_stpaul/trails.bin",
-          "size": 18633911,
-          "sha256": "44ed64bf0db65bf22160390f4802dd8f31d82e5b1b5fec7d99972aed137b420e"
-        },
-        "pois.json.gz": {
-          "url": "regions/central_west_stpaul/pois.json.gz",
-          "size": 142750,
-          "raw_size": 957753,
-          "sha256": "9192636f50b44d14c9ac9a792a67b01403f8b521b5496539e7f5c62a1f54cc57"
-        },
-        "pois.json": {
-          "url": "regions/central_west_stpaul/pois.json",
-          "size": 957753,
-          "sha256": "51d98d0cb974b1e701894fda3f8e5b944b9880f4c3e7e4b39596368ca12dc72c"
         }
       }
     },
@@ -445,6 +395,94 @@
           "url": "regions/eastern_anatolia_ararat/pois.json",
           "size": 969563,
           "sha256": "6e25c3a78d8e88432ae73e7cbfc91e038987c0b973e4bc902b5ab4af2fe2f31e"
+        }
+      }
+    },
+    "phrygia_ankara": {
+      "id": "phrygia_ankara",
+      "version": 3,
+      "name_en": "Ankara, Phrygia & Eskişehir",
+      "name_ru": "Анкара, Фригия и Эскишехир",
+      "bbox": [
+        38.0,
+        30.0,
+        40.0,
+        32.0
+      ],
+      "tiles": [
+        "N38E030.hgt",
+        "N38E031.hgt",
+        "N39E030.hgt",
+        "N39E031.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/phrygia_ankara/trails.bin.gz",
+          "size": 2029951,
+          "raw_size": 4190142,
+          "sha256": "b50e71d5de1883fbb72ab6a510291d7069e3e02b1e640dfd89b0e4b206e7ce9d"
+        },
+        "trails.bin": {
+          "url": "regions/phrygia_ankara/trails.bin",
+          "size": 4190142,
+          "sha256": "32acf87e7478c01bbf38d5c2e70ba65e2049866c12561503525d4b99d79bf5c9"
+        },
+        "pois.json.gz": {
+          "url": "regions/phrygia_ankara/pois.json.gz",
+          "size": 38931,
+          "raw_size": 254667,
+          "sha256": "093c9675e6a4a44bbc9b4c6ba6cee2f7a3745f63e8bfcc879a8107751d47468c"
+        },
+        "pois.json": {
+          "url": "regions/phrygia_ankara/pois.json",
+          "size": 254667,
+          "sha256": "5a94610699ed8b651ebdd780df4cbca54350cee365fe677afd1f0d6096071956"
+        }
+      }
+    },
+    "cilicia_central_taurus": {
+      "id": "cilicia_central_taurus",
+      "version": 3,
+      "name_en": "Konya, Cilician Taurus & Mersin",
+      "name_ru": "Конья, Киликийский Тавр и Мерсин",
+      "bbox": [
+        36.0,
+        32.0,
+        40.0,
+        34.0
+      ],
+      "tiles": [
+        "N36E032.hgt",
+        "N36E033.hgt",
+        "N37E032.hgt",
+        "N37E033.hgt",
+        "N38E032.hgt",
+        "N38E033.hgt",
+        "N39E032.hgt",
+        "N39E033.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/cilicia_central_taurus/trails.bin.gz",
+          "size": 4533436,
+          "raw_size": 9696755,
+          "sha256": "cb7fc034ff62a4d33b39086c55ceab9c9962e0819d1ca17a032e93085ca7ddc0"
+        },
+        "trails.bin": {
+          "url": "regions/cilicia_central_taurus/trails.bin",
+          "size": 9696755,
+          "sha256": "4c7eb6e1fa90464ef315f7eb2b01cc58f5e5eb1f4190049f2ea96a2af33e4b8c"
+        },
+        "pois.json.gz": {
+          "url": "regions/cilicia_central_taurus/pois.json.gz",
+          "size": 135412,
+          "raw_size": 927602,
+          "sha256": "58d68d5469912b62a25767896f422287188a24ac1b716aaa69fb4e2245d28b66"
+        },
+        "pois.json": {
+          "url": "regions/cilicia_central_taurus/pois.json",
+          "size": 927602,
+          "sha256": "ed650954d133b42031845f476f056978360cef15adc3b24d9e40c28038b65244"
         }
       }
     }
