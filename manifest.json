@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T14:34:56Z",
+  "updated_at": "2026-11-12T15:08:00Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
-      "version": 4,
+      "version": 5,
       "name_en": "Antalya & Western Taurus",
       "name_ru": "Анталья и Западный Тавр",
       "name_tr": "Antalya ve Batı Toroslar",
@@ -39,15 +39,15 @@
         },
         "pois.json.gz": {
           "url": "regions/antalya_taurus/pois.json.gz",
-          "size": 83984,
-          "raw_size": 508220,
-          "sha256": "b99617da97abe8262fed64cc47c53bb86803fbbe04399ac21f09d156adc23898"
+          "size": 98687,
+          "raw_size": 599503,
+          "sha256": "276065e00d5f4f6a121e8f9b4495ee0f563a563f8825f81550d5f4d679d99c6f"
         }
       }
     },
     "lycia_mugla": {
       "id": "lycia_mugla",
-      "version": 4,
+      "version": 5,
       "name_en": "Lycia, Fethiye & Muğla",
       "name_ru": "Ликия, Фетхие и Мугла",
       "name_tr": "Likya, Fethiye ve Muğla",
@@ -66,6 +66,9 @@
         "N37E029.hgt"
       ],
       "horizon_tiles": [
+        "N35E027.hgt",
+        "N35E028.hgt",
+        "N36E026.hgt",
         "N36E030.hgt",
         "N37E030.hgt",
         "N38E026.hgt",
@@ -83,15 +86,15 @@
         },
         "pois.json.gz": {
           "url": "regions/lycia_mugla/pois.json.gz",
-          "size": 60707,
-          "raw_size": 388721,
-          "sha256": "65587a1d59fd868888717a8958ab1f4f2e5e5cf7cdf39030cc49559ac0401e55"
+          "size": 63079,
+          "raw_size": 403506,
+          "sha256": "9d589043739974d3fe18b77de2bdcb28814b2b627944c7aff81c63866d1f3c2a"
         }
       }
     },
     "aegean_izmir": {
       "id": "aegean_izmir",
-      "version": 4,
+      "version": 5,
       "name_en": "Aegean Coast & İzmir",
       "name_ru": "Эгейское побережье и Измир",
       "name_tr": "Ege Kıyıları ve İzmir",
@@ -112,11 +115,14 @@
         "N39E029.hgt"
       ],
       "horizon_tiles": [
+        "N37E026.hgt",
         "N37E027.hgt",
         "N37E028.hgt",
         "N37E029.hgt",
         "N37E030.hgt",
+        "N38E026.hgt",
         "N38E030.hgt",
+        "N39E026.hgt",
         "N39E030.hgt",
         "N40E025.hgt",
         "N40E026.hgt",
@@ -134,15 +140,15 @@
         },
         "pois.json.gz": {
           "url": "regions/aegean_izmir/pois.json.gz",
-          "size": 105234,
-          "raw_size": 696836,
-          "sha256": "a5275ec563f05001802ff5fe1a60e4f863f4ea2c11d36c4b4162c0f6c0fc7736"
+          "size": 109909,
+          "raw_size": 725123,
+          "sha256": "7a086e2fd9adec93aa235c3506a18c172ffffc7f6cee9189183138ab7587e8c9"
         }
       }
     },
     "marmara_uludag": {
       "id": "marmara_uludag",
-      "version": 4,
+      "version": 5,
       "name_en": "Istanbul, Marmara & Uludağ",
       "name_ru": "Стамбул, Мраморное море и Улудаг",
       "name_tr": "İstanbul, Marmara ve Uludağ",
@@ -174,7 +180,10 @@
         "N39E030.hgt",
         "N39E031.hgt",
         "N40E031.hgt",
-        "N41E031.hgt"
+        "N41E031.hgt",
+        "N42E026.hgt",
+        "N42E027.hgt",
+        "N42E028.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -185,15 +194,15 @@
         },
         "pois.json.gz": {
           "url": "regions/marmara_uludag/pois.json.gz",
-          "size": 79815,
-          "raw_size": 527849,
-          "sha256": "cc271360c7bd9d9d6a5102b1fc47e8cc31867bc5aa706fd987d940380e427798"
+          "size": 82109,
+          "raw_size": 541032,
+          "sha256": "cb66e247b58f45e6f1f944f310f007167dc3332839a90306529708a8176fe22b"
         }
       }
     },
     "phrygia_ankara": {
       "id": "phrygia_ankara",
-      "version": 4,
+      "version": 5,
       "name_en": "Ankara, Phrygia & Eskişehir",
       "name_ru": "Анкара, Фригия и Эскишехир",
       "name_tr": "Ankara, Frigya ve Eskişehir",
@@ -232,15 +241,15 @@
         },
         "pois.json.gz": {
           "url": "regions/phrygia_ankara/pois.json.gz",
-          "size": 40348,
-          "raw_size": 262822,
-          "sha256": "94d5818cfc1aa9974d73c3b24c0155b6370b7ad9978fa0eb911fa8298c88b152"
+          "size": 49071,
+          "raw_size": 317314,
+          "sha256": "202e5cb26e3c9b7ee11cee9acad8bae26fdfbd5877af12f53dbb8c34ed41c2dc"
         }
       }
     },
     "cilicia_central_taurus": {
       "id": "cilicia_central_taurus",
-      "version": 4,
+      "version": 5,
       "name_en": "Konya, Cilician Taurus & Mersin",
       "name_ru": "Конья, Киликийский Тавр и Мерсин",
       "name_tr": "Konya, Kilikya Torosları ve Mersin",
@@ -284,15 +293,15 @@
         },
         "pois.json.gz": {
           "url": "regions/cilicia_central_taurus/pois.json.gz",
-          "size": 137755,
-          "raw_size": 941877,
-          "sha256": "90ff600645b7d6173c87d2bd7f2e4d9469e0a14c334a32e8f0b22f6daeb30d7e"
+          "size": 143315,
+          "raw_size": 976092,
+          "sha256": "c5d6ea3d29a8664da7025d2b1af25f7167740e5f9d86c7fcb00d51fb96ae9e3b"
         }
       }
     },
     "cappadocia_aladaglar": {
       "id": "cappadocia_aladaglar",
-      "version": 4,
+      "version": 5,
       "name_en": "Cappadocia, Erciyes & Aladağlar",
       "name_ru": "Каппадокия, Эрджиес и Аладаглар",
       "name_tr": "Kapadokya, Erciyes ve Aladağlar",
@@ -343,15 +352,15 @@
         },
         "pois.json.gz": {
           "url": "regions/cappadocia_aladaglar/pois.json.gz",
-          "size": 140689,
-          "raw_size": 949263,
-          "sha256": "367b89d700d656e6c90855381d460ec95638528e93719e71c51496470ca4a0e2"
+          "size": 141716,
+          "raw_size": 950135,
+          "sha256": "f00e463604b7d138b0251e5d3554b39571a66062aa46c38695f2d5f09c32494d"
         }
       }
     },
     "western_black_sea": {
       "id": "western_black_sea",
-      "version": 4,
+      "version": 5,
       "name_en": "Western Black Sea & Ilgaz",
       "name_ru": "Западное Причерноморье и Илгаз",
       "name_tr": "Batı Karadeniz ve Ilgaz",
@@ -398,15 +407,15 @@
         },
         "pois.json.gz": {
           "url": "regions/western_black_sea/pois.json.gz",
-          "size": 136440,
-          "raw_size": 928680,
-          "sha256": "284f11cbcf1608effae8c290790b68e541b31cc5502c890821b3613f52ea63f5"
+          "size": 137134,
+          "raw_size": 929025,
+          "sha256": "d6f49d3426bf22bedb00acd34e46882f4767e9498805e22d64e4ee49ceb4adb3"
         }
       }
     },
     "kackar_black_sea": {
       "id": "kackar_black_sea",
-      "version": 4,
+      "version": 5,
       "name_en": "Kaçkar, Pontic Alps & Kars",
       "name_ru": "Качкар, Понтийские горы и Карс",
       "name_tr": "Kaçkar, Pontus Alpleri ve Kars",
@@ -445,7 +454,9 @@
         "N39E043.hgt",
         "N39E044.hgt",
         "N40E036.hgt",
-        "N41E036.hgt"
+        "N40E045.hgt",
+        "N41E036.hgt",
+        "N41E045.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -456,15 +467,15 @@
         },
         "pois.json.gz": {
           "url": "regions/kackar_black_sea/pois.json.gz",
-          "size": 138336,
-          "raw_size": 923551,
-          "sha256": "c62ed28a780c79f598bd957dde8c03c937ec9032afed888b61fde28fe16d71c2"
+          "size": 139490,
+          "raw_size": 924003,
+          "sha256": "067858ff4d04d1c8bfa14f4700c17bf39fad4257348520a097556e88cb1dc0bf"
         }
       }
     },
     "eastern_anatolia_ararat": {
       "id": "eastern_anatolia_ararat",
-      "version": 4,
+      "version": 5,
       "name_en": "Eastern Anatolia, Van, Ararat & Cilo",
       "name_ru": "Восточная Анатолия, Ван, Арарат и Джило",
       "name_tr": "Doğu Anadolu, Van, Ağrı Dağı ve Cilo",
@@ -510,10 +521,13 @@
       ],
       "horizon_tiles": [
         "N35E036.hgt",
+        "N35E043.hgt",
+        "N35E044.hgt",
         "N36E036.hgt",
         "N37E036.hgt",
         "N38E036.hgt",
         "N39E036.hgt",
+        "N39E045.hgt",
         "N40E036.hgt",
         "N40E037.hgt",
         "N40E038.hgt",
@@ -522,7 +536,8 @@
         "N40E041.hgt",
         "N40E042.hgt",
         "N40E043.hgt",
-        "N40E044.hgt"
+        "N40E044.hgt",
+        "N40E045.hgt"
       ],
       "files": {
         "trails.bin.gz": {
@@ -533,14 +548,26 @@
         },
         "pois.json.gz": {
           "url": "regions/eastern_anatolia_ararat/pois.json.gz",
-          "size": 146658,
-          "raw_size": 969662,
-          "sha256": "cea5c790e2d114e00b0046b9217ff14963e692c6454c71d112d2686a7b57d485"
+          "size": 147543,
+          "raw_size": 969829,
+          "sha256": "bee3a2e6a6a5e1f9a7bd5ee5eaf5e02387c5f932d3f5f2425064b2a3da669c71"
         }
       }
     }
   },
   "tiles": {
+    "N35E027.hgt": {
+      "url": "tiles/N35E027.hgt.gz",
+      "size": 1561995,
+      "raw_size": 2884802,
+      "sha256": "45908170b2c5003a2db931d31fae8e0cb0e75d1a24ca0f3fd12c3aed4f5c29c1"
+    },
+    "N35E028.hgt": {
+      "url": "tiles/N35E028.hgt.gz",
+      "size": 1149779,
+      "raw_size": 2884802,
+      "sha256": "646fe462d505d1127d1dfca17312e27ece2e4581100e5c4e171ab55980bb52d2"
+    },
     "N35E034.hgt": {
       "url": "tiles/N35E034.hgt.gz",
       "size": 671450,
@@ -558,6 +585,24 @@
       "size": 1573438,
       "raw_size": 2884802,
       "sha256": "4570ab531dca741a0b778b0b7433ad369e49dc833c1f39a67e2c74c53f5dba3c"
+    },
+    "N35E043.hgt": {
+      "url": "tiles/N35E043.hgt.gz",
+      "size": 1106090,
+      "raw_size": 2884802,
+      "sha256": "0979f18c2781697532fb0124036ab7d798c47e0e94c2a75f30bcea72658f11a8"
+    },
+    "N35E044.hgt": {
+      "url": "tiles/N35E044.hgt.gz",
+      "size": 1453984,
+      "raw_size": 2884802,
+      "sha256": "2b0bff7702e7faa8a1a6b3da3f6a334bf0c91654c93e567b84964d8b42607d23"
+    },
+    "N36E026.hgt": {
+      "url": "tiles/N36E026.hgt.gz",
+      "size": 877035,
+      "raw_size": 2884802,
+      "sha256": "432d624927c0e4dab0c95d373802a335f502aa314b4ce58aa79dbc975e74f960"
     },
     "N36E027.hgt": {
       "url": "tiles/N36E027.hgt.gz",
@@ -666,6 +711,12 @@
       "size": 1913224,
       "raw_size": 2884802,
       "sha256": "6150240593dc89e140d6218c2ed5c45fb554192078b9158a2cd63acc53dd8bf3"
+    },
+    "N37E026.hgt": {
+      "url": "tiles/N37E026.hgt.gz",
+      "size": 869341,
+      "raw_size": 2884802,
+      "sha256": "3876d12ed08e0dc1ffbd732619c2c7c0f4323405001d50d8394e1ce9cdae405c"
     },
     "N37E027.hgt": {
       "url": "tiles/N37E027.hgt.gz",
@@ -1003,6 +1054,12 @@
       "raw_size": 2884802,
       "sha256": "cb8dfa35e8b1b6789b0cd70819b7ddebcca9c1c9573b3430697afa9fe803b2dc"
     },
+    "N39E045.hgt": {
+      "url": "tiles/N39E045.hgt.gz",
+      "size": 1909618,
+      "raw_size": 2884802,
+      "sha256": "9298357616200b75b7af24d1517c8853d4de8fff2b3b1b97b4cec323cf1ecaf7"
+    },
     "N40E025.hgt": {
       "url": "tiles/N40E025.hgt.gz",
       "size": 708442,
@@ -1123,6 +1180,12 @@
       "raw_size": 2884802,
       "sha256": "435c807203aa4273cf54690bd01159556c60c60e36c18b41a0b5f2fa2363b7d2"
     },
+    "N40E045.hgt": {
+      "url": "tiles/N40E045.hgt.gz",
+      "size": 1682303,
+      "raw_size": 2884802,
+      "sha256": "7f121d097f90d083a061c06c910d41065c52234de2ece5935412780236433a66"
+    },
     "N41E025.hgt": {
       "url": "tiles/N41E025.hgt.gz",
       "size": 1697154,
@@ -1242,6 +1305,30 @@
       "size": 1661090,
       "raw_size": 2884802,
       "sha256": "269c40d32fe6924acb406476bcbe39fb99daa41766c59cbff0091782001b64ad"
+    },
+    "N41E045.hgt": {
+      "url": "tiles/N41E045.hgt.gz",
+      "size": 1577181,
+      "raw_size": 2884802,
+      "sha256": "679d86b2a463d400754fd8811d2968670aed77b227189b3052719e93878a77b0"
+    },
+    "N42E026.hgt": {
+      "url": "tiles/N42E026.hgt.gz",
+      "size": 1406162,
+      "raw_size": 2884802,
+      "sha256": "08915868a23d841a9936a27fda59046f53062ae2d0b2ca3481ce7a2cfee6c9c8"
+    },
+    "N42E027.hgt": {
+      "url": "tiles/N42E027.hgt.gz",
+      "size": 1257662,
+      "raw_size": 2884802,
+      "sha256": "5e743d9e3052e68657b43c891b3a59bdc79e63c3cea4bd362b9f86b03c1ec508"
+    },
+    "N42E028.hgt": {
+      "url": "tiles/N42E028.hgt.gz",
+      "size": 471546,
+      "raw_size": 2884802,
+      "sha256": "9b7c727dffb1c4a705e57138ef2033553aaf108df556d4fcdd69bef3ad34189b"
     }
   }
 }
