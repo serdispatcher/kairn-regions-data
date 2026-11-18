@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-17T13:41:32Z",
+  "updated_at": "2026-11-18T21:02:15Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
@@ -610,6 +610,167 @@
           "size": 116594,
           "raw_size": 153407,
           "sha256": "132689864443ae6a15148eecd1ac28c93a28bc914600994c05083690b443636a"
+        }
+      }
+    },
+    "svaneti_racha_abkhazia": {
+      "id": "svaneti_racha_abkhazia",
+      "version": 7,
+      "name_en": "Svaneti, Racha & Western Caucasus",
+      "name_ru": "Сванетия, Рача и Западный Кавказ",
+      "name_tr": "Svaneti, Raça ve Batı Kafkasya",
+      "bbox": [
+        42.0,
+        40.0,
+        44.0,
+        44.0
+      ],
+      "tiles": [
+        "N42E040.hgt",
+        "N42E041.hgt",
+        "N42E042.hgt",
+        "N42E043.hgt",
+        "N43E040.hgt",
+        "N43E041.hgt",
+        "N43E042.hgt",
+        "N43E043.hgt"
+      ],
+      "horizon_tiles": [
+        "N41E040.hgt",
+        "N41E041.hgt",
+        "N41E042.hgt",
+        "N41E043.hgt",
+        "N42E039.hgt",
+        "N42E044.hgt",
+        "N43E039.hgt",
+        "N43E044.hgt",
+        "N44E040.hgt",
+        "N44E041.hgt",
+        "N44E042.hgt",
+        "N44E043.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/svaneti_racha_abkhazia/trails.bin.gz",
+          "size": 5643978,
+          "raw_size": 9889528,
+          "sha256": "e7a1ea9ca04acc9383cc5d9eabe7e14bcd3296099021415128795c97e5d8828a"
+        },
+        "pois.json.gz": {
+          "url": "regions/svaneti_racha_abkhazia/pois.json.gz",
+          "size": 134897,
+          "raw_size": 798010,
+          "sha256": "c488798056218ba4e9644667bc7d2d9c3c6f6a44db4128532bc365607f3ba1a8"
+        },
+        "water.bin.gz": {
+          "url": "regions/svaneti_racha_abkhazia/water.bin.gz",
+          "size": 257377,
+          "raw_size": 382948,
+          "sha256": "e208ec2598ba85dcbded33469569b4b0edcefa8fded7f4c5458444dcaf41eb94"
+        }
+      }
+    },
+    "adjara_batumi_borjomi": {
+      "id": "adjara_batumi_borjomi",
+      "version": 7,
+      "name_en": "Adjara, Batumi & Borjomi",
+      "name_ru": "Аджария, Батуми и Боржоми",
+      "name_tr": "Acara, Batum ve Borjomi",
+      "bbox": [
+        41.0,
+        41.0,
+        42.0,
+        44.0
+      ],
+      "tiles": [
+        "N41E041.hgt",
+        "N41E042.hgt",
+        "N41E043.hgt"
+      ],
+      "horizon_tiles": [
+        "N40E041.hgt",
+        "N40E042.hgt",
+        "N40E043.hgt",
+        "N41E040.hgt",
+        "N41E044.hgt",
+        "N42E040.hgt",
+        "N42E041.hgt",
+        "N42E042.hgt",
+        "N42E043.hgt",
+        "N42E044.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/adjara_batumi_borjomi/trails.bin.gz",
+          "size": 2920489,
+          "raw_size": 5144829,
+          "sha256": "514a72ac0ff1a1f2f0f4d32b4286d8815001b70b55c5028080545df306348d57"
+        },
+        "pois.json.gz": {
+          "url": "regions/adjara_batumi_borjomi/pois.json.gz",
+          "size": 61592,
+          "raw_size": 364738,
+          "sha256": "4e79d15c0f5f6650eddcb86a0a7b94fc7bc02a4a936c7640ef7c8a63abfe78d7"
+        },
+        "water.bin.gz": {
+          "url": "regions/adjara_batumi_borjomi/water.bin.gz",
+          "size": 123231,
+          "raw_size": 186211,
+          "sha256": "3fcdd57087f4bbc05f6e4e1a36a097cda686adf17a97a5b15ff206bb7e4f7dec"
+        }
+      }
+    },
+    "kazbegi_tbilisi_kakheti": {
+      "id": "kazbegi_tbilisi_kakheti",
+      "version": 7,
+      "name_en": "Kazbegi, Tbilisi & Kakheti",
+      "name_ru": "Казбеги, Тбилиси и Кахетия",
+      "name_tr": "Kazbegi, Tiflis ve Kaheti",
+      "bbox": [
+        41.0,
+        44.0,
+        43.0,
+        47.0
+      ],
+      "tiles": [
+        "N41E044.hgt",
+        "N41E045.hgt",
+        "N41E046.hgt",
+        "N42E044.hgt",
+        "N42E045.hgt",
+        "N42E046.hgt"
+      ],
+      "horizon_tiles": [
+        "N40E044.hgt",
+        "N40E045.hgt",
+        "N40E046.hgt",
+        "N41E043.hgt",
+        "N41E047.hgt",
+        "N42E043.hgt",
+        "N42E047.hgt",
+        "N43E043.hgt",
+        "N43E044.hgt",
+        "N43E045.hgt",
+        "N43E046.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/kazbegi_tbilisi_kakheti/trails.bin.gz",
+          "size": 5432632,
+          "raw_size": 10188300,
+          "sha256": "fcb0cc5b48c7fcd72fcfc9f939512082764869ef3bd04ba0e2a50d4b4c4617c3"
+        },
+        "pois.json.gz": {
+          "url": "regions/kazbegi_tbilisi_kakheti/pois.json.gz",
+          "size": 98218,
+          "raw_size": 603435,
+          "sha256": "2d38f27c071d895903804affeeefaefec1385d2af72519e33dbbc01b24ad5704"
+        },
+        "water.bin.gz": {
+          "url": "regions/kazbegi_tbilisi_kakheti/water.bin.gz",
+          "size": 196166,
+          "raw_size": 296070,
+          "sha256": "17786c10e0368d0c739e9812d0b385ca1dea3f6e61669a80f93b8c7ee6080db6"
         }
       }
     }
@@ -1245,6 +1406,12 @@
       "raw_size": 2884802,
       "sha256": "7f121d097f90d083a061c06c910d41065c52234de2ece5935412780236433a66"
     },
+    "N40E046.hgt": {
+      "url": "tiles/N40E046.hgt.gz",
+      "size": 1442546,
+      "raw_size": 2884802,
+      "sha256": "4cc3e6ca85469fa45947e082f9d9bbf8f98ff27664f87e1f8d423a50f514cf93"
+    },
     "N41E025.hgt": {
       "url": "tiles/N41E025.hgt.gz",
       "size": 1697154,
@@ -1371,6 +1538,18 @@
       "raw_size": 2884802,
       "sha256": "679d86b2a463d400754fd8811d2968670aed77b227189b3052719e93878a77b0"
     },
+    "N41E046.hgt": {
+      "url": "tiles/N41E046.hgt.gz",
+      "size": 1405051,
+      "raw_size": 2884802,
+      "sha256": "81d4cb12d50199e08988ae6c55e8cc73b5dcf17155a1a817e8aa56b25d3a9bb3"
+    },
+    "N41E047.hgt": {
+      "url": "tiles/N41E047.hgt.gz",
+      "size": 2053884,
+      "raw_size": 2884802,
+      "sha256": "9b77ed17bb45219b57a2a0092a6eb95de2192e8b317e0c3aa7083443a8250099"
+    },
     "N42E026.hgt": {
       "url": "tiles/N42E026.hgt.gz",
       "size": 1406162,
@@ -1388,6 +1567,132 @@
       "size": 471546,
       "raw_size": 2884802,
       "sha256": "9b7c727dffb1c4a705e57138ef2033553aaf108df556d4fcdd69bef3ad34189b"
+    },
+    "N42E039.hgt": {
+      "url": "tiles/N42E039.hgt.gz",
+      "size": 2830,
+      "raw_size": 2884802,
+      "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N42E040.hgt": {
+      "url": "tiles/N42E040.hgt.gz",
+      "size": 3189,
+      "raw_size": 2884802,
+      "sha256": "076be8586f3276eb819e1b10820c35f5bb4128664752c6c5cb8324fe9fe557ef"
+    },
+    "N42E041.hgt": {
+      "url": "tiles/N42E041.hgt.gz",
+      "size": 646294,
+      "raw_size": 2884802,
+      "sha256": "7628583ff7910498c1ca3e17c958fc5c888f37992a011c7a767f1e8c02162dc5"
+    },
+    "N42E042.hgt": {
+      "url": "tiles/N42E042.hgt.gz",
+      "size": 1659216,
+      "raw_size": 2884802,
+      "sha256": "8babe3ea8e5cbc8671f79ae8f968fd3880bdabf5e50fa7c457d406b977bf5ff0"
+    },
+    "N42E043.hgt": {
+      "url": "tiles/N42E043.hgt.gz",
+      "size": 1951248,
+      "raw_size": 2884802,
+      "sha256": "d9d585219d49dc22e9004a088e3cd92c77865c850b9e49e8bfd2c3738b171045"
+    },
+    "N42E044.hgt": {
+      "url": "tiles/N42E044.hgt.gz",
+      "size": 1952918,
+      "raw_size": 2884802,
+      "sha256": "814b26541805282ee2aa573de88b6a3a23089bd1ee0d91ca3ff57679a414bd36"
+    },
+    "N42E045.hgt": {
+      "url": "tiles/N42E045.hgt.gz",
+      "size": 2062994,
+      "raw_size": 2884802,
+      "sha256": "a433e13e0e1a3667761df2468fdaaacb29501e2223a93821b3f346e94dd130e6"
+    },
+    "N42E046.hgt": {
+      "url": "tiles/N42E046.hgt.gz",
+      "size": 2073934,
+      "raw_size": 2884802,
+      "sha256": "8847a49efb752df65d8c4c3f124a7f9179dc54570e54c924fdc2bfc008b3086c"
+    },
+    "N42E047.hgt": {
+      "url": "tiles/N42E047.hgt.gz",
+      "size": 1527781,
+      "raw_size": 2884802,
+      "sha256": "df2ac314c025edb0caef29eee4d65b711d9a06225c7509879632e5a949569a04"
+    },
+    "N43E039.hgt": {
+      "url": "tiles/N43E039.hgt.gz",
+      "size": 525981,
+      "raw_size": 2884802,
+      "sha256": "523021d5dab1631984ff01b9432c0eaf7280893ea97db78620fc7ba228299c3d"
+    },
+    "N43E040.hgt": {
+      "url": "tiles/N43E040.hgt.gz",
+      "size": 1724904,
+      "raw_size": 2884802,
+      "sha256": "c5fadd80581b8c2a564688dca0698cc00c0517a185cda5b3da6006b7c74c8775"
+    },
+    "N43E041.hgt": {
+      "url": "tiles/N43E041.hgt.gz",
+      "size": 1977296,
+      "raw_size": 2884802,
+      "sha256": "7f412c3503319e8de04adbaf36719b33098519991ad472392a2ec6d7c549dc25"
+    },
+    "N43E042.hgt": {
+      "url": "tiles/N43E042.hgt.gz",
+      "size": 1968736,
+      "raw_size": 2884802,
+      "sha256": "ca1502e58a0e0357ce99c40a14462c860150c3f4a1da911621b8f1e90b7c6660"
+    },
+    "N43E043.hgt": {
+      "url": "tiles/N43E043.hgt.gz",
+      "size": 1492086,
+      "raw_size": 2884802,
+      "sha256": "7dffd3e4b0a396ab3ee7e92fcc40b63908a26f288069d55ebc1fb74c2cda113f"
+    },
+    "N43E044.hgt": {
+      "url": "tiles/N43E044.hgt.gz",
+      "size": 806223,
+      "raw_size": 2884802,
+      "sha256": "0ae46680e91cde9b5481a97533bb99fb43aabac0243dfb8cff243def8b47432c"
+    },
+    "N43E045.hgt": {
+      "url": "tiles/N43E045.hgt.gz",
+      "size": 774008,
+      "raw_size": 2884802,
+      "sha256": "e8dc430e5f2f19ae320749c48c23071b2a921c3f4da52f47942c06b8183f7098"
+    },
+    "N43E046.hgt": {
+      "url": "tiles/N43E046.hgt.gz",
+      "size": 564195,
+      "raw_size": 2884802,
+      "sha256": "45842fd19144aafcfa708dc5314c6130c5606e3a3037f8c6ca6325cfd9ee8184"
+    },
+    "N44E040.hgt": {
+      "url": "tiles/N44E040.hgt.gz",
+      "size": 1086538,
+      "raw_size": 2884802,
+      "sha256": "8cc6ca9e57985b01d79e6ccbbccbf7b873542b5ba83314e15449ac3f41596302"
+    },
+    "N44E041.hgt": {
+      "url": "tiles/N44E041.hgt.gz",
+      "size": 1024835,
+      "raw_size": 2884802,
+      "sha256": "343b867dcc368058fa456fe3677d979fc48cf8e9081541e6e9b00082c8a740bd"
+    },
+    "N44E042.hgt": {
+      "url": "tiles/N44E042.hgt.gz",
+      "size": 961942,
+      "raw_size": 2884802,
+      "sha256": "cd0a110d41bb26e8801c70a5622bfeea5e01acc593991e11dad3e01d5f0ea398"
+    },
+    "N44E043.hgt": {
+      "url": "tiles/N44E043.hgt.gz",
+      "size": 660450,
+      "raw_size": 2884802,
+      "sha256": "29e42f7bff2bf5eeb23e4a1d7ddd852db8fdb98ecdbacd9cde366191e29f98bf"
     }
   }
 }
