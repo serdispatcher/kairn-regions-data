@@ -431,7 +431,7 @@ def build_region_pack(
     release_base_url,
     work_dir,
 ):
-    """Builds <rid>__trails.bin.gz, <rid>__pois.json.gz, <rid>__water.bin.gz and returns manifest entry."""
+    """Builds <rid>__trails.bin.gz and <rid>__pois.json.gz and returns manifest entry."""
     rid = reg["id"]
     min_la = float(min(t[0] for t in reg["tiles"]))
     max_la = float(max(t[0] for t in reg["tiles"]) + 1)
@@ -439,7 +439,6 @@ def build_region_pack(
     max_lo = float(max(t[1] for t in reg["tiles"]) + 1)
     clip_pad = 0.15
     feats = []
-    wfeats = []
 
     def within_region_bbox(pts):
         for la, lo in pts:
@@ -476,7 +475,7 @@ def build_region_pack(
             if len(simp) >= 2:
                 idx += 1
                 feats.append(
-                    {"id": f"{rid}_rt_{idx}", "name": name, "ref": ref, "is_marked": True, "difficulty": 1, "kind": 0, "points": simp}
+                    {"id": f"rt_{idx}", "name": name, "ref": ref, "is_marked": True, "difficulty": 1, "kind": 0, "points": simp}
                 )
     os.remove(gseq)
 
@@ -512,10 +511,9 @@ def build_region_pack(
             continue
         simp = rdp_simplify(raw_pts, eps)
         if len(simp) >= 2:
-            idx += 1
             feats.append(
                 {
-                    "id": f"{rid}_hw_{idx}",
+                    "id": "",
                     "name": pick_name(props)[:50],
                     "ref": (props.get("ref") or "")[:15],
                     "is_marked": False,
@@ -531,7 +529,6 @@ def build_region_pack(
         ["w/waterway=river,stream", "nwr/natural=water", "nwr/waterway=riverbank", "nwr/landuse=reservoir"],
         "water",
     )
-    idx = 0
     for feat in iter_geojsonseq(gseq):
         geom, props = feat.get("geometry") or {}, feat.get("properties") or {}
         ww, nat, lu = props.get("waterway"), props.get("natural"), props.get("landuse")
@@ -548,11 +545,7 @@ def build_region_pack(
                     continue
                 simp = rdp_simplify(raw_pts, eps)
                 if len(simp) >= 2:
-                    idx += 1
-                    rec = {"id": f"{rid}_rv_{idx}", "name": name, "ref": "", "is_marked": False, "difficulty": 0, "kind": kind, "points": simp}
-                    feats.append(rec)
-                    if kind == 7:
-                        wfeats.append(rec)
+                    feats.append({"id": "", "name": name, "ref": "", "is_marked": False, "difficulty": 0, "kind": kind, "points": simp})
         elif (nat == "water" or ww == "riverbank" or lu == "reservoir") and gtype in ("Polygon", "MultiPolygon"):
             kind = 12 if ww == "riverbank" else 9
             for ring in extract_rings(geom):
@@ -565,10 +558,7 @@ def build_region_pack(
                 if len(simp) >= 4:
                     if simp[0] != simp[-1]:
                         simp.append(simp[0])
-                    idx += 1
-                    rec = {"id": f"{rid}_lk_{idx}", "name": name, "ref": "", "is_marked": False, "difficulty": 0, "kind": kind, "points": simp}
-                    feats.append(rec)
-                    wfeats.append(rec)
+                    feats.append({"id": "", "name": name, "ref": "", "is_marked": False, "difficulty": 0, "kind": kind, "points": simp})
     os.remove(gseq)
 
     # 4. Landcover & coastline
@@ -597,9 +587,8 @@ def build_region_pack(
                     continue
                 simp = rdp_simplify(raw_pts, 0.00008)
                 if len(simp) >= 2:
-                    idx += 1
                     feats.append(
-                        {"id": f"{rid}_coast_{idx}", "name": "", "ref": "", "is_marked": False, "difficulty": 0, "kind": 11, "points": simp}
+                        {"id": "", "name": "", "ref": "", "is_marked": False, "difficulty": 0, "kind": 11, "points": simp}
                     )
             continue
         if gtype not in ("Polygon", "MultiPolygon"):
@@ -638,9 +627,8 @@ def build_region_pack(
             if len(simp) >= 4:
                 if simp[0] != simp[-1]:
                     simp.append(simp[0])
-                idx += 1
                 feats.append(
-                    {"id": f"{rid}_lc_{idx}", "name": name if kind == 14 else "", "ref": "", "is_marked": False, "difficulty": 0, "kind": kind, "points": simp}
+                    {"id": "", "name": name if kind == 14 else "", "ref": "", "is_marked": False, "difficulty": 0, "kind": kind, "points": simp}
                 )
     os.remove(gseq)
 
@@ -819,14 +807,9 @@ def build_region_pack(
     gz_trails = gzip.compress(raw_trails, compresslevel=9)
     t_sz, t_sha = _sha256_and_write(os.path.join(out_assets_dir, f"{rid}__trails.bin.gz"), gz_trails)
 
-    raw_water = encode_ktr1(wfeats)
-    gz_water = gzip.compress(raw_water, compresslevel=9)
-    w_sz, w_sha = _sha256_and_write(os.path.join(out_assets_dir, f"{rid}__water.bin.gz"), gz_water)
-
     print(
         f"Region {rid}: {len(deduped)} POIs ({p_sz/1024:.0f} KB), "
-        f"{len(feats)} trails/roads/lc ({t_sz/1024/1024:.2f} MB), "
-        f"{len(wfeats)} water ({w_sz/1024:.0f} KB)",
+        f"{len(feats)} trails/roads/lc ({t_sz/1024/1024:.2f} MB)",
         flush=True,
     )
 
@@ -848,7 +831,6 @@ def build_region_pack(
         "files": {
             "trails.bin.gz": {"url": f"{rel_base}/{rid}__trails.bin.gz", "size": t_sz, "raw_size": len(raw_trails), "sha256": t_sha},
             "pois.json.gz": {"url": f"{rel_base}/{rid}__pois.json.gz", "size": p_sz, "raw_size": len(raw_pois), "sha256": p_sha},
-            "water.bin.gz": {"url": f"{rel_base}/{rid}__water.bin.gz", "size": w_sz, "raw_size": len(raw_water), "sha256": w_sha},
         },
     }
     return entry
