@@ -1,0 +1,197 @@
+name: Refresh Offline OSM Regions
+
+on:
+  schedule:
+    # Monthly on the 1st at 03:17 UTC (best practice for OSM/Geofabrik bulk refreshes)
+    - cron: '17 3 1 * *'
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'Country macro-region to check/rebuild'
+        type: choice
+        required: true
+        default: 'all'
+        options:
+          - all
+          - turkey
+          - georgia
+          - russia
+          - armenia
+          - kyrgyzstan
+          - greece
+          - alps
+          - kazakhstan
+          - nepal
+          - balkans
+          - norway
+          - azerbaijan
+          - central_asia
+          - tatras
+          - austria
+      force:
+        description: 'Force rebuild even if Geofabrik data is newer by less than min_age_days'
+        type: boolean
+        required: true
+        default: false
+      min_age_days:
+        description: 'Minimum OSM age delta in days before rebuilding'
+        type: string
+        required: true
+        default: '21'
+
+concurrency:
+  group: kairn-regions-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    name: Check Geofabrik Freshness
+    runs-on: ubuntu-latest
+    outputs:
+      has_updates: ${{ steps.freshness.outputs.has_updates }}
+      countries_matrix: ${{ steps.freshness.outputs.countries_matrix }}
+    steps:
+      - name: Checkout scripts and manifest
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            manifest.json
+            .github
+
+      - name: Check Geofabrik extract timestamps
+        id: freshness
+        run: |
+          COUNTRY="${{ inputs.country || 'all' }}"
+          MIN_AGE="${{ inputs.min_age_days || '21' }}"
+          EXTRA_ARGS=""
+          if [[ "${{ inputs.force }}" == "true" ]]; then
+            EXTRA_ARGS="--force"
+          fi
+          python3 scripts/update_regions.py \
+            --check-only \
+            --manifest manifest.json \
+            --country "$COUNTRY" \
+            --min-age-days "$MIN_AGE" \
+            $EXTRA_ARGS \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Ensure regions-latest release exists
+        if: steps.freshness.outputs.has_updates == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view regions-latest >/dev/null 2>&1 || \
+            gh release create regions-latest \
+              --title "Kairn Offline Regions (Latest)" \
+              --notes "Automated monthly OpenStreetMap offline vector packs (trails, roads, water, POIs) for Kairn."
+
+  build-and-upload:
+    name: Build (${{ matrix.country }})
+    needs: check
+    if: needs.check.outputs.has_updates == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        country: ${{ fromJson(needs.check.outputs.countries_matrix) }}
+    steps:
+      - name: Checkout builder scripts
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            manifest.json
+
+      - name: Install osmium-tool
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq osmium-tool
+
+      - name: Build country vector packs
+        run: |
+          python3 scripts/update_regions.py \
+            --build-country "${{ matrix.country }}" \
+            --manifest manifest.json \
+            --out-dir build/assets \
+            --meta-out "build/meta_${{ matrix.country }}.json" \
+            --work-dir build/work \
+            --release-tag regions-latest \
+            --repo "${{ github.repository }}"
+
+      - name: Upload assets to GitHub Release (with retry)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          ASSETS=(build/assets/*)
+          if [ ${#ASSETS[@]} -eq 0 ]; then
+            echo "No assets generated" >&2
+            exit 1
+          fi
+          for attempt in 1 2 3 4 5; do
+            if gh release upload regions-latest "${ASSETS[@]}" --clobber; then
+              echo "Uploaded ${#ASSETS[@]} assets for ${{ matrix.country }}"
+              exit 0
+            fi
+            echo "Upload attempt $attempt failed; retrying in $((attempt * 5))s..."
+            sleep $((attempt * 5))
+          done
+          echo "Failed to upload release assets after 5 attempts" >&2
+          exit 1
+
+      - name: Upload country metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: meta-${{ matrix.country }}
+          path: build/meta_${{ matrix.country }}.json
+          retention-days: 3
+
+  update-manifest:
+    name: Update manifest.json
+    needs: [check, build-and-upload]
+    if: always() && needs.check.outputs.has_updates == 'true' && (needs.build-and-upload.result == 'success' || needs.build-and-upload.result == 'failure')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout manifest
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            manifest.json
+            scripts
+
+      - name: Download built country metadata
+        uses: actions/download-artifact@v4
+        with:
+          pattern: meta-*
+          merge-multiple: true
+          path: build/meta
+
+      - name: Merge metadata into manifest.json
+        run: |
+          python3 scripts/update_regions.py \
+            --merge-meta build/meta \
+            --manifest manifest.json
+
+      - name: Commit and push manifest.json
+        run: |
+          if git diff --quiet manifest.json; then
+            echo "manifest.json unchanged; skipping commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "Refresh offline map manifest ($(date -u +%Y-%m-%d))"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+          exit 1
