@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-18T23:23:43Z",
+  "updated_at": "2026-11-19T02:17:28Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
@@ -1860,9 +1860,650 @@
           "sha256": "53ed42eda35999cbedf1d34d0ee38686fd73c3f8b6aeb6119d4a333e35173144"
         }
       }
+    },
+    "am_yerevan_aragats_sevan": {
+      "id": "am_yerevan_aragats_sevan",
+      "version": 7,
+      "name_en": "Yerevan, Mount Aragats & Lake Sevan",
+      "name_ru": "Ереван, Арагац и озеро Севан",
+      "name_tr": "Erivan, Alagöz ve Sevan Gölü",
+      "bbox": [
+        40.0,
+        43.0,
+        42.0,
+        46.0
+      ],
+      "tiles": [
+        "N40E043.hgt",
+        "N40E044.hgt",
+        "N40E045.hgt",
+        "N41E043.hgt",
+        "N41E044.hgt",
+        "N41E045.hgt"
+      ],
+      "horizon_tiles": [
+        "N39E043.hgt",
+        "N39E044.hgt",
+        "N39E045.hgt",
+        "N40E042.hgt",
+        "N40E046.hgt",
+        "N41E042.hgt",
+        "N41E046.hgt",
+        "N42E043.hgt",
+        "N42E044.hgt",
+        "N42E045.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/am_yerevan_aragats_sevan/trails.bin.gz",
+          "size": 4643681,
+          "raw_size": 12858729,
+          "sha256": "160f97c62543034d8bf6112b27c2048d16aa282e0c24dcce8cb504024b237636"
+        },
+        "pois.json.gz": {
+          "url": "regions/am_yerevan_aragats_sevan/pois.json.gz",
+          "size": 154778,
+          "raw_size": 1100518,
+          "sha256": "5a12402ae3fd0e9a3e2d77fc29545685563c971ab28ec5d2bf496192bf266f1e"
+        },
+        "water.bin.gz": {
+          "url": "regions/am_yerevan_aragats_sevan/water.bin.gz",
+          "size": 132351,
+          "raw_size": 256685,
+          "sha256": "f6fc35eba2b4ffb0dfbaec4cbf9c614bad51068ecba698d1c2f3758e6cc9505f"
+        }
+      }
+    },
+    "am_syunik_zangezur": {
+      "id": "am_syunik_zangezur",
+      "version": 7,
+      "name_en": "Syunik, Tatev & Zangezur",
+      "name_ru": "Сюник, Татев и Зангезур",
+      "name_tr": "Sünik, Tatev ve Zengezur",
+      "bbox": [
+        38.0,
+        45.0,
+        40.0,
+        47.0
+      ],
+      "tiles": [
+        "N38E045.hgt",
+        "N38E046.hgt",
+        "N39E045.hgt",
+        "N39E046.hgt"
+      ],
+      "horizon_tiles": [
+        "N37E045.hgt",
+        "N37E046.hgt",
+        "N38E044.hgt",
+        "N38E047.hgt",
+        "N39E044.hgt",
+        "N39E047.hgt",
+        "N40E045.hgt",
+        "N40E046.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/am_syunik_zangezur/trails.bin.gz",
+          "size": 1353508,
+          "raw_size": 2830624,
+          "sha256": "f5922de6b9c9d1156ea116dfb3c08d1c0b41916ac8b902b8ad2de32e85c2b0b7"
+        },
+        "pois.json.gz": {
+          "url": "regions/am_syunik_zangezur/pois.json.gz",
+          "size": 80917,
+          "raw_size": 543025,
+          "sha256": "06fbff3de2a7ccd740ec75d2c7d27729150101ae5af3d413a3716e259444e36a"
+        },
+        "water.bin.gz": {
+          "url": "regions/am_syunik_zangezur/water.bin.gz",
+          "size": 39284,
+          "raw_size": 65101,
+          "sha256": "68bc0c5a5cec1d3883cde5b54342611287cc3057e01b0b328d79ea377141d037"
+        }
+      }
+    },
+    "kg_issyk_kul_tian_shan": {
+      "id": "kg_issyk_kul_tian_shan",
+      "version": 7,
+      "name_en": "Issyk-Kul, Terskey & Khan Tengri",
+      "name_ru": "Иссык-Куль, Терскей и Хан-Тенгри",
+      "name_tr": "Issık Göl, Terskey ve Han Tengri",
+      "bbox": [
+        41.0,
+        76.0,
+        43.0,
+        81.0
+      ],
+      "tiles": [
+        "N41E076.hgt",
+        "N41E077.hgt",
+        "N41E078.hgt",
+        "N41E079.hgt",
+        "N41E080.hgt",
+        "N42E076.hgt",
+        "N42E077.hgt",
+        "N42E078.hgt",
+        "N42E079.hgt",
+        "N42E080.hgt"
+      ],
+      "horizon_tiles": [
+        "N40E076.hgt",
+        "N40E077.hgt",
+        "N40E078.hgt",
+        "N40E079.hgt",
+        "N40E080.hgt",
+        "N41E075.hgt",
+        "N41E081.hgt",
+        "N42E075.hgt",
+        "N42E081.hgt",
+        "N43E076.hgt",
+        "N43E077.hgt",
+        "N43E078.hgt",
+        "N43E079.hgt",
+        "N43E080.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/kg_issyk_kul_tian_shan/trails.bin.gz",
+          "size": 2430096,
+          "raw_size": 4860635,
+          "sha256": "b16aee6ff05cc4324ad5ec95b597f1d1545741b59272e0f59562ce408522e62c"
+        },
+        "pois.json.gz": {
+          "url": "regions/kg_issyk_kul_tian_shan/pois.json.gz",
+          "size": 62535,
+          "raw_size": 378722,
+          "sha256": "02d56b8198c9d1e2573d0577fa390efbe0ee9dbb8e827f85d899e3b600cb5f95"
+        },
+        "water.bin.gz": {
+          "url": "regions/kg_issyk_kul_tian_shan/water.bin.gz",
+          "size": 235272,
+          "raw_size": 412937,
+          "sha256": "4d27e929babdc53869c168132502a1d7ff0d500800365851b6748b9af7a984de"
+        }
+      }
+    },
+    "kg_bishkek_ala_archa_pamir_alai": {
+      "id": "kg_bishkek_ala_archa_pamir_alai",
+      "version": 7,
+      "name_en": "Ala-Archa, Suusamyr & Pamir-Alay",
+      "name_ru": "Ала-Арча, Суусамыр и Памиро-Алай",
+      "name_tr": "Ala-Arça, Suusamır ve Pamir-Alay",
+      "bbox": [
+        39.0,
+        71.0,
+        43.0,
+        76.0
+      ],
+      "tiles": [
+        "N39E071.hgt",
+        "N39E072.hgt",
+        "N39E073.hgt",
+        "N39E074.hgt",
+        "N39E075.hgt",
+        "N40E071.hgt",
+        "N40E072.hgt",
+        "N40E073.hgt",
+        "N40E074.hgt",
+        "N40E075.hgt",
+        "N41E071.hgt",
+        "N41E072.hgt",
+        "N41E073.hgt",
+        "N41E074.hgt",
+        "N41E075.hgt",
+        "N42E071.hgt",
+        "N42E072.hgt",
+        "N42E073.hgt",
+        "N42E074.hgt",
+        "N42E075.hgt"
+      ],
+      "horizon_tiles": [
+        "N38E071.hgt",
+        "N38E072.hgt",
+        "N38E073.hgt",
+        "N38E074.hgt",
+        "N39E070.hgt",
+        "N39E076.hgt",
+        "N40E070.hgt",
+        "N40E076.hgt",
+        "N41E070.hgt",
+        "N41E076.hgt",
+        "N42E070.hgt",
+        "N42E076.hgt",
+        "N43E071.hgt",
+        "N43E072.hgt",
+        "N43E073.hgt",
+        "N43E074.hgt",
+        "N43E075.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/kg_bishkek_ala_archa_pamir_alai/trails.bin.gz",
+          "size": 7093780,
+          "raw_size": 17983479,
+          "sha256": "8fa4b60bffc48617ada71c97ee56e5720140447eccaa348e338468911fe88614"
+        },
+        "pois.json.gz": {
+          "url": "regions/kg_bishkek_ala_archa_pamir_alai/pois.json.gz",
+          "size": 137773,
+          "raw_size": 914114,
+          "sha256": "790e1852ba01c654b4594dbf0ee5d0dc7b28a0b9ebd3a6a33ad854802d0c7f82"
+        },
+        "water.bin.gz": {
+          "url": "regions/kg_bishkek_ala_archa_pamir_alai/water.bin.gz",
+          "size": 403490,
+          "raw_size": 726630,
+          "sha256": "ac34de090db0ad4c7b62a4913547a7c8653693cd64afb2ae6bc993b50569662c"
+        }
+      }
+    },
+    "gr_olympus_pindus": {
+      "id": "gr_olympus_pindus",
+      "version": 7,
+      "name_en": "Mount Olympus, Meteora & Pindus",
+      "name_ru": "Олимп, Метеоры и горы Пиндос",
+      "name_tr": "Olimpos, Meteora ve Pindus Dağları",
+      "bbox": [
+        39.0,
+        20.0,
+        41.0,
+        24.0
+      ],
+      "tiles": [
+        "N39E020.hgt",
+        "N39E021.hgt",
+        "N39E022.hgt",
+        "N39E023.hgt",
+        "N40E020.hgt",
+        "N40E021.hgt",
+        "N40E022.hgt",
+        "N40E023.hgt"
+      ],
+      "horizon_tiles": [
+        "N38E020.hgt",
+        "N38E021.hgt",
+        "N38E022.hgt",
+        "N38E023.hgt",
+        "N39E019.hgt",
+        "N39E024.hgt",
+        "N40E019.hgt",
+        "N40E024.hgt",
+        "N41E020.hgt",
+        "N41E021.hgt",
+        "N41E022.hgt",
+        "N41E023.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/gr_olympus_pindus/trails.bin.gz",
+          "size": 15136748,
+          "raw_size": 37575439,
+          "sha256": "f19d635cf9eb7e32f77b3f79d94369a748ec9a2d095209e55361ebe44396dd07"
+        },
+        "pois.json.gz": {
+          "url": "regions/gr_olympus_pindus/pois.json.gz",
+          "size": 156318,
+          "raw_size": 958512,
+          "sha256": "c41ff2443555bdfdc4fd9778daab766d9eb19c2f8150078db90dcdcc75430015"
+        },
+        "water.bin.gz": {
+          "url": "regions/gr_olympus_pindus/water.bin.gz",
+          "size": 260570,
+          "raw_size": 492922,
+          "sha256": "2c8370079c893699db86866eaa2542f7aedf73e8f3319477fee6d38c395fa63c"
+        }
+      }
+    },
+    "gr_crete": {
+      "id": "gr_crete",
+      "version": 7,
+      "name_en": "Crete — Lefka Ori & Samaria",
+      "name_ru": "Крит — Лефка-Ори и Самария",
+      "name_tr": "Girit — Lefka Ori ve Samaria",
+      "bbox": [
+        34.0,
+        23.0,
+        36.0,
+        27.0
+      ],
+      "tiles": [
+        "N34E023.hgt",
+        "N34E024.hgt",
+        "N34E025.hgt",
+        "N34E026.hgt",
+        "N35E023.hgt",
+        "N35E024.hgt",
+        "N35E025.hgt",
+        "N35E026.hgt"
+      ],
+      "horizon_tiles": [
+        "N34E022.hgt",
+        "N34E027.hgt",
+        "N35E022.hgt",
+        "N35E027.hgt",
+        "N36E023.hgt",
+        "N36E024.hgt",
+        "N36E025.hgt",
+        "N36E026.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/gr_crete/trails.bin.gz",
+          "size": 3375658,
+          "raw_size": 7352139,
+          "sha256": "36b69ddb8ca81c29f2da9c593ec2b4a22d5d960ff2c5d76649324ffb9923e8ab"
+        },
+        "pois.json.gz": {
+          "url": "regions/gr_crete/pois.json.gz",
+          "size": 70214,
+          "raw_size": 415131,
+          "sha256": "a574dd7f940ab1729b50457c67c2d975587e265c751887a35ca77386df83049c"
+        },
+        "water.bin.gz": {
+          "url": "regions/gr_crete/water.bin.gz",
+          "size": 16212,
+          "raw_size": 28588,
+          "sha256": "08306f445d871c256fb99fff5193fe294afad42a040829b29f17ab14ee42116f"
+        }
+      }
+    },
+    "cy_cyprus_troodos": {
+      "id": "cy_cyprus_troodos",
+      "version": 7,
+      "name_en": "Cyprus — Troodos & Akamas",
+      "name_ru": "Кипр — Троодос и Акамас",
+      "name_tr": "Kıbrıs — Trodos ve Akamas",
+      "bbox": [
+        34.0,
+        32.0,
+        36.0,
+        35.0
+      ],
+      "tiles": [
+        "N34E032.hgt",
+        "N34E033.hgt",
+        "N34E034.hgt",
+        "N35E032.hgt",
+        "N35E033.hgt",
+        "N35E034.hgt"
+      ],
+      "horizon_tiles": [
+        "N34E031.hgt",
+        "N34E035.hgt",
+        "N35E031.hgt",
+        "N35E035.hgt",
+        "N36E032.hgt",
+        "N36E033.hgt",
+        "N36E034.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/cy_cyprus_troodos/trails.bin.gz",
+          "size": 5594273,
+          "raw_size": 14461432,
+          "sha256": "31e44b84d054654f6c4e48b74042211a89dcbedc749f341f9dc98ac44feaa0b0"
+        },
+        "pois.json.gz": {
+          "url": "regions/cy_cyprus_troodos/pois.json.gz",
+          "size": 52881,
+          "raw_size": 334526,
+          "sha256": "977a4a93c32cf3b2c4055c7b90c7a39144f3bb70fcddb7b5ac65aeeb180799ea"
+        },
+        "water.bin.gz": {
+          "url": "regions/cy_cyprus_troodos/water.bin.gz",
+          "size": 57580,
+          "raw_size": 117202,
+          "sha256": "cf91e3693fbf56f586afe10068796df9b36450caae7b281dc46ae9cc0328f1f9"
+        }
+      }
+    },
+    "alps_mont_blanc_chamonix": {
+      "id": "alps_mont_blanc_chamonix",
+      "version": 7,
+      "name_en": "Mont Blanc, Chamonix & Zermatt",
+      "name_ru": "Монблан, Шамони и Церматт",
+      "name_tr": "Mont Blanc, Chamonix ve Zermatt",
+      "bbox": [
+        45.0,
+        6.0,
+        47.0,
+        9.0
+      ],
+      "tiles": [
+        "N45E006.hgt",
+        "N45E007.hgt",
+        "N45E008.hgt",
+        "N46E006.hgt",
+        "N46E007.hgt",
+        "N46E008.hgt"
+      ],
+      "horizon_tiles": [
+        "N44E006.hgt",
+        "N44E007.hgt",
+        "N44E008.hgt",
+        "N45E005.hgt",
+        "N45E009.hgt",
+        "N46E005.hgt",
+        "N46E009.hgt",
+        "N47E006.hgt",
+        "N47E007.hgt",
+        "N47E008.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/alps_mont_blanc_chamonix/trails.bin.gz",
+          "size": 41799575,
+          "raw_size": 123136615,
+          "sha256": "3cc798c76e5608eaf3d10e6548cba20e47b248db05a31736c162db30cd9bc8f3"
+        },
+        "pois.json.gz": {
+          "url": "regions/alps_mont_blanc_chamonix/pois.json.gz",
+          "size": 189794,
+          "raw_size": 1192997,
+          "sha256": "066cfe703a425cc74aeda8bb7d7a8394818f895e67b360a7082a3349bea7f696"
+        },
+        "water.bin.gz": {
+          "url": "regions/alps_mont_blanc_chamonix/water.bin.gz",
+          "size": 403813,
+          "raw_size": 829520,
+          "sha256": "beaf5f46ab7fa3948f62d9e2214ed9566fd2596d02b96d9984a2521ee7fc6173"
+        }
+      }
+    },
+    "alps_bernese_oberland": {
+      "id": "alps_bernese_oberland",
+      "version": 7,
+      "name_en": "Bernese Alps — Jungfrau & Eiger",
+      "name_ru": "Бернские Альпы — Юнгфрау и Эйгер",
+      "name_tr": "Bern Alpleri — Jungfrau ve Eiger",
+      "bbox": [
+        46.0,
+        7.0,
+        47.0,
+        9.0
+      ],
+      "tiles": [
+        "N46E007.hgt",
+        "N46E008.hgt"
+      ],
+      "horizon_tiles": [
+        "N45E007.hgt",
+        "N45E008.hgt",
+        "N45E009.hgt",
+        "N46E006.hgt",
+        "N46E009.hgt",
+        "N47E006.hgt",
+        "N47E007.hgt",
+        "N47E008.hgt",
+        "N47E009.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/alps_bernese_oberland/trails.bin.gz",
+          "size": 22240364,
+          "raw_size": 62264238,
+          "sha256": "bf16ed4a90318786f7daf48cfd04b1b5702a09f164896882d7ec53701e30230d"
+        },
+        "pois.json.gz": {
+          "url": "regions/alps_bernese_oberland/pois.json.gz",
+          "size": 183785,
+          "raw_size": 1156130,
+          "sha256": "8969695ef4d048dad46c62cfd7a7c14993e014b96b84292840b7adc8d2e7550a"
+        },
+        "water.bin.gz": {
+          "url": "regions/alps_bernese_oberland/water.bin.gz",
+          "size": 206560,
+          "raw_size": 401899,
+          "sha256": "ab07f0c797bbd60c8f8615a6ca88c90629df064791836fb9b0889b94ef19bb0a"
+        }
+      }
+    },
+    "alps_dolomites": {
+      "id": "alps_dolomites",
+      "version": 7,
+      "name_en": "Dolomites",
+      "name_ru": "Доломитовые Альпы",
+      "name_tr": "Dolomitler",
+      "bbox": [
+        46.0,
+        11.0,
+        47.0,
+        13.0
+      ],
+      "tiles": [
+        "N46E011.hgt",
+        "N46E012.hgt"
+      ],
+      "horizon_tiles": [
+        "N45E011.hgt",
+        "N45E012.hgt",
+        "N46E010.hgt",
+        "N46E013.hgt",
+        "N47E010.hgt",
+        "N47E011.hgt",
+        "N47E012.hgt",
+        "N47E013.hgt"
+      ],
+      "files": {
+        "trails.bin.gz": {
+          "url": "regions/alps_dolomites/trails.bin.gz",
+          "size": 18047334,
+          "raw_size": 42347338,
+          "sha256": "69a738d8946fcb8d99d665c484deacb491208d154bf160bf63988da9fb49ec50"
+        },
+        "pois.json.gz": {
+          "url": "regions/alps_dolomites/pois.json.gz",
+          "size": 188207,
+          "raw_size": 1129899,
+          "sha256": "a764c6f1878beb1d53b020de330471dda23507b90da6bc47d77c7c6a1b0dd21e"
+        },
+        "water.bin.gz": {
+          "url": "regions/alps_dolomites/water.bin.gz",
+          "size": 156086,
+          "raw_size": 290008,
+          "sha256": "7574cf2529edd087f4776095e6f80e4685dc7a53d27e523d804469f31dfef4e0"
+        }
+      }
     }
   },
   "tiles": {
+    "N34E022.hgt": {
+      "url": "tiles/N34E022.hgt.gz",
+      "size": 2830,
+      "raw_size": 2884802,
+      "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N34E023.hgt": {
+      "url": "tiles/N34E023.hgt.gz",
+      "size": 3138,
+      "raw_size": 2884802,
+      "sha256": "aecb3849d43d780dfbac30a76c4433ff29bd5b3aeb97c50429a1882d9f585608"
+    },
+    "N34E024.hgt": {
+      "url": "tiles/N34E024.hgt.gz",
+      "size": 48031,
+      "raw_size": 2884802,
+      "sha256": "aff6a083eed33759608f01df7d76a5fb4ee883aa20ba404c1d4b7291adb000f8"
+    },
+    "N34E025.hgt": {
+      "url": "tiles/N34E025.hgt.gz",
+      "size": 43138,
+      "raw_size": 2884802,
+      "sha256": "13f6b78a81aab718361e1a8e4702791f161d780a2c7e47e75ec7a54283680cb5"
+    },
+    "N34E026.hgt": {
+      "url": "tiles/N34E026.hgt.gz",
+      "size": 4591,
+      "raw_size": 2884802,
+      "sha256": "d17a47791e53a6474fc3e2e14128572f9cfc6402e638b3de13070547af09cd02"
+    },
+    "N34E027.hgt": {
+      "url": "tiles/N34E027.hgt.gz",
+      "size": 2830,
+      "raw_size": 2884802,
+      "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N34E031.hgt": {
+      "url": "tiles/N34E031.hgt.gz",
+      "size": 2830,
+      "raw_size": 2884802,
+      "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N34E032.hgt": {
+      "url": "tiles/N34E032.hgt.gz",
+      "size": 372989,
+      "raw_size": 2884802,
+      "sha256": "c01711a92862ba81dcf0be1d6a12af38ff8a3a9832c37d538e570e10f2c7102a"
+    },
+    "N34E033.hgt": {
+      "url": "tiles/N34E033.hgt.gz",
+      "size": 276836,
+      "raw_size": 2884802,
+      "sha256": "ae4fd07a086db9f745f7b316b678a0fe228f0344430f56855319f6cb6e2f311d"
+    },
+    "N34E034.hgt": {
+      "url": "tiles/N34E034.hgt.gz",
+      "size": 6690,
+      "raw_size": 2884802,
+      "sha256": "063899bb3ea23671757e386849981865713b4723bd28c85960e721ff92743750"
+    },
+    "N34E035.hgt": {
+      "url": "tiles/N34E035.hgt.gz",
+      "size": 363284,
+      "raw_size": 2884802,
+      "sha256": "0e3e66d26582d6ec8f0ec0d037fa3a5cb70ef0744681c5b19a0e1556fc46ca9a"
+    },
+    "N35E022.hgt": {
+      "url": "tiles/N35E022.hgt.gz",
+      "size": 2830,
+      "raw_size": 2884802,
+      "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N35E023.hgt": {
+      "url": "tiles/N35E023.hgt.gz",
+      "size": 299549,
+      "raw_size": 2884802,
+      "sha256": "af774d0ae582914cd96b071584b90081b59edab05a8e16a4c16837ce82f07e7c"
+    },
+    "N35E024.hgt": {
+      "url": "tiles/N35E024.hgt.gz",
+      "size": 573067,
+      "raw_size": 2884802,
+      "sha256": "270aac1770ec42bd2edcbe4bdad5d6259046a145eb71bc6db9756664ae6c8898"
+    },
+    "N35E025.hgt": {
+      "url": "tiles/N35E025.hgt.gz",
+      "size": 507688,
+      "raw_size": 2884802,
+      "sha256": "8a11c19db0be67a778aba4ebeab03c96e78a4d1140b94657d4ee5cf0694fb3fa"
+    },
+    "N35E026.hgt": {
+      "url": "tiles/N35E026.hgt.gz",
+      "size": 149631,
+      "raw_size": 2884802,
+      "sha256": "44ffdd2f8c5fdc7f3898f1695801414d2b869eedc11d665af4703635248ba970"
+    },
     "N35E027.hgt": {
       "url": "tiles/N35E027.hgt.gz",
       "size": 1561995,
@@ -1874,6 +2515,24 @@
       "size": 1149779,
       "raw_size": 2884802,
       "sha256": "646fe462d505d1127d1dfca17312e27ece2e4581100e5c4e171ab55980bb52d2"
+    },
+    "N35E031.hgt": {
+      "url": "tiles/N35E031.hgt.gz",
+      "size": 2830,
+      "raw_size": 2884802,
+      "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N35E032.hgt": {
+      "url": "tiles/N35E032.hgt.gz",
+      "size": 203925,
+      "raw_size": 2884802,
+      "sha256": "176709fb9b652947b59c4d8951be11df2069e67bed0d42b05f3abc054a996bbd"
+    },
+    "N35E033.hgt": {
+      "url": "tiles/N35E033.hgt.gz",
+      "size": 352425,
+      "raw_size": 2884802,
+      "sha256": "5b848414774e000a4533f757ea28e8ed3016523d514766a4315f48a8254c5a40"
     },
     "N35E034.hgt": {
       "url": "tiles/N35E034.hgt.gz",
@@ -1904,6 +2563,24 @@
       "size": 1453984,
       "raw_size": 2884802,
       "sha256": "2b0bff7702e7faa8a1a6b3da3f6a334bf0c91654c93e567b84964d8b42607d23"
+    },
+    "N36E023.hgt": {
+      "url": "tiles/N36E023.hgt.gz",
+      "size": 107332,
+      "raw_size": 2884802,
+      "sha256": "d7116401d1286024796e434af561b20e4f64e736db838659022f91e48cd750fb"
+    },
+    "N36E024.hgt": {
+      "url": "tiles/N36E024.hgt.gz",
+      "size": 84427,
+      "raw_size": 2884802,
+      "sha256": "56d508ad0585c48913a64731573b8f9d5f8f5e97c381d4244c62e9b67fbc74f3"
+    },
+    "N36E025.hgt": {
+      "url": "tiles/N36E025.hgt.gz",
+      "size": 154158,
+      "raw_size": 2884802,
+      "sha256": "82b0614ae2de3cbbed616bf0a677bb1d0fa0945822bcd0cdb8130ebb4b69fb58"
     },
     "N36E026.hgt": {
       "url": "tiles/N36E026.hgt.gz",
@@ -2133,6 +2810,42 @@
       "raw_size": 2884802,
       "sha256": "8c182b714c0e3272d4bc7447cc356a58b0e2a2f9cab3cb804d8a93d7d4881617"
     },
+    "N37E045.hgt": {
+      "url": "tiles/N37E045.hgt.gz",
+      "size": 696494,
+      "raw_size": 2884802,
+      "sha256": "1f455dc134aa86a4627c6975d4a1d8ef3b31fe9296a1ba3f74962a6cc2266361"
+    },
+    "N37E046.hgt": {
+      "url": "tiles/N37E046.hgt.gz",
+      "size": 1550738,
+      "raw_size": 2884802,
+      "sha256": "722fdbe08c3527eac93bf6b211e6494613457bf8e005aae3e3c46d4035f6e44c"
+    },
+    "N38E020.hgt": {
+      "url": "tiles/N38E020.hgt.gz",
+      "size": 410960,
+      "raw_size": 2884802,
+      "sha256": "af6d24b0e3fc30bd600a453b1c329bc43709049f1ba84e511be3b2b72ab269d1"
+    },
+    "N38E021.hgt": {
+      "url": "tiles/N38E021.hgt.gz",
+      "size": 1323814,
+      "raw_size": 2884802,
+      "sha256": "df82c03014582cf3d64baadb3d74dcb5aebce6f1468344fa50da57b1a87e3a0d"
+    },
+    "N38E022.hgt": {
+      "url": "tiles/N38E022.hgt.gz",
+      "size": 1401195,
+      "raw_size": 2884802,
+      "sha256": "4b0a6bb037496d38daa773d970c8b816b1c43e1322046f317f19ee9b00e11123"
+    },
+    "N38E023.hgt": {
+      "url": "tiles/N38E023.hgt.gz",
+      "size": 1083163,
+      "raw_size": 2884802,
+      "sha256": "53cfb6a0efeed0019200bd216de0d27aab9f9b0a5da1a054c6e665dc8af816cc"
+    },
     "N38E026.hgt": {
       "url": "tiles/N38E026.hgt.gz",
       "size": 588104,
@@ -2246,6 +2959,84 @@
       "size": 1672406,
       "raw_size": 2884802,
       "sha256": "13f91966bd4f2b3bbcaf7e2316e1e85fe2da7e10581488c26041ebe355e7c28d"
+    },
+    "N38E045.hgt": {
+      "url": "tiles/N38E045.hgt.gz",
+      "size": 1313392,
+      "raw_size": 2884802,
+      "sha256": "8dcfa9eaf8307d09805b464bc43e961cd1787fc6a194189aab38b0c9c760363a"
+    },
+    "N38E046.hgt": {
+      "url": "tiles/N38E046.hgt.gz",
+      "size": 1711255,
+      "raw_size": 2884802,
+      "sha256": "34d05a2ed7965a41c0d2aac9282c6d2072fe4cac7ca5c44ebc266675df74fe33"
+    },
+    "N38E047.hgt": {
+      "url": "tiles/N38E047.hgt.gz",
+      "size": 1752663,
+      "raw_size": 2884802,
+      "sha256": "35b8459361e624f595f104abdf8a8106b23222db48587c570fbd433803db6967"
+    },
+    "N38E071.hgt": {
+      "url": "tiles/N38E071.hgt.gz",
+      "size": 2221396,
+      "raw_size": 2884802,
+      "sha256": "ee8f8ea47919da27476defd86bc3d1799697497b8b28bc0942193f1a2dfdf304"
+    },
+    "N38E072.hgt": {
+      "url": "tiles/N38E072.hgt.gz",
+      "size": 2124205,
+      "raw_size": 2884802,
+      "sha256": "ce0beea56ee6f6e3a77bf2a99470a8770720c7cedfcad5f643d9f5ea8b41be6d"
+    },
+    "N38E073.hgt": {
+      "url": "tiles/N38E073.hgt.gz",
+      "size": 1975078,
+      "raw_size": 2884802,
+      "sha256": "3c3837d842e97aed2e56d7bb26a7459b8f7a18c10324ba07e03e66ceae92c570"
+    },
+    "N38E074.hgt": {
+      "url": "tiles/N38E074.hgt.gz",
+      "size": 1836294,
+      "raw_size": 2884802,
+      "sha256": "6ebec0c7b7cdcf94a844aafa7afb6064a3ff17b6204e464eec1696c9606d3b2a"
+    },
+    "N39E019.hgt": {
+      "url": "tiles/N39E019.hgt.gz",
+      "size": 141324,
+      "raw_size": 2884802,
+      "sha256": "7b4583a98a8998448e9f68a0b462b5e957eb9ad75d1e707c7f49f9e387667751"
+    },
+    "N39E020.hgt": {
+      "url": "tiles/N39E020.hgt.gz",
+      "size": 1324751,
+      "raw_size": 2884802,
+      "sha256": "6d8b6b374cd26e92a121d9256a5e6b6d1795be0cd97b578139e74d28b2a59d98"
+    },
+    "N39E021.hgt": {
+      "url": "tiles/N39E021.hgt.gz",
+      "size": 1780692,
+      "raw_size": 2884802,
+      "sha256": "cdcc8fd13153a5e7086b613dd88d2a2d6b4f2ef45c82c650c3e009747ded97d6"
+    },
+    "N39E022.hgt": {
+      "url": "tiles/N39E022.hgt.gz",
+      "size": 1150660,
+      "raw_size": 2884802,
+      "sha256": "da688ef6d6a8017f2b83fc2ef25da2b4f7e060494237d99229e9158c87d126c0"
+    },
+    "N39E023.hgt": {
+      "url": "tiles/N39E023.hgt.gz",
+      "size": 255265,
+      "raw_size": 2884802,
+      "sha256": "fc93aea10f40d5355a70fdafc2e4c78f859735eaa9b4b01713415d8055fdd6c3"
+    },
+    "N39E024.hgt": {
+      "url": "tiles/N39E024.hgt.gz",
+      "size": 28708,
+      "raw_size": 2884802,
+      "sha256": "b18bcf54f2d161f11500c502eadc756007bc87f612d4b661ad087efdb66e559b"
     },
     "N39E026.hgt": {
       "url": "tiles/N39E026.hgt.gz",
@@ -2366,6 +3157,96 @@
       "size": 1909618,
       "raw_size": 2884802,
       "sha256": "9298357616200b75b7af24d1517c8853d4de8fff2b3b1b97b4cec323cf1ecaf7"
+    },
+    "N39E046.hgt": {
+      "url": "tiles/N39E046.hgt.gz",
+      "size": 1967505,
+      "raw_size": 2884802,
+      "sha256": "950516776e3b1d1c98b5b1399be33450aee59654a255d1ac2ccc9d47e800fb5a"
+    },
+    "N39E047.hgt": {
+      "url": "tiles/N39E047.hgt.gz",
+      "size": 1060028,
+      "raw_size": 2884802,
+      "sha256": "e946ea6e4fe1e35b5a7bf77b1e85af3384c1e9026bad685a9eec1a53804522b4"
+    },
+    "N39E070.hgt": {
+      "url": "tiles/N39E070.hgt.gz",
+      "size": 2081069,
+      "raw_size": 2884802,
+      "sha256": "066713233b67e30d777d1772d56f03a7c164937a1de8e88124caaef15f080285"
+    },
+    "N39E071.hgt": {
+      "url": "tiles/N39E071.hgt.gz",
+      "size": 2145326,
+      "raw_size": 2884802,
+      "sha256": "e4fc63897d85915c7edba2fba402161eb2a72fa98db891fd10d190c70f4b348e"
+    },
+    "N39E072.hgt": {
+      "url": "tiles/N39E072.hgt.gz",
+      "size": 1990088,
+      "raw_size": 2884802,
+      "sha256": "78cd74a3b8b109480eb0edb35eaf8d67301b8d2bc020e58afba46261843f9947"
+    },
+    "N39E073.hgt": {
+      "url": "tiles/N39E073.hgt.gz",
+      "size": 1872020,
+      "raw_size": 2884802,
+      "sha256": "868b52f1d025c0eabf2534693dba9df84e1fd5e934d78d9c59b769b9657d8b50"
+    },
+    "N39E074.hgt": {
+      "url": "tiles/N39E074.hgt.gz",
+      "size": 1991271,
+      "raw_size": 2884802,
+      "sha256": "38fff2c990e756738775870aa08268804d0b1461baddf093e1c5d459ea1535b2"
+    },
+    "N39E075.hgt": {
+      "url": "tiles/N39E075.hgt.gz",
+      "size": 1341482,
+      "raw_size": 2884802,
+      "sha256": "383bd019073fa2adedc2c92ca59088417a510ad59bcdb264d58d6596c98456ec"
+    },
+    "N39E076.hgt": {
+      "url": "tiles/N39E076.hgt.gz",
+      "size": 611975,
+      "raw_size": 2884802,
+      "sha256": "5a4f1577b55ad2c7103360ab60b022e8cec705e048510875c83ce573f448e683"
+    },
+    "N40E019.hgt": {
+      "url": "tiles/N40E019.hgt.gz",
+      "size": 801857,
+      "raw_size": 2884802,
+      "sha256": "a24389c45332ba097cd836724712b7397d83567aa768cd7c20082a8268d6417b"
+    },
+    "N40E020.hgt": {
+      "url": "tiles/N40E020.hgt.gz",
+      "size": 1886665,
+      "raw_size": 2884802,
+      "sha256": "27d2b084280e6971d2ac518542b7e7824485ecabcb7d6df7b224172593342bf9"
+    },
+    "N40E021.hgt": {
+      "url": "tiles/N40E021.hgt.gz",
+      "size": 1608035,
+      "raw_size": 2884802,
+      "sha256": "ff673a421e3017686da18b742a1c340aebc18db8d152294638ebdc88a75c08ee"
+    },
+    "N40E022.hgt": {
+      "url": "tiles/N40E022.hgt.gz",
+      "size": 995065,
+      "raw_size": 2884802,
+      "sha256": "93d546cd256ee1e249a3ff6cec2b67ea832f100f51d1082fdb32b437a192d765"
+    },
+    "N40E023.hgt": {
+      "url": "tiles/N40E023.hgt.gz",
+      "size": 963609,
+      "raw_size": 2884802,
+      "sha256": "cc5ed0246609a832184175b6f096e90cb194e74d057966c8dc80a978ecb90435"
+    },
+    "N40E024.hgt": {
+      "url": "tiles/N40E024.hgt.gz",
+      "size": 352886,
+      "raw_size": 2884802,
+      "sha256": "42918d84b2f819a63e34cfdd1e4bd12f02c260eb7a65b3e6db8d479a1359a05f"
     },
     "N40E025.hgt": {
       "url": "tiles/N40E025.hgt.gz",
@@ -2511,6 +3392,96 @@
       "raw_size": 2884802,
       "sha256": "4e0434da95fee26cec83abe2ffa12e00d244db291a8adc6f8fc32d13ca25f5d9"
     },
+    "N40E070.hgt": {
+      "url": "tiles/N40E070.hgt.gz",
+      "size": 1229205,
+      "raw_size": 2884802,
+      "sha256": "e89c428ef5a7385f885f2c3a9885b7409268a2585c17da64551cdfe3a930e6c8"
+    },
+    "N40E071.hgt": {
+      "url": "tiles/N40E071.hgt.gz",
+      "size": 787271,
+      "raw_size": 2884802,
+      "sha256": "7a2eb620024996b6255604e3bdaf4942ce364485e4db589ca560b0694e6d12ec"
+    },
+    "N40E072.hgt": {
+      "url": "tiles/N40E072.hgt.gz",
+      "size": 1279559,
+      "raw_size": 2884802,
+      "sha256": "671e467f3188ba1dbd71f81174b9386fa913952b9b175c7e03cf75122ad82169"
+    },
+    "N40E073.hgt": {
+      "url": "tiles/N40E073.hgt.gz",
+      "size": 2005125,
+      "raw_size": 2884802,
+      "sha256": "a45532df986bf11f45c30cd9493cc612eeb7ac79fca512a15fca7c9fca9d5a4c"
+    },
+    "N40E074.hgt": {
+      "url": "tiles/N40E074.hgt.gz",
+      "size": 2005943,
+      "raw_size": 2884802,
+      "sha256": "394588900238a812649c03810fb91690640534e7bc075ba32c54cd5e5e2d0fc4"
+    },
+    "N40E075.hgt": {
+      "url": "tiles/N40E075.hgt.gz",
+      "size": 1721243,
+      "raw_size": 2884802,
+      "sha256": "2ffeb61f103ef3d110e9992ff5cd37c122c7d23ca4966561c36a4e0f7e48302b"
+    },
+    "N40E076.hgt": {
+      "url": "tiles/N40E076.hgt.gz",
+      "size": 1717013,
+      "raw_size": 2884802,
+      "sha256": "dc30de7fbc27f23aee69edc88d27b508992cb9a6e8e8b8d65560105182397bba"
+    },
+    "N40E077.hgt": {
+      "url": "tiles/N40E077.hgt.gz",
+      "size": 1582141,
+      "raw_size": 2884802,
+      "sha256": "726d4e769a3bf00d6c36416e059ec59eceec9f5c7ac92e081beae57fc3966253"
+    },
+    "N40E078.hgt": {
+      "url": "tiles/N40E078.hgt.gz",
+      "size": 1424358,
+      "raw_size": 2884802,
+      "sha256": "258ef58aee52540b5a928b553fdd6127b589f2be9c5e6611c19fa7895838aa96"
+    },
+    "N40E079.hgt": {
+      "url": "tiles/N40E079.hgt.gz",
+      "size": 820475,
+      "raw_size": 2884802,
+      "sha256": "c536371970e4a91d27469f73466e72f01ab18ea28f36bfc7fd5831da393c88be"
+    },
+    "N40E080.hgt": {
+      "url": "tiles/N40E080.hgt.gz",
+      "size": 339231,
+      "raw_size": 2884802,
+      "sha256": "f12c1df6ccb430cbd6767ba96517f8e61dd9a9c295e632f4ca7deb10bb9a9dd2"
+    },
+    "N41E020.hgt": {
+      "url": "tiles/N41E020.hgt.gz",
+      "size": 1884050,
+      "raw_size": 2884802,
+      "sha256": "366d8f0a13c1509d6e34437f4584048b533c3f174fe0f4f5d6f44677d80c5b7b"
+    },
+    "N41E021.hgt": {
+      "url": "tiles/N41E021.hgt.gz",
+      "size": 1678578,
+      "raw_size": 2884802,
+      "sha256": "7cf0bc9c5fbb262eb6de2ee636001f26a7e061640139bf86fc667923838c40cb"
+    },
+    "N41E022.hgt": {
+      "url": "tiles/N41E022.hgt.gz",
+      "size": 1598337,
+      "raw_size": 2884802,
+      "sha256": "6660fd69659e56c6d216c1e826732c6cea110dccef8a80058edfb59a21b9f03e"
+    },
+    "N41E023.hgt": {
+      "url": "tiles/N41E023.hgt.gz",
+      "size": 1698338,
+      "raw_size": 2884802,
+      "sha256": "69839f6508e57205b1c49fd7c04cafa73c7f7ebb557cf4bc8da4f90b4feae280"
+    },
     "N41E025.hgt": {
       "url": "tiles/N41E025.hgt.gz",
       "size": 1697154,
@@ -2655,6 +3626,78 @@
       "raw_size": 2884802,
       "sha256": "1271a0134e00a2d7116c439fa5250af1580f0a978a442af36f1fb32e0091f88f"
     },
+    "N41E070.hgt": {
+      "url": "tiles/N41E070.hgt.gz",
+      "size": 2094462,
+      "raw_size": 2884802,
+      "sha256": "a0acfb5fb6094bc5bb2536663e74869984cd02e2261bd90bf0ff5883843da3fe"
+    },
+    "N41E071.hgt": {
+      "url": "tiles/N41E071.hgt.gz",
+      "size": 1770853,
+      "raw_size": 2884802,
+      "sha256": "87e2676a7170f35479d6c292f2296d58b89bc4027ace147a5bf278820ca7225e"
+    },
+    "N41E072.hgt": {
+      "url": "tiles/N41E072.hgt.gz",
+      "size": 1860277,
+      "raw_size": 2884802,
+      "sha256": "0b494dddc37b67d44eb00f7f4b5f9802862a1dceb97ae6f0ef74bb844fe71c13"
+    },
+    "N41E073.hgt": {
+      "url": "tiles/N41E073.hgt.gz",
+      "size": 2018348,
+      "raw_size": 2884802,
+      "sha256": "d358679f34653c790e66c0f88c879bdb7151481247c21a244400a6f3c7b51677"
+    },
+    "N41E074.hgt": {
+      "url": "tiles/N41E074.hgt.gz",
+      "size": 1863857,
+      "raw_size": 2884802,
+      "sha256": "25c8dd6864eb9377697c14fef51a1f798684408a4ff364b1a2430d498e8b4a40"
+    },
+    "N41E075.hgt": {
+      "url": "tiles/N41E075.hgt.gz",
+      "size": 1675701,
+      "raw_size": 2884802,
+      "sha256": "c16f681dc643300bb97f7eccc3de89f20b97a8b163f98c5348e50d53d7a16a2a"
+    },
+    "N41E076.hgt": {
+      "url": "tiles/N41E076.hgt.gz",
+      "size": 1873942,
+      "raw_size": 2884802,
+      "sha256": "2af284227b219787e0b3684d58da90c920b7055b45198d6c239e0970d365d156"
+    },
+    "N41E077.hgt": {
+      "url": "tiles/N41E077.hgt.gz",
+      "size": 1895293,
+      "raw_size": 2884802,
+      "sha256": "68794ad673b01c4c09efebc1aa35976decbab6cb9594de30f531ca2d1f8996ba"
+    },
+    "N41E078.hgt": {
+      "url": "tiles/N41E078.hgt.gz",
+      "size": 1978904,
+      "raw_size": 2884802,
+      "sha256": "ec66b6f96ef461dc7478d0b86234842b61ed4d1b47249f36117399d9cd113223"
+    },
+    "N41E079.hgt": {
+      "url": "tiles/N41E079.hgt.gz",
+      "size": 1476796,
+      "raw_size": 2884802,
+      "sha256": "daa8638f65bb17c9670f12c76d425b448222895fc197ce84d1c27f461acd8d45"
+    },
+    "N41E080.hgt": {
+      "url": "tiles/N41E080.hgt.gz",
+      "size": 1191453,
+      "raw_size": 2884802,
+      "sha256": "0ff034de7e323f5f9d105527f77e2bd7319ec5d55d80895ada1821c1535190a0"
+    },
+    "N41E081.hgt": {
+      "url": "tiles/N41E081.hgt.gz",
+      "size": 851475,
+      "raw_size": 2884802,
+      "sha256": "4dbf28259444da50aa3ffa063fabea54545c6b05e6cd4a209c772c1ba07bf3f9"
+    },
     "N41E131.hgt": {
       "url": "tiles/N41E131.hgt.gz",
       "size": 2830,
@@ -2750,6 +3793,78 @@
       "size": 79511,
       "raw_size": 2884802,
       "sha256": "f0d549b9f1bb70dc8796e1106597055b74bc24c73a0313342527108a13bb5362"
+    },
+    "N42E070.hgt": {
+      "url": "tiles/N42E070.hgt.gz",
+      "size": 1650605,
+      "raw_size": 2884802,
+      "sha256": "2af9f5256b3ee78b41e891108f84fc07f139001a0dced5cc43220888e4b111b5"
+    },
+    "N42E071.hgt": {
+      "url": "tiles/N42E071.hgt.gz",
+      "size": 1550584,
+      "raw_size": 2884802,
+      "sha256": "2c885e9dbe58a524fc8f32bc3bca3b2a1edcb37fd9d3441687331029a1292ed6"
+    },
+    "N42E072.hgt": {
+      "url": "tiles/N42E072.hgt.gz",
+      "size": 1748129,
+      "raw_size": 2884802,
+      "sha256": "303d01872cd10f2ae9340d07859db18971b4ab3da1b313885a8c17751fcda2ab"
+    },
+    "N42E073.hgt": {
+      "url": "tiles/N42E073.hgt.gz",
+      "size": 1598613,
+      "raw_size": 2884802,
+      "sha256": "d3af0dcefacbcaa952108d47bb5af4e771748d69f5e76e2f474dffed914b1b0e"
+    },
+    "N42E074.hgt": {
+      "url": "tiles/N42E074.hgt.gz",
+      "size": 1633065,
+      "raw_size": 2884802,
+      "sha256": "0c1367d69ab692dc78bc4ccb96460a1559ced9a1b90116a653b7096dc4a58700"
+    },
+    "N42E075.hgt": {
+      "url": "tiles/N42E075.hgt.gz",
+      "size": 1719997,
+      "raw_size": 2884802,
+      "sha256": "6deaeeb4533c8860740a7fa5f70741e042843a4359b386f7f58bff60ba16259d"
+    },
+    "N42E076.hgt": {
+      "url": "tiles/N42E076.hgt.gz",
+      "size": 1432810,
+      "raw_size": 2884802,
+      "sha256": "d655e489dceeae129f7bee236bbc275843575c06735fe821fe1e11deb49e5384"
+    },
+    "N42E077.hgt": {
+      "url": "tiles/N42E077.hgt.gz",
+      "size": 1061436,
+      "raw_size": 2884802,
+      "sha256": "15e41e00bb9423047884c7f8ffe4c51170f573032f65eb3b1c8b4bc432280d64"
+    },
+    "N42E078.hgt": {
+      "url": "tiles/N42E078.hgt.gz",
+      "size": 1746339,
+      "raw_size": 2884802,
+      "sha256": "ed26b52e82281307d62272a87dda68f1092255174ecb458fe7db34cce0850492"
+    },
+    "N42E079.hgt": {
+      "url": "tiles/N42E079.hgt.gz",
+      "size": 1811203,
+      "raw_size": 2884802,
+      "sha256": "10ba81e8606545848aa25403677c7c611394a69453b6d4f8e856fd6c1a5da3d8"
+    },
+    "N42E080.hgt": {
+      "url": "tiles/N42E080.hgt.gz",
+      "size": 1706213,
+      "raw_size": 2884802,
+      "sha256": "000a9ee6ae6513e7c65737706f4c08fb813392700d2bd6ac3491c58e0e9fb827"
+    },
+    "N42E081.hgt": {
+      "url": "tiles/N42E081.hgt.gz",
+      "size": 2015531,
+      "raw_size": 2884802,
+      "sha256": "41064cdc340a758c69429d3fc72c27d2094401da4c346b4be6aded9503dadc89"
     },
     "N42E130.hgt": {
       "url": "tiles/N42E130.hgt.gz",
@@ -2883,6 +3998,66 @@
       "raw_size": 2884802,
       "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
     },
+    "N43E071.hgt": {
+      "url": "tiles/N43E071.hgt.gz",
+      "size": 445627,
+      "raw_size": 2884802,
+      "sha256": "39aafe1280ca25e7e94e8dff5fc61164aa19298a1b1cd8ab7b5bfe4a77a4bfde"
+    },
+    "N43E072.hgt": {
+      "url": "tiles/N43E072.hgt.gz",
+      "size": 488253,
+      "raw_size": 2884802,
+      "sha256": "ca1c0d642de2144e5abdec09f92a4dfe682ee0498e59a65e0c59106e58084866"
+    },
+    "N43E073.hgt": {
+      "url": "tiles/N43E073.hgt.gz",
+      "size": 510729,
+      "raw_size": 2884802,
+      "sha256": "28f077d62de73e4a898197fdc41262824a9ca4fe11615b452c1cad5ab55c91a1"
+    },
+    "N43E074.hgt": {
+      "url": "tiles/N43E074.hgt.gz",
+      "size": 958453,
+      "raw_size": 2884802,
+      "sha256": "4659129cf726a99684beded27167aa3f6165232d41b64edd322de9f4efc3ed30"
+    },
+    "N43E075.hgt": {
+      "url": "tiles/N43E075.hgt.gz",
+      "size": 1069052,
+      "raw_size": 2884802,
+      "sha256": "6544251508a8ae55c43854953b1d23cf49074b8bd8d55f11fbb4adb3376e807f"
+    },
+    "N43E076.hgt": {
+      "url": "tiles/N43E076.hgt.gz",
+      "size": 938329,
+      "raw_size": 2884802,
+      "sha256": "92d19c65c03bd23af562ded0894362770b234d4148a58c513e994d7b3cfba757"
+    },
+    "N43E077.hgt": {
+      "url": "tiles/N43E077.hgt.gz",
+      "size": 1122530,
+      "raw_size": 2884802,
+      "sha256": "bbf3245a0d50aaabe34cd78c02e19c1b7617eea1c8c5dbd181d0f2712e5e1f1f"
+    },
+    "N43E078.hgt": {
+      "url": "tiles/N43E078.hgt.gz",
+      "size": 1186281,
+      "raw_size": 2884802,
+      "sha256": "a528b6cce39907113e8495ae349f1c8d334cd67a4d9a7689024a8c70aa3df50c"
+    },
+    "N43E079.hgt": {
+      "url": "tiles/N43E079.hgt.gz",
+      "size": 1013614,
+      "raw_size": 2884802,
+      "sha256": "0ae4a9f2d745382081875473ed24df9de5be3990ae2c772b0687158a0d3fd1c3"
+    },
+    "N43E080.hgt": {
+      "url": "tiles/N43E080.hgt.gz",
+      "size": 1148223,
+      "raw_size": 2884802,
+      "sha256": "259b59ce98e52cb2dec09cf94c6d10e0524d598980d18d584edb1d6fd067c430"
+    },
     "N43E130.hgt": {
       "url": "tiles/N43E130.hgt.gz",
       "size": 1616137,
@@ -2924,6 +4099,24 @@
       "size": 2830,
       "raw_size": 2884802,
       "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N44E006.hgt": {
+      "url": "tiles/N44E006.hgt.gz",
+      "size": 2062625,
+      "raw_size": 2884802,
+      "sha256": "2f36e7ba67cd92de110e6eaa0eaa0793a15445bb8809be154e214b7c780bd776"
+    },
+    "N44E007.hgt": {
+      "url": "tiles/N44E007.hgt.gz",
+      "size": 1572788,
+      "raw_size": 2884802,
+      "sha256": "55e189dce5a3c6d75e28833374393833fc0ada828fd7738c6e8fa73f821412e9"
+    },
+    "N44E008.hgt": {
+      "url": "tiles/N44E008.hgt.gz",
+      "size": 1062569,
+      "raw_size": 2884802,
+      "sha256": "f43858d16c130130d1cff81e95bb5410978e2068d69994acaaa4b892a320fb51"
     },
     "N44E032.hgt": {
       "url": "tiles/N44E032.hgt.gz",
@@ -3069,6 +4262,48 @@
       "raw_size": 2884802,
       "sha256": "778210920a34c7edf5dbc5d48d1d2c73b54733878c63af62fd941a183ee02c26"
     },
+    "N45E005.hgt": {
+      "url": "tiles/N45E005.hgt.gz",
+      "size": 1467706,
+      "raw_size": 2884802,
+      "sha256": "b0b4ee5dcaf617ad6cb80f3825a7a1553d142d54e2668f8cd60a984e0f8e5381"
+    },
+    "N45E006.hgt": {
+      "url": "tiles/N45E006.hgt.gz",
+      "size": 2104128,
+      "raw_size": 2884802,
+      "sha256": "b47457412c6ee844ccf4cb14e6c1bb9980b1861f02655e380fb6880111db9c2e"
+    },
+    "N45E007.hgt": {
+      "url": "tiles/N45E007.hgt.gz",
+      "size": 1885736,
+      "raw_size": 2884802,
+      "sha256": "c8e6a4ff9e12bfacd4a3719f61aebfc6d905d3e27787429ee4f1dd8594c0a108"
+    },
+    "N45E008.hgt": {
+      "url": "tiles/N45E008.hgt.gz",
+      "size": 974736,
+      "raw_size": 2884802,
+      "sha256": "23a452be710cc967dc5d258f3b3adb43045d81ae46169425d6e1d32a5a5ef22e"
+    },
+    "N45E009.hgt": {
+      "url": "tiles/N45E009.hgt.gz",
+      "size": 828429,
+      "raw_size": 2884802,
+      "sha256": "9eadaacdc220a8c315aaf09547422753eaa89f001b92febacdcc29c0cc1331b2"
+    },
+    "N45E011.hgt": {
+      "url": "tiles/N45E011.hgt.gz",
+      "size": 951874,
+      "raw_size": 2884802,
+      "sha256": "d29fe1df9618b9c2927900b4ee3dd3f1a09ad7a2db44a71802804219351817d8"
+    },
+    "N45E012.hgt": {
+      "url": "tiles/N45E012.hgt.gz",
+      "size": 210196,
+      "raw_size": 2884802,
+      "sha256": "fe2bb94902e93f2c5db4eb9e7a866bb9f985b1ec78b1c3b1b9d3e01e4d2f430c"
+    },
     "N45E032.hgt": {
       "url": "tiles/N45E032.hgt.gz",
       "size": 86216,
@@ -3195,6 +4430,60 @@
       "raw_size": 2884802,
       "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
     },
+    "N46E005.hgt": {
+      "url": "tiles/N46E005.hgt.gz",
+      "size": 1199535,
+      "raw_size": 2884802,
+      "sha256": "cf671c0e7ee9a6f15ba4205fac22b59904a9072c2296979838ccbef05f8a6280"
+    },
+    "N46E006.hgt": {
+      "url": "tiles/N46E006.hgt.gz",
+      "size": 1464830,
+      "raw_size": 2884802,
+      "sha256": "1e426ec269d2529ca0e5cb6c5d968fec64f2abfcc3c0b4dd664f10115a4ebf66"
+    },
+    "N46E007.hgt": {
+      "url": "tiles/N46E007.hgt.gz",
+      "size": 1930543,
+      "raw_size": 2884802,
+      "sha256": "0ae7a7541c10d564d84cf0eae3ed31481a57416ddcb45398d44837ed8694bf39"
+    },
+    "N46E008.hgt": {
+      "url": "tiles/N46E008.hgt.gz",
+      "size": 2098499,
+      "raw_size": 2884802,
+      "sha256": "a46798506b97f2187adc2b8298132265a69adfee871423e1fe94313ec68ed73b"
+    },
+    "N46E009.hgt": {
+      "url": "tiles/N46E009.hgt.gz",
+      "size": 2081899,
+      "raw_size": 2884802,
+      "sha256": "6a03b402c1a15061cfc5e32b59fa10af0c1feef80c9679aec15ab550de1cabda"
+    },
+    "N46E010.hgt": {
+      "url": "tiles/N46E010.hgt.gz",
+      "size": 2113704,
+      "raw_size": 2884802,
+      "sha256": "0b2677a43f730b84fc338a09fb69eac7dc05a378c649c5d1524f10dd342a05d9"
+    },
+    "N46E011.hgt": {
+      "url": "tiles/N46E011.hgt.gz",
+      "size": 2061324,
+      "raw_size": 2884802,
+      "sha256": "02ba04335ee9c39b8063aaec91aa4943ef0b179e2c870c01e419b2c022ec5244"
+    },
+    "N46E012.hgt": {
+      "url": "tiles/N46E012.hgt.gz",
+      "size": 1941297,
+      "raw_size": 2884802,
+      "sha256": "7f1c021e7a6f340ad974e5d58282727b7106233153788c74ecb66e3bf56475dd"
+    },
+    "N46E013.hgt": {
+      "url": "tiles/N46E013.hgt.gz",
+      "size": 1842968,
+      "raw_size": 2884802,
+      "sha256": "7c7c6412d43763d632d1e8d0f800a908d9780b856a9bf2733d511b3fe74ee153"
+    },
     "N46E033.hgt": {
       "url": "tiles/N46E033.hgt.gz",
       "size": 332874,
@@ -3248,6 +4537,54 @@
       "size": 2830,
       "raw_size": 2884802,
       "sha256": "9e55f52ea2861447144a8b4adf8583cc44a9afbad59640a2998b153418eae752"
+    },
+    "N47E006.hgt": {
+      "url": "tiles/N47E006.hgt.gz",
+      "size": 1302182,
+      "raw_size": 2884802,
+      "sha256": "4f2878cd5839b752626389860325100841ec2410bdbdd484c3f969b13467ac3b"
+    },
+    "N47E007.hgt": {
+      "url": "tiles/N47E007.hgt.gz",
+      "size": 1289831,
+      "raw_size": 2884802,
+      "sha256": "8620118d4bf8f106fd8854bf89fab3e5bff981406e1965e5dc5934f9a2027af0"
+    },
+    "N47E008.hgt": {
+      "url": "tiles/N47E008.hgt.gz",
+      "size": 1361228,
+      "raw_size": 2884802,
+      "sha256": "47f920f997568b329666eab4b2710d1734994f27686b1538819b671db2afb6c2"
+    },
+    "N47E009.hgt": {
+      "url": "tiles/N47E009.hgt.gz",
+      "size": 1345342,
+      "raw_size": 2884802,
+      "sha256": "7de6758e54c34154113e8e444a3f8e04325d509502d9e897b89b6a187afcf6e4"
+    },
+    "N47E010.hgt": {
+      "url": "tiles/N47E010.hgt.gz",
+      "size": 1610287,
+      "raw_size": 2884802,
+      "sha256": "117be1529bce0e268e2fef6ce48b4cfc087e13ae56ca1e0d3766b735eb7d46a0"
+    },
+    "N47E011.hgt": {
+      "url": "tiles/N47E011.hgt.gz",
+      "size": 1671235,
+      "raw_size": 2884802,
+      "sha256": "e0876daceecf93f26d05bfdae9639fb7b8fffe9c70fa1b71bacc65df62c629f6"
+    },
+    "N47E012.hgt": {
+      "url": "tiles/N47E012.hgt.gz",
+      "size": 1737904,
+      "raw_size": 2884802,
+      "sha256": "08d29c4434d29c29d62eec8a44cc6bd2be2ebc189ba6559aa973eae44b96f6c3"
+    },
+    "N47E013.hgt": {
+      "url": "tiles/N47E013.hgt.gz",
+      "size": 1858417,
+      "raw_size": 2884802,
+      "sha256": "a8d8f31d7a28bfe8dd99cfc146cbb7d81c66069117dea10dd4a72b2e23b25e61"
     },
     "N47E140.hgt": {
       "url": "tiles/N47E140.hgt.gz",
