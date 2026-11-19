@@ -28,6 +28,12 @@ on:
           - central_asia
           - tatras
           - austria
+          - spain
+          - scotland
+          - iceland
+          - morocco
+          - romania
+          - usa
       force:
         description: 'Force rebuild even if Geofabrik data is newer by less than min_age_days'
         type: boolean

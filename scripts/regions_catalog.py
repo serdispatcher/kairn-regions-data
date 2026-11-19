@@ -7,6 +7,13 @@ def rect_tiles(lat_range, lon_range):
     return [(la, lo) for la in lat_range for lo in lon_range]
 
 
+def format_hgt_name(la, lo, with_gz=False):
+    ns = "N" if la >= 0 else "S"
+    ew = "E" if lo >= 0 else "W"
+    base = f"{ns}{abs(la):02d}{ew}{abs(lo):03d}.hgt"
+    return f"{base}.gz" if with_gz else base
+
+
 def parse_hgt_coords(tile_names):
     coords = []
     for name in tile_names:
@@ -35,6 +42,12 @@ COUNTRIES = [
     "central_asia",
     "tatras",
     "austria",
+    "spain",
+    "scotland",
+    "iceland",
+    "morocco",
+    "romania",
+    "usa",
 ]
 
 TURKEY_PBF = f"{GEOFABRIK_BASE}/europe/turkey-latest.osm.pbf"
@@ -57,6 +70,14 @@ UZBEKISTAN_PBF = f"{GEOFABRIK_BASE}/asia/uzbekistan-latest.osm.pbf"
 SLOVAKIA_PBF = f"{GEOFABRIK_BASE}/europe/slovakia-latest.osm.pbf"
 PL_MALOPOLSKIE_PBF = f"{GEOFABRIK_BASE}/europe/poland/malopolskie-latest.osm.pbf"
 AUSTRIA_PBF = f"{GEOFABRIK_BASE}/europe/austria-latest.osm.pbf"
+SPAIN_PBF = f"{GEOFABRIK_BASE}/europe/spain-latest.osm.pbf"
+ANDORRA_PBF = f"{GEOFABRIK_BASE}/europe/andorra-latest.osm.pbf"
+SCOTLAND_PBF = f"{GEOFABRIK_BASE}/europe/united-kingdom/scotland-latest.osm.pbf"
+ICELAND_PBF = f"{GEOFABRIK_BASE}/europe/iceland-latest.osm.pbf"
+MOROCCO_PBF = f"{GEOFABRIK_BASE}/africa/morocco-latest.osm.pbf"
+ROMANIA_PBF = f"{GEOFABRIK_BASE}/europe/romania-latest.osm.pbf"
+US_CALIFORNIA_PBF = f"{GEOFABRIK_BASE}/north-america/us/california-latest.osm.pbf"
+US_COLORADO_PBF = f"{GEOFABRIK_BASE}/north-america/us/colorado-latest.osm.pbf"
 
 
 def ru_pbf(fd):
@@ -651,6 +672,89 @@ REGIONS = [
         "pbf_urls": [AUSTRIA_PBF],
         "geonames": ["AT"],
     },
+    # --- Spain & Pyrenees (1) ---
+    {
+        "id": "es_pyrenees",
+        "country": "spain",
+        "name_ru": "Пиренеи, Андорра и Ането",
+        "name_en": "Pyrenees, Andorra & Aneto",
+        "name_tr": "Pireneler, Andorra ve Aneto",
+        "tiles": rect_tiles(range(42, 43), range(-1, 3)),
+        "horizon_tiles": [(41, -1), (41, 0), (41, 1), (41, 2), (42, -2), (42, 3), (43, -1), (43, 0), (43, 1), (43, 2)],
+        "pbf_urls": [SPAIN_PBF, ANDORRA_PBF],
+        "geonames": ["ES", "AD"],
+    },
+    # --- Scotland (1) ---
+    {
+        "id": "uk_scottish_highlands",
+        "country": "scotland",
+        "name_ru": "Шотландское нагорье и Бен-Невис",
+        "name_en": "Scottish Highlands & Ben Nevis",
+        "name_tr": "İskoç Yaylaları ve Ben Nevis",
+        "tiles": rect_tiles(range(56, 58), range(-6, -3)),
+        "horizon_tiles": [(55, -6), (55, -5), (55, -4), (56, -7), (57, -7), (56, -3), (57, -3), (58, -6), (58, -5), (58, -4)],
+        "pbf_urls": [SCOTLAND_PBF],
+        "geonames": ["GB"],
+    },
+    # --- Iceland (1) ---
+    {
+        "id": "is_iceland_highlands",
+        "country": "iceland",
+        "name_ru": "Исландия — Ландманналойгар и Рейкьявик",
+        "name_en": "Iceland — Landmannalaugar & Reykjavik",
+        "name_tr": "İzlanda — Landmannalaugar ve Reykjavik",
+        "tiles": rect_tiles(range(63, 65), range(-22, -16)),
+        "horizon_tiles": [(63, -23), (64, -23), (63, -16), (64, -16), (65, -22), (65, -21), (65, -20), (65, -19), (65, -18), (65, -17)],
+        "pbf_urls": [ICELAND_PBF],
+        "geonames": ["IS"],
+    },
+    # --- Morocco (1) ---
+    {
+        "id": "ma_high_atlas_toubkal",
+        "country": "morocco",
+        "name_ru": "Высокий Атлас, Тубкаль и Марракеш",
+        "name_en": "High Atlas, Toubkal & Marrakech",
+        "name_tr": "Yüksek Atlas, Toubkal ve Marakeş",
+        "tiles": rect_tiles(range(30, 32), range(-9, -6)),
+        "horizon_tiles": [(29, -9), (29, -8), (29, -7), (30, -10), (31, -10), (30, -6), (31, -6), (32, -9), (32, -8), (32, -7)],
+        "pbf_urls": [MOROCCO_PBF],
+        "geonames": ["MA"],
+    },
+    # --- Romania / Carpathians (1) ---
+    {
+        "id": "ro_carpathians_fagaras",
+        "country": "romania",
+        "name_ru": "Карпаты — Фэгэраш, Брашов и Сибиу",
+        "name_en": "Carpathians — Făgăraș, Brașov & Sibiu",
+        "name_tr": "Karpatlar — Făgăraș, Brașov ve Sibiu",
+        "tiles": rect_tiles(range(45, 47), range(23, 26)),
+        "horizon_tiles": [(44, 23), (44, 24), (44, 25), (45, 22), (46, 22), (45, 26), (46, 26), (47, 23), (47, 24), (47, 25)],
+        "pbf_urls": [ROMANIA_PBF],
+        "geonames": ["RO"],
+    },
+    # --- USA (2) ---
+    {
+        "id": "us_sierra_nevada_yosemite",
+        "country": "usa",
+        "name_ru": "Сьерра-Невада, Йосемити и Уитни",
+        "name_en": "Sierra Nevada, Yosemite & Whitney",
+        "name_tr": "Sierra Nevada, Yosemite ve Whitney",
+        "tiles": rect_tiles(range(36, 39), range(-120, -117)),
+        "horizon_tiles": [(35, -120), (35, -119), (35, -118), (36, -121), (37, -121), (38, -121), (36, -117), (37, -117), (38, -117), (39, -120), (39, -119), (39, -118)],
+        "pbf_urls": [US_CALIFORNIA_PBF],
+        "geonames": ["US"],
+    },
+    {
+        "id": "us_colorado_rockies",
+        "country": "usa",
+        "name_ru": "Скалистые горы — Колорадо и Элберт",
+        "name_en": "Colorado Rockies & Mount Elbert",
+        "name_tr": "Colorado Kayalık Dağları ve Elbert",
+        "tiles": rect_tiles(range(38, 41), range(-107, -104)),
+        "horizon_tiles": [(37, -107), (37, -106), (37, -105), (38, -108), (39, -108), (40, -108), (38, -104), (39, -104), (40, -104), (41, -107), (41, -106), (41, -105)],
+        "pbf_urls": [US_COLORADO_PBF],
+        "geonames": ["US"],
+    },
 ]
 
 REGIONS_BY_ID = {r["id"]: r for r in REGIONS}
@@ -750,4 +854,17 @@ CURATED_PEAKS = [
     ("sk_rysy", "Rysy", 49.1794, 20.0881, 2499.0, "PEAK", 0.91),
     ("at_grossglockner", "Großglockner", 47.0744, 12.6942, 3798.0, "PEAK", 0.97),
     ("at_wildspitze", "Wildspitze", 46.8853, 10.8672, 3768.0, "PEAK", 0.95),
+    # Spain, Scotland, Iceland, Morocco, Romania, USA
+    ("es_aneto", "Pico de Aneto", 42.6317, 0.6567, 3404.0, "PEAK", 0.96),
+    ("es_monte_perdido", "Monte Perdido", 42.6750, 0.0342, 3355.0, "PEAK", 0.94),
+    ("uk_ben_nevis", "Ben Nevis", 56.7969, -5.0036, 1345.0, "PEAK", 0.94),
+    ("uk_buachaille", "Buachaille Etive Mòr", 56.6475, -4.9006, 1022.0, "PEAK", 0.87),
+    ("is_hvannadalshnukur", "Hvannadalshnúkur", 64.0144, -16.6753, 2110.0, "PEAK", 0.96),
+    ("ma_toubkal", "Jbel Toubkal", 31.0592, -7.9158, 4167.0, "PEAK", 0.98),
+    ("ro_moldoveanu", "Moldoveanu", 45.5994, 24.7364, 2544.0, "PEAK", 0.95),
+    ("ro_omu", "Vârful Omu", 45.4458, 25.4567, 2505.0, "PEAK", 0.91),
+    ("us_whitney", "Mount Whitney", 36.5786, -118.2920, 4421.0, "PEAK", 0.98),
+    ("us_half_dome", "Half Dome", 37.7459, -119.5332, 2694.0, "PEAK", 0.94),
+    ("us_elbert", "Mount Elbert", 39.1178, -106.4453, 4401.0, "PEAK", 0.98),
+    ("us_longs_peak", "Longs Peak", 40.2550, -105.6151, 4346.0, "PEAK", 0.95),
 ]

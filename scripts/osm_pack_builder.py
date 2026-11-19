@@ -17,7 +17,7 @@ import time
 import urllib.request
 import zipfile
 
-from regions_catalog import CURATED_PEAKS
+from regions_catalog import CURATED_PEAKS, format_hgt_name
 
 USER_AGENT = "KairnRegionsSync/1.0"
 
@@ -843,8 +843,8 @@ def build_region_pack(
         "name_ru": reg["name_ru"],
         "name_tr": reg["name_tr"],
         "bbox": [min_la, min_lo, max_la, max_lo],
-        "tiles": [f"N{la:02d}E{lo:03d}.hgt" for la, lo in sorted(reg["tiles"])],
-        "horizon_tiles": [f"N{la:02d}E{lo:03d}.hgt" for la, lo in sorted(reg.get("horizon_tiles", []))],
+        "tiles": [format_hgt_name(la, lo) for la, lo in sorted(reg["tiles"])],
+        "horizon_tiles": [format_hgt_name(la, lo) for la, lo in sorted(reg.get("horizon_tiles", []))],
         "files": {
             "trails.bin.gz": {"url": f"{rel_base}/{rid}__trails.bin.gz", "size": t_sz, "raw_size": len(raw_trails), "sha256": t_sha},
             "pois.json.gz": {"url": f"{rel_base}/{rid}__pois.json.gz", "size": p_sz, "raw_size": len(raw_pois), "sha256": p_sha},
