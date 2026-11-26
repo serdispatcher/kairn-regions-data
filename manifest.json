@@ -1,10 +1,11 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T15:00:00Z",
+  "updated_at": "2026-11-26T15:54:21Z",
   "regions": {
     "antalya_taurus": {
       "id": "antalya_taurus",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Antalya & Western Taurus",
       "name_ru": "Анталья и Западный Тавр",
       "name_tr": "Antalya ve Batı Toroslar",
@@ -32,28 +33,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/antalya_taurus/trails.bin.gz",
-          "size": 2499030,
-          "raw_size": 5152168,
-          "sha256": "de432f959a9a8eb358f86a1102105245a5057de41201f4fae76e1b41f2655a8f"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/antalya_taurus__trails.bin.gz",
+          "size": 3587871,
+          "raw_size": 6277772,
+          "sha256": "ffdd7e38663902051e1cd2eeef7636862fa3184c29ee5decaea70f77823865ed"
         },
         "pois.json.gz": {
-          "url": "regions/antalya_taurus/pois.json.gz",
-          "size": 98687,
-          "raw_size": 599503,
-          "sha256": "276065e00d5f4f6a121e8f9b4495ee0f563a563f8825f81550d5f4d679d99c6f"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/antalya_taurus__pois.json.gz",
+          "size": 98786,
+          "raw_size": 599464,
+          "sha256": "9c96861b73ddd5219875be17d04efb832861894e46dcbd2685a5a64a1b26626b"
         },
         "water.bin.gz": {
-          "url": "regions/antalya_taurus/water.bin.gz",
-          "size": 52498,
-          "raw_size": 80284,
-          "sha256": "b3eb993d9324e4857f78545fa76559c3eea4d41959c372f666efe5683dd40fd9"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/antalya_taurus__water.bin.gz",
+          "size": 52343,
+          "raw_size": 80291,
+          "sha256": "db1d61f31e4b482236e4a1bb260e1c956bf0b0243d1dd7a0b8bb98aabf7f2719"
         }
       }
     },
     "lycia_mugla": {
       "id": "lycia_mugla",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Lycia, Fethiye & Muğla",
       "name_ru": "Ликия, Фетхие и Мугла",
       "name_tr": "Likya, Fethiye ve Muğla",
@@ -86,28 +88,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/lycia_mugla/trails.bin.gz",
-          "size": 3487730,
-          "raw_size": 7022256,
-          "sha256": "6b7f8911c58488b2c216c7670ed605efe7fb9a35299cafacd954680a16a6303b"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/lycia_mugla__trails.bin.gz",
+          "size": 4248141,
+          "raw_size": 8722943,
+          "sha256": "1babdd58cf25ae2612e71141f39999fc3934432ec8c4915df20b73cee54680f5"
         },
         "pois.json.gz": {
-          "url": "regions/lycia_mugla/pois.json.gz",
-          "size": 63079,
-          "raw_size": 403506,
-          "sha256": "9d589043739974d3fe18b77de2bdcb28814b2b627944c7aff81c63866d1f3c2a"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/lycia_mugla__pois.json.gz",
+          "size": 63052,
+          "raw_size": 403094,
+          "sha256": "7af6fd976d2a344b61778aaf769c608a5cdbef252677457505483465432eed57"
         },
         "water.bin.gz": {
-          "url": "regions/lycia_mugla/water.bin.gz",
-          "size": 244870,
-          "raw_size": 407964,
-          "sha256": "6f165722b106aca21cde8cae49e6ffff19f1dd175ed13d287d3825256e66abd5"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/lycia_mugla__water.bin.gz",
+          "size": 244920,
+          "raw_size": 407973,
+          "sha256": "508e283c4aace87bcc225ad76a3987de2b0a75f12f601545d74ab5284e904a99"
         }
       }
     },
     "aegean_izmir": {
       "id": "aegean_izmir",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Aegean Coast & İzmir",
       "name_ru": "Эгейское побережье и Измир",
       "name_tr": "Ege Kıyıları ve İzmir",
@@ -144,28 +147,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/aegean_izmir/trails.bin.gz",
-          "size": 6323422,
-          "raw_size": 13053690,
-          "sha256": "48d96b533f84e95af2e1a035a9c35fd6490056ba45e96cdd6baffdd7d6feba7a"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/aegean_izmir__trails.bin.gz",
+          "size": 7636580,
+          "raw_size": 16199956,
+          "sha256": "45a68a0f3c3f4be41d2ea945b94a0477a4cced6bd089974e3debf7b7c0792c82"
         },
         "pois.json.gz": {
-          "url": "regions/aegean_izmir/pois.json.gz",
-          "size": 109909,
-          "raw_size": 725123,
-          "sha256": "7a086e2fd9adec93aa235c3506a18c172ffffc7f6cee9189183138ab7587e8c9"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/aegean_izmir__pois.json.gz",
+          "size": 109829,
+          "raw_size": 724439,
+          "sha256": "e5c388598551f8ea4b98d3ac09c7c2f6d181e24801e839a56b27cfde173ecfad"
         },
         "water.bin.gz": {
-          "url": "regions/aegean_izmir/water.bin.gz",
-          "size": 172270,
-          "raw_size": 269464,
-          "sha256": "42ae345858ccdab6ddd6ec0218c6dd3649ef0914080f669a2c6dc214f40cd6c2"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/aegean_izmir__water.bin.gz",
+          "size": 172170,
+          "raw_size": 269728,
+          "sha256": "38bcb26ce42bf3a2c1fc473df7805d85799d1238516170157e58e20a70159a32"
         }
       }
     },
     "marmara_uludag": {
       "id": "marmara_uludag",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Istanbul, Marmara & Uludağ",
       "name_ru": "Стамбул, Мраморное море и Улудаг",
       "name_tr": "İstanbul, Marmara ve Uludağ",
@@ -204,28 +208,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/marmara_uludag/trails.bin.gz",
-          "size": 11586202,
-          "raw_size": 25125480,
-          "sha256": "8a59801aa980f4aaa98d27e896adbc0b6c7e15be880c82f60c88c460321828b4"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/marmara_uludag__trails.bin.gz",
+          "size": 12291496,
+          "raw_size": 28698154,
+          "sha256": "346ecefe639dcd3fdcbca9db34d39edf6a8f9432707f6afb76bf7ed5a701ff33"
         },
         "pois.json.gz": {
-          "url": "regions/marmara_uludag/pois.json.gz",
-          "size": 82109,
-          "raw_size": 541032,
-          "sha256": "cb66e247b58f45e6f1f944f310f007167dc3332839a90306529708a8176fe22b"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/marmara_uludag__pois.json.gz",
+          "size": 82056,
+          "raw_size": 540613,
+          "sha256": "d2619571f1c67de2909b0691efeacc8d6fe3e65a5f130f035c2828ef7d296dcb"
         },
         "water.bin.gz": {
-          "url": "regions/marmara_uludag/water.bin.gz",
-          "size": 178881,
-          "raw_size": 276453,
-          "sha256": "faf9198a689fcf318521f7eaeefb54e88ffe19476c2dee51f760b2f84a377971"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/marmara_uludag__water.bin.gz",
+          "size": 179020,
+          "raw_size": 276446,
+          "sha256": "611c992b3b2d4ce6a1845ec3983d4fa3b7b9c0612e046722de71d9b03f58c256"
         }
       }
     },
     "phrygia_ankara": {
       "id": "phrygia_ankara",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Ankara, Phrygia & Eskişehir",
       "name_ru": "Анкара, Фригия и Эскишехир",
       "name_tr": "Ankara, Frigya ve Eskişehir",
@@ -257,19 +262,19 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/phrygia_ankara/trails.bin.gz",
-          "size": 2047312,
-          "raw_size": 4201305,
-          "sha256": "d36291cd5f526d042560e88ba952888373ac56a81f000a53ee3f4c60a8b2da8f"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/phrygia_ankara__trails.bin.gz",
+          "size": 2537778,
+          "raw_size": 5420510,
+          "sha256": "c644fbe5f258440a34628921e50135b2a0cb3bdbd31b4d1d5c83fe48eb01a290"
         },
         "pois.json.gz": {
-          "url": "regions/phrygia_ankara/pois.json.gz",
-          "size": 49071,
-          "raw_size": 317314,
-          "sha256": "202e5cb26e3c9b7ee11cee9acad8bae26fdfbd5877af12f53dbb8c34ed41c2dc"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/phrygia_ankara__pois.json.gz",
+          "size": 49006,
+          "raw_size": 316483,
+          "sha256": "43d1913011e09d6452ce4b3b7463b0a14198f5929141550c55b35dee1ae5c71d"
         },
         "water.bin.gz": {
-          "url": "regions/phrygia_ankara/water.bin.gz",
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/phrygia_ankara__water.bin.gz",
           "size": 22715,
           "raw_size": 30672,
           "sha256": "ff89a007da1644b0c00cbbb16954cc54e9a320b201d200edf600ae24ce8d6618"
@@ -278,7 +283,8 @@
     },
     "cilicia_central_taurus": {
       "id": "cilicia_central_taurus",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Konya, Cilician Taurus & Mersin",
       "name_ru": "Конья, Киликийский Тавр и Мерсин",
       "name_tr": "Konya, Kilikya Torosları ve Mersin",
@@ -315,28 +321,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/cilicia_central_taurus/trails.bin.gz",
-          "size": 4530918,
-          "raw_size": 9572749,
-          "sha256": "efddfbee15f5b82e0e33f3f2b43e3febce695b38325b12e71b889965d6a941eb"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/cilicia_central_taurus__trails.bin.gz",
+          "size": 5237611,
+          "raw_size": 12863227,
+          "sha256": "0e8c33f5c7dd488333d7581a10334dea66a3d2d9b3f1212dcb29044d7fd5ab52"
         },
         "pois.json.gz": {
-          "url": "regions/cilicia_central_taurus/pois.json.gz",
-          "size": 143315,
-          "raw_size": 976092,
-          "sha256": "c5d6ea3d29a8664da7025d2b1af25f7167740e5f9d86c7fcb00d51fb96ae9e3b"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/cilicia_central_taurus__pois.json.gz",
+          "size": 143320,
+          "raw_size": 976123,
+          "sha256": "afdb21ece5317ecb2101b54ac8494dddc85713886761ae6523c3fe5a97ef8a76"
         },
         "water.bin.gz": {
-          "url": "regions/cilicia_central_taurus/water.bin.gz",
-          "size": 59885,
-          "raw_size": 88602,
-          "sha256": "b63c7e42b037ce6479b47ef203215c3cda88a9f475f7ed115f88629da46ae576"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/cilicia_central_taurus__water.bin.gz",
+          "size": 59864,
+          "raw_size": 88609,
+          "sha256": "adb63a60a6660fe288f534badbe2c26f039da1a9509f7f7672684faad1ecb983"
         }
       }
     },
     "cappadocia_aladaglar": {
       "id": "cappadocia_aladaglar",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Cappadocia, Erciyes & Aladağlar",
       "name_ru": "Каппадокия, Эрджиес и Аладаглар",
       "name_tr": "Kapadokya, Erciyes ve Aladağlar",
@@ -380,28 +387,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/cappadocia_aladaglar/trails.bin.gz",
-          "size": 8329179,
-          "raw_size": 17480790,
-          "sha256": "31279cbf06885022b9b71ad5a977bdfc6d9c5a75788f18116ee6614c8296b1aa"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/cappadocia_aladaglar__trails.bin.gz",
+          "size": 10393167,
+          "raw_size": 24243151,
+          "sha256": "3168c8d1ca1e7d01ca513a75019760775a69400fd8b32887f46f0f48f3654ec5"
         },
         "pois.json.gz": {
-          "url": "regions/cappadocia_aladaglar/pois.json.gz",
-          "size": 141716,
-          "raw_size": 950135,
-          "sha256": "f00e463604b7d138b0251e5d3554b39571a66062aa46c38695f2d5f09c32494d"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/cappadocia_aladaglar__pois.json.gz",
+          "size": 141705,
+          "raw_size": 950175,
+          "sha256": "a841aa416268e656a0925db3fcb613a569306d978dcf77a4fef27706f94f88b7"
         },
         "water.bin.gz": {
-          "url": "regions/cappadocia_aladaglar/water.bin.gz",
-          "size": 82514,
-          "raw_size": 117328,
-          "sha256": "26cfbde78f6371110b66811a84557fdfb0f4746bdde839209cfd0b0e73dcbe24"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/cappadocia_aladaglar__water.bin.gz",
+          "size": 82513,
+          "raw_size": 117298,
+          "sha256": "7609c37f0e5d9cedbf077f55e1cb643897a45a74fc1f3b15349723a259918fda"
         }
       }
     },
     "western_black_sea": {
       "id": "western_black_sea",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Western Black Sea & Ilgaz",
       "name_ru": "Западное Причерноморье и Илгаз",
       "name_tr": "Batı Karadeniz ve Ilgaz",
@@ -441,28 +449,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/western_black_sea/trails.bin.gz",
-          "size": 7197643,
-          "raw_size": 14256693,
-          "sha256": "3d2a18ade90c17f716e6907db07794002ab77b8e6533a5a3abe09c7bd06ac958"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/western_black_sea__trails.bin.gz",
+          "size": 9421315,
+          "raw_size": 19991038,
+          "sha256": "f98447863248751a1212503c785aa46e3b5ad2d86a04316a35bd6453cdece40d"
         },
         "pois.json.gz": {
-          "url": "regions/western_black_sea/pois.json.gz",
-          "size": 137134,
-          "raw_size": 929025,
-          "sha256": "d6f49d3426bf22bedb00acd34e46882f4767e9498805e22d64e4ee49ceb4adb3"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/western_black_sea__pois.json.gz",
+          "size": 137278,
+          "raw_size": 929062,
+          "sha256": "6b5e52b466bd6ed7dfb8c169eba05667841b4a32a9a83a280ce7cda7553b228c"
         },
         "water.bin.gz": {
-          "url": "regions/western_black_sea/water.bin.gz",
-          "size": 80260,
-          "raw_size": 116125,
-          "sha256": "b86767c1fc6dd64f088b36f0c576b428519df156c44b7060a6346fa54d56c5fa"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/western_black_sea__water.bin.gz",
+          "size": 80240,
+          "raw_size": 116121,
+          "sha256": "74fbd16ecc95f67e839577f321311cac0403c8f0337c6e060924981606e86b26"
         }
       }
     },
     "kackar_black_sea": {
       "id": "kackar_black_sea",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Kaçkar, Pontic Alps & Kars",
       "name_ru": "Качкар, Понтийские горы и Карс",
       "name_tr": "Kaçkar, Pontus Alpleri ve Kars",
@@ -507,28 +516,29 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/kackar_black_sea/trails.bin.gz",
-          "size": 4714956,
-          "raw_size": 8907801,
-          "sha256": "8d0f84a30c231b96e46a85496768cce144668ecaee954ad424308677c6e1ac46"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/kackar_black_sea__trails.bin.gz",
+          "size": 6689984,
+          "raw_size": 13312347,
+          "sha256": "64853084be26ae128904f75c9f6b0b9784405457aaf356a8007929c3f6819918"
         },
         "pois.json.gz": {
-          "url": "regions/kackar_black_sea/pois.json.gz",
-          "size": 139490,
-          "raw_size": 924003,
-          "sha256": "067858ff4d04d1c8bfa14f4700c17bf39fad4257348520a097556e88cb1dc0bf"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/kackar_black_sea__pois.json.gz",
+          "size": 139427,
+          "raw_size": 924004,
+          "sha256": "9dac2756a454a20993bdbaccf16d26ab8c3e8b4cc738ab5c2f893cbf7697039b"
         },
         "water.bin.gz": {
-          "url": "regions/kackar_black_sea/water.bin.gz",
-          "size": 71652,
-          "raw_size": 103009,
-          "sha256": "b8b483ecdba0e1c52887f9604d6081ef4275aad7c9f798b0142daf91962c4dd0"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/kackar_black_sea__water.bin.gz",
+          "size": 71679,
+          "raw_size": 103005,
+          "sha256": "b082ee3db35e5101433526aecfae51c8b0e094da54c21af18378b50962410bac"
         }
       }
     },
     "eastern_anatolia_ararat": {
       "id": "eastern_anatolia_ararat",
-      "version": 5,
+      "version": 6,
+      "osm_timestamp": "2026-11-26T15:39:18Z",
       "name_en": "Eastern Anatolia, Van, Ararat & Cilo",
       "name_ru": "Восточная Анатолия, Ван, Арарат и Джило",
       "name_tr": "Doğu Anadolu, Van, Ağrı Dağı ve Cilo",
@@ -594,19 +604,19 @@
       ],
       "files": {
         "trails.bin.gz": {
-          "url": "regions/eastern_anatolia_ararat/trails.bin.gz",
-          "size": 9631972,
-          "raw_size": 18982978,
-          "sha256": "6d244deefd21539f5a76eb438d9df4bd902f98e75e5237ca42378951354fb324"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/eastern_anatolia_ararat__trails.bin.gz",
+          "size": 12811156,
+          "raw_size": 29030020,
+          "sha256": "219f7c8b86a445166cc9431468090d10404f1b925df65c9ad1e51f89a72b9370"
         },
         "pois.json.gz": {
-          "url": "regions/eastern_anatolia_ararat/pois.json.gz",
-          "size": 147543,
-          "raw_size": 969829,
-          "sha256": "bee3a2e6a6a5e1f9a7bd5ee5eaf5e02387c5f932d3f5f2425064b2a3da669c71"
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/eastern_anatolia_ararat__pois.json.gz",
+          "size": 147382,
+          "raw_size": 969857,
+          "sha256": "0999c38d54d043a6792c37093a519d840f19532f2a9c67932a361f3f57fdb357"
         },
         "water.bin.gz": {
-          "url": "regions/eastern_anatolia_ararat/water.bin.gz",
+          "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/eastern_anatolia_ararat__water.bin.gz",
           "size": 116594,
           "raw_size": 153407,
           "sha256": "132689864443ae6a15148eecd1ac28c93a28bc914600994c05083690b443636a"
@@ -2146,16 +2156,16 @@
       "sha256": "44ffdd2f8c5fdc7f3898f1695801414d2b869eedc11d665af4703635248ba970"
     },
     "N35E027.hgt": {
-      "url": "tiles/N35E027.hgt.gz",
-      "size": 1561995,
-      "raw_size": 2884802,
-      "sha256": "45908170b2c5003a2db931d31fae8e0cb0e75d1a24ca0f3fd12c3aed4f5c29c1"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N35E027.hgt.gz",
+      "size": 788892,
+      "raw_size": 25934402,
+      "sha256": "e80d019d66ef6d271c5b86b9cc8da23fbb846ea840cd21e4f8da530f3c8bf298"
     },
     "N35E028.hgt": {
-      "url": "tiles/N35E028.hgt.gz",
-      "size": 1149779,
-      "raw_size": 2884802,
-      "sha256": "646fe462d505d1127d1dfca17312e27ece2e4581100e5c4e171ab55980bb52d2"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N35E028.hgt.gz",
+      "size": 4999625,
+      "raw_size": 25934402,
+      "sha256": "8e5f7b54ff4c7f8cdcb30816e00b71b1e32a687eba777e372be2859f975f7468"
     },
     "N35E031.hgt": {
       "url": "tiles/N35E031.hgt.gz",
@@ -2176,34 +2186,34 @@
       "sha256": "5b848414774e000a4533f757ea28e8ed3016523d514766a4315f48a8254c5a40"
     },
     "N35E034.hgt": {
-      "url": "tiles/N35E034.hgt.gz",
-      "size": 671450,
-      "raw_size": 2884802,
-      "sha256": "7d98df8a923e8e5ba2582c95b055d2e449f068ef47088c86d0ae90ccf164cf0d"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N35E034.hgt.gz",
+      "size": 646054,
+      "raw_size": 25934402,
+      "sha256": "cbd263a552fafaffeae3f43beb11c97b7b2a0d17d77bd5c1e3e6cd3c2de500e7"
     },
     "N35E035.hgt": {
-      "url": "tiles/N35E035.hgt.gz",
-      "size": 966395,
-      "raw_size": 2884802,
-      "sha256": "bf321342825237b42c29f1d4aca1049c359d5a4e971dade17d1fbf4a01b32ce5"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N35E035.hgt.gz",
+      "size": 1802746,
+      "raw_size": 25934402,
+      "sha256": "fca7c18336266463f96986b65631eee0a591720388f1181979f3c0b1f4dea5a6"
     },
     "N35E036.hgt": {
-      "url": "tiles/N35E036.hgt.gz",
-      "size": 1573438,
-      "raw_size": 2884802,
-      "sha256": "4570ab531dca741a0b778b0b7433ad369e49dc833c1f39a67e2c74c53f5dba3c"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N35E036.hgt.gz",
+      "size": 10113490,
+      "raw_size": 25934402,
+      "sha256": "7803feb6e18c5856ba74016b76e3335f079d567b30846de89c6f6e973c3866cc"
     },
     "N35E043.hgt": {
-      "url": "tiles/N35E043.hgt.gz",
-      "size": 1106090,
-      "raw_size": 2884802,
-      "sha256": "0979f18c2781697532fb0124036ab7d798c47e0e94c2a75f30bcea72658f11a8"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N35E043.hgt.gz",
+      "size": 6275990,
+      "raw_size": 25934402,
+      "sha256": "6a0bb65caf9a03ffb6d83fb2302675738b536a2b757d09da0cafffcda45914e4"
     },
     "N35E044.hgt": {
-      "url": "tiles/N35E044.hgt.gz",
-      "size": 1453984,
-      "raw_size": 2884802,
-      "sha256": "2b0bff7702e7faa8a1a6b3da3f6a334bf0c91654c93e567b84964d8b42607d23"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N35E044.hgt.gz",
+      "size": 9672806,
+      "raw_size": 25934402,
+      "sha256": "b1386da2e7aae126f4d97b4732a7f8f3916e7151355d4be4ce72d15e34124828"
     },
     "N35W118.hgt": {
       "url": "tiles/N35W118.hgt.gz",
@@ -2242,118 +2252,118 @@
       "sha256": "82b0614ae2de3cbbed616bf0a677bb1d0fa0945822bcd0cdb8130ebb4b69fb58"
     },
     "N36E026.hgt": {
-      "url": "tiles/N36E026.hgt.gz",
-      "size": 877035,
-      "raw_size": 2884802,
-      "sha256": "432d624927c0e4dab0c95d373802a335f502aa314b4ce58aa79dbc975e74f960"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E026.hgt.gz",
+      "size": 444988,
+      "raw_size": 25934402,
+      "sha256": "9b4d937a394fdaa6f32763ae535c508e6b49ec8601f0b72bf7a88356449f2e86"
     },
     "N36E027.hgt": {
-      "url": "tiles/N36E027.hgt.gz",
-      "size": 358654,
-      "raw_size": 2884802,
-      "sha256": "a2ccb4d20ed1468ff4cd913e178270457ed7f521bf4e30b427e466eeca68e941"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E027.hgt.gz",
+      "size": 2691242,
+      "raw_size": 25934402,
+      "sha256": "c81bf5ecbf55b25dea2ccb76698c2f9070e35d3ea16171bcddea763cda167bcd"
     },
     "N36E028.hgt": {
-      "url": "tiles/N36E028.hgt.gz",
-      "size": 539837,
-      "raw_size": 2884802,
-      "sha256": "cc16d3456e120a8cb3a07a451236d3c2b60c7cf210d9d0bf0c3c4857bd891dcb"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E028.hgt.gz",
+      "size": 4290944,
+      "raw_size": 25934402,
+      "sha256": "5f1971ef39c51855b47d780936045994eb22fc02426560ab98e57923a3f88f43"
     },
     "N36E029.hgt": {
-      "url": "tiles/N36E029.hgt.gz",
-      "size": 1385747,
-      "raw_size": 2884802,
-      "sha256": "915c09b951fee5ccde22e777af6f76883220fbd335dfcf0779f84e6446a4655f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E029.hgt.gz",
+      "size": 11354072,
+      "raw_size": 25934402,
+      "sha256": "8beae7e855ad6e8743558494c36b1b6a631adf42a1ea20e0f92f725c0ed64d2d"
     },
     "N36E030.hgt": {
-      "url": "tiles/N36E030.hgt.gz",
-      "size": 928948,
-      "raw_size": 2884802,
-      "sha256": "208809bb2b343480a0a9fc05b1c7cc1a892fda6971ef7f6356268c5aa6036b87"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E030.hgt.gz",
+      "size": 7205769,
+      "raw_size": 25934402,
+      "sha256": "b8a84f158b1c8a07d7a1aeee6149f52ee16ac2fbff7fbdae3649d6207e7a9c87"
     },
     "N36E031.hgt": {
-      "url": "tiles/N36E031.hgt.gz",
-      "size": 505731,
-      "raw_size": 2884802,
-      "sha256": "ce1748a5651a6cd8929061576bdf7f1dc6ddb463cbd0f534159639ab1d73d4ae"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E031.hgt.gz",
+      "size": 4064146,
+      "raw_size": 25934402,
+      "sha256": "a6d4bdc52242d22e9d311aa45233357c60b95c093d4e6ff0752b66a97f858683"
     },
     "N36E032.hgt": {
-      "url": "tiles/N36E032.hgt.gz",
-      "size": 1565799,
-      "raw_size": 2884802,
-      "sha256": "acfe5d1ea4371d9b57ee006894f9cd31d280147788032825f2ac38b123b6c155"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E032.hgt.gz",
+      "size": 13185164,
+      "raw_size": 25934402,
+      "sha256": "8368d69dac23effbf3bb70c9e501f998cd80e1553667ad0c24a3a18356d34b67"
     },
     "N36E033.hgt": {
-      "url": "tiles/N36E033.hgt.gz",
-      "size": 1424141,
-      "raw_size": 2884802,
-      "sha256": "f573b7f664e2fd29147672757c1a293578c7dbb8a1793b0a4da04c01ab1dec94"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E033.hgt.gz",
+      "size": 11945098,
+      "raw_size": 25934402,
+      "sha256": "a0ec50de7b1ac1b25e9fb9b1f3a7578a1a695be680714188824b5d827c439045"
     },
     "N36E034.hgt": {
-      "url": "tiles/N36E034.hgt.gz",
-      "size": 540379,
-      "raw_size": 2884802,
-      "sha256": "e9a11042dd6544cefb937bd70eed4036d86bf17069c29e4c1ea3bc3d0ddff97a"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E034.hgt.gz",
+      "size": 4652195,
+      "raw_size": 25934402,
+      "sha256": "b81adf4767c42f1137bbb4da59244edb016483aedbb462b9c813632500511d76"
     },
     "N36E035.hgt": {
-      "url": "tiles/N36E035.hgt.gz",
-      "size": 278918,
-      "raw_size": 2884802,
-      "sha256": "241ccbb65b94ce3b4876fec291ffce11aa366f6bb65e95fa967b9ed1bd5ef58b"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E035.hgt.gz",
+      "size": 2539103,
+      "raw_size": 25934402,
+      "sha256": "0984d573aa8c8f0bbdae3ff3c390cf17ec3326ab3526e333200c50da6f305820"
     },
     "N36E036.hgt": {
-      "url": "tiles/N36E036.hgt.gz",
-      "size": 1325359,
-      "raw_size": 2884802,
-      "sha256": "12326ec14a33a0d69425b2b7760ea522e098d12ab9436dbccbfbee7dbee71fed"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E036.hgt.gz",
+      "size": 10920289,
+      "raw_size": 25934402,
+      "sha256": "6d5c53ee58038db5a8167327c57bad4db477bdacf9e8ccc4d9792f044c004c6b"
     },
     "N36E037.hgt": {
-      "url": "tiles/N36E037.hgt.gz",
-      "size": 1141388,
-      "raw_size": 2884802,
-      "sha256": "c1dbae886668184957466eb4ddd94bbc3d8208d1f55b9a11a61ec056b0c27dbc"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E037.hgt.gz",
+      "size": 5901140,
+      "raw_size": 25934402,
+      "sha256": "ca3be5385fb20f813b4766687b4da8127a1b8f4e3e5a648c48d719a7963ab7bf"
     },
     "N36E038.hgt": {
-      "url": "tiles/N36E038.hgt.gz",
-      "size": 1176572,
-      "raw_size": 2884802,
-      "sha256": "81ab13e7afced5933e5a41270d24349d3ef40d653e5bb7e4ee1d3e77d645fb97"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E038.hgt.gz",
+      "size": 6044324,
+      "raw_size": 25934402,
+      "sha256": "3cd6d5456f503124f43fb90a707b9ea51b6ff48aa8260bb73bb0b6944b8df9ba"
     },
     "N36E039.hgt": {
-      "url": "tiles/N36E039.hgt.gz",
-      "size": 1036902,
-      "raw_size": 2884802,
-      "sha256": "150265e422937b247c456481b2b676db6f2f4be351ddee51560877646b47f7c0"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E039.hgt.gz",
+      "size": 4672684,
+      "raw_size": 25934402,
+      "sha256": "3cfac31694d51ed63e4536d89b045f95a40bbe188e7e0f3ceb17a1ef9a7689eb"
     },
     "N36E040.hgt": {
-      "url": "tiles/N36E040.hgt.gz",
-      "size": 1074827,
-      "raw_size": 2884802,
-      "sha256": "0ed3e5e40644b7aa3c48ec9e9fab4e61cd7deef5e5e5cd871755c4cf887dbeaa"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E040.hgt.gz",
+      "size": 5294380,
+      "raw_size": 25934402,
+      "sha256": "754acbd89fad6179f67916cef542080cd5743c03df04cdbf65b9afd41ccd9bca"
     },
     "N36E041.hgt": {
-      "url": "tiles/N36E041.hgt.gz",
-      "size": 960353,
-      "raw_size": 2884802,
-      "sha256": "e86b0d825c074e64128bc014fe0e15c7df147e11d457057e5a65aeb04677ff7f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E041.hgt.gz",
+      "size": 4503955,
+      "raw_size": 25934402,
+      "sha256": "fe544741b67167754ec699c43292a7d2bb83bb408300d4426d6f77520849f0df"
     },
     "N36E042.hgt": {
-      "url": "tiles/N36E042.hgt.gz",
-      "size": 1144332,
-      "raw_size": 2884802,
-      "sha256": "62fd46386209b2ad1248c3bda6d97536f586be0cfc6ecb68217279b7cca6cf35"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E042.hgt.gz",
+      "size": 6249303,
+      "raw_size": 25934402,
+      "sha256": "4e7985b6f3ee6503b1dd0c0b79bd2160544609f4fdca39b9c47eeaeea0a271af"
     },
     "N36E043.hgt": {
-      "url": "tiles/N36E043.hgt.gz",
-      "size": 1418859,
-      "raw_size": 2884802,
-      "sha256": "551b860345b008972c865b656ca04e13a6498f73bd07e08f20819ed311ed19c7"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E043.hgt.gz",
+      "size": 9425995,
+      "raw_size": 25934402,
+      "sha256": "7fdf98331bd45cf45988fbeda38cdf5a319e192092ff6448adeea2abf2fde75e"
     },
     "N36E044.hgt": {
-      "url": "tiles/N36E044.hgt.gz",
-      "size": 1913224,
-      "raw_size": 2884802,
-      "sha256": "6150240593dc89e140d6218c2ed5c45fb554192078b9158a2cd63acc53dd8bf3"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N36E044.hgt.gz",
+      "size": 14831745,
+      "raw_size": 25934402,
+      "sha256": "90e52a3fc86b48b9bb152a24920b6cbf8f802f41c288cd3ecb07c4f222c93151"
     },
     "N36E071.hgt": {
       "url": "tiles/N36E071.hgt.gz",
@@ -2404,118 +2414,118 @@
       "sha256": "8ab65d3fe4c038f211a8a3d096eb3fe5f72c5ffca5509c93458cc644590f2347"
     },
     "N37E026.hgt": {
-      "url": "tiles/N37E026.hgt.gz",
-      "size": 869341,
-      "raw_size": 2884802,
-      "sha256": "3876d12ed08e0dc1ffbd732619c2c7c0f4323405001d50d8394e1ce9cdae405c"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E026.hgt.gz",
+      "size": 1631408,
+      "raw_size": 25934402,
+      "sha256": "6a19f3f1dc11f3d02d5980fa956d06157afe05b5886358cf14e0b10eda953334"
     },
     "N37E027.hgt": {
-      "url": "tiles/N37E027.hgt.gz",
-      "size": 1094852,
-      "raw_size": 2884802,
-      "sha256": "940c9bb9764131c869bf04d6b58d8a91878514e24072e106f3003e1a6e9ace23"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E027.hgt.gz",
+      "size": 9062684,
+      "raw_size": 25934402,
+      "sha256": "84bf48b129f76edf5cbca170023fa328477570c0f03de2a35aaf777e17562d27"
     },
     "N37E028.hgt": {
-      "url": "tiles/N37E028.hgt.gz",
-      "size": 1653325,
-      "raw_size": 2884802,
-      "sha256": "d26f99e58eb831ce55429f9d28c1795dc6d19ccc4540690b568fe569ad8251c7"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E028.hgt.gz",
+      "size": 13987737,
+      "raw_size": 25934402,
+      "sha256": "f13b38ec7c3a7a8520a46a166de38fa70a66d132d768056f6e98967ad2b82a89"
     },
     "N37E029.hgt": {
-      "url": "tiles/N37E029.hgt.gz",
-      "size": 1517463,
-      "raw_size": 2884802,
-      "sha256": "bcae6345d86a23ce315a5fbe9e22219d9352eb816aeb4151c14981273a352e40"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E029.hgt.gz",
+      "size": 12381090,
+      "raw_size": 25934402,
+      "sha256": "0a7b2642919c3d7cdac44be98f30cad3ad98644e48d83699d9b16784f1238b34"
     },
     "N37E030.hgt": {
-      "url": "tiles/N37E030.hgt.gz",
-      "size": 1779615,
-      "raw_size": 2884802,
-      "sha256": "10dd5c574bbf826dbee90211d3af37ff3fb31931db8d2aa5c129806e40faff96"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E030.hgt.gz",
+      "size": 12947600,
+      "raw_size": 25934402,
+      "sha256": "131dd000715d7ee5baff0747797bb4683807a74c8ca48816f90b166b241a260c"
     },
     "N37E031.hgt": {
-      "url": "tiles/N37E031.hgt.gz",
-      "size": 1801334,
-      "raw_size": 2884802,
-      "sha256": "9f36bf04001fb52cbb433a34eae95f1e2812c74fcf3a470b3b716109c03a5da6"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E031.hgt.gz",
+      "size": 13733233,
+      "raw_size": 25934402,
+      "sha256": "d9a9314d55feac795894bacd8cb80c904c30330c76977c56c8c3eb3a9ceaf855"
     },
     "N37E032.hgt": {
-      "url": "tiles/N37E032.hgt.gz",
-      "size": 1177603,
-      "raw_size": 2884802,
-      "sha256": "477ac68eb4507226affe14b1d269084c04c7a50b6c767fca103f4e0cd282ec0f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E032.hgt.gz",
+      "size": 9861544,
+      "raw_size": 25934402,
+      "sha256": "f3659e43099c697a41d1a2083310d1256bb9521ce5b8e9e3ffe966bca5c6c9de"
     },
     "N37E033.hgt": {
-      "url": "tiles/N37E033.hgt.gz",
-      "size": 902452,
-      "raw_size": 2884802,
-      "sha256": "d5e972f9e0b1f3ed050c848c0548062c3939bace239d9118952b3ec967f0c4aa"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E033.hgt.gz",
+      "size": 7360637,
+      "raw_size": 25934402,
+      "sha256": "0b049468ed3a4cdf3d4aa9bb385ee158e60edf04addb6f52e2e1dd9331b45ffd"
     },
     "N37E034.hgt": {
-      "url": "tiles/N37E034.hgt.gz",
-      "size": 1568314,
-      "raw_size": 2884802,
-      "sha256": "4188b84cb4dcc4025d8dcfe12c00cc423272b75e9adc15f3f27c937c46e897c9"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E034.hgt.gz",
+      "size": 12993808,
+      "raw_size": 25934402,
+      "sha256": "8baeee4d5c19c2bd9e31b48d3713731b85724ae881f2120ae1d7073c2bdc4115"
     },
     "N37E035.hgt": {
-      "url": "tiles/N37E035.hgt.gz",
-      "size": 1565721,
-      "raw_size": 2884802,
-      "sha256": "549e7d65a906c89dcc18be036d4022b68883da97bf59c424fc1e684c67cfe4f1"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E035.hgt.gz",
+      "size": 13511301,
+      "raw_size": 25934402,
+      "sha256": "69e17c8225a8a212dc279eeee6483747810ee01ef4604f8010df407eb1513d25"
     },
     "N37E036.hgt": {
-      "url": "tiles/N37E036.hgt.gz",
-      "size": 1704373,
-      "raw_size": 2884802,
-      "sha256": "4a100fd508e29be0e75a5cf6335454914dedf065521bcf96285b8237de7de826"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E036.hgt.gz",
+      "size": 14315803,
+      "raw_size": 25934402,
+      "sha256": "ab09d0b0a447d2b2dea1287f1ad8c98695d98f57c6390c5f5610e4e2e97d1354"
     },
     "N37E037.hgt": {
-      "url": "tiles/N37E037.hgt.gz",
-      "size": 1490840,
-      "raw_size": 2884802,
-      "sha256": "e5b7f5149018c48be9a8d7696cb0f8139746746711b380e2a419919b58f65e6c"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E037.hgt.gz",
+      "size": 12145129,
+      "raw_size": 25934402,
+      "sha256": "b3bbc48504a53d38a1dd24fb4857b4ece27767e355e7f6cca59be256dec12112"
     },
     "N37E038.hgt": {
-      "url": "tiles/N37E038.hgt.gz",
-      "size": 1116352,
-      "raw_size": 2884802,
-      "sha256": "8e33224dfdd4912e98cc4108e15ff7c4b436eb1f1038c8f133dabd53d707b4bc"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E038.hgt.gz",
+      "size": 9100140,
+      "raw_size": 25934402,
+      "sha256": "96f0b7d4ba1e9af077f8ecc43a4d72d5a6d21dbffefd0ef3da3a2ca13f6d842c"
     },
     "N37E039.hgt": {
-      "url": "tiles/N37E039.hgt.gz",
-      "size": 919933,
-      "raw_size": 2884802,
-      "sha256": "d6b8828fda0ffe42027e0f9fc42cedcebb65283131025429ff32220142fa1dd1"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E039.hgt.gz",
+      "size": 6891266,
+      "raw_size": 25934402,
+      "sha256": "7d83c89bcae8426949f2ecf6941d3bb3fdcf7f6bb217249328caa606d880437f"
     },
     "N37E040.hgt": {
-      "url": "tiles/N37E040.hgt.gz",
-      "size": 929555,
-      "raw_size": 2884802,
-      "sha256": "1288e8d2df9175274a607047f9626ace58831439534399622a87b03af92317d2"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E040.hgt.gz",
+      "size": 7882645,
+      "raw_size": 25934402,
+      "sha256": "d74e8ef161b1ddd60acd48eb886db32fd53ff9cbd36f3a8d90e1c2beb8d64ecd"
     },
     "N37E041.hgt": {
-      "url": "tiles/N37E041.hgt.gz",
-      "size": 1255528,
-      "raw_size": 2884802,
-      "sha256": "b5da72ecee12ae330e68ead2f06c4ab5df667777a61e45130c8ee6e12e71757c"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E041.hgt.gz",
+      "size": 10724167,
+      "raw_size": 25934402,
+      "sha256": "621918e5353e2e0dbee5e31752c0bee73d9f706322d0a8f20dc1996ce6b91121"
     },
     "N37E042.hgt": {
-      "url": "tiles/N37E042.hgt.gz",
-      "size": 1697440,
-      "raw_size": 2884802,
-      "sha256": "9a369b01851a715bc01955586db441ed7c3d2fc0f573c04481d42565dacdd080"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E042.hgt.gz",
+      "size": 14473621,
+      "raw_size": 25934402,
+      "sha256": "825231cf40878e30c15d75e9b5ae007083b49d2033f784a2956855831720f9c9"
     },
     "N37E043.hgt": {
-      "url": "tiles/N37E043.hgt.gz",
-      "size": 1942732,
-      "raw_size": 2884802,
-      "sha256": "8080943c958b4498a3ea7ec1c09d3e4f619ed8ebe277fbed603766b350ae0abf"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E043.hgt.gz",
+      "size": 16394671,
+      "raw_size": 25934402,
+      "sha256": "d69de26d1a7585e34bca5d0e30cf0d72ca6df0725a91b1df00d1dd0655cec76f"
     },
     "N37E044.hgt": {
-      "url": "tiles/N37E044.hgt.gz",
-      "size": 1920296,
-      "raw_size": 2884802,
-      "sha256": "8c182b714c0e3272d4bc7447cc356a58b0e2a2f9cab3cb804d8a93d7d4881617"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N37E044.hgt.gz",
+      "size": 16144505,
+      "raw_size": 25934402,
+      "sha256": "d7d0c2631ce291c8e25ce235079b180e416f990ba084df8f16fe24e6c485adad"
     },
     "N37E045.hgt": {
       "url": "tiles/N37E045.hgt.gz",
@@ -2656,118 +2666,118 @@
       "sha256": "53cfb6a0efeed0019200bd216de0d27aab9f9b0a5da1a054c6e665dc8af816cc"
     },
     "N38E026.hgt": {
-      "url": "tiles/N38E026.hgt.gz",
-      "size": 588104,
-      "raw_size": 2884802,
-      "sha256": "25fdfef5218def48b3ad4a39b4b332035eb8c7aea0f41aac0908f5299799f018"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E026.hgt.gz",
+      "size": 4499726,
+      "raw_size": 25934402,
+      "sha256": "b039372acf00d127716de001d341e0b09093e44ff65e96a19f2280145aa9f09b"
     },
     "N38E027.hgt": {
-      "url": "tiles/N38E027.hgt.gz",
-      "size": 1345351,
-      "raw_size": 2884802,
-      "sha256": "e27a736be839642cc3814a0c31a6cb060448a2a713f8b43dab63e01ba844aa0b"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E027.hgt.gz",
+      "size": 11280674,
+      "raw_size": 25934402,
+      "sha256": "3b302c57f4b26891c3aed4018e7910b79b24c4f953e95bf065dfe338a07fa7e5"
     },
     "N38E028.hgt": {
-      "url": "tiles/N38E028.hgt.gz",
-      "size": 1548021,
-      "raw_size": 2884802,
-      "sha256": "c041de1c2dbd82d50c3e02709b2d96656b8884fb1bf817ec59a2c3e5b74ef448"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E028.hgt.gz",
+      "size": 13271119,
+      "raw_size": 25934402,
+      "sha256": "80d6cdcffe465f04c00ae21b26dfdc19956639b16a958fbbe43243a378b68024"
     },
     "N38E029.hgt": {
-      "url": "tiles/N38E029.hgt.gz",
-      "size": 1395597,
-      "raw_size": 2884802,
-      "sha256": "edbe53112f33c32a7b9854bc5a436ea4db44845e66beeb6017903676f0d22051"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E029.hgt.gz",
+      "size": 11632506,
+      "raw_size": 25934402,
+      "sha256": "4b8cef7ee663474db6311c7453ca56c45bc122e5761529bbf7223564dc4ecc71"
     },
     "N38E030.hgt": {
-      "url": "tiles/N38E030.hgt.gz",
-      "size": 1338929,
-      "raw_size": 2884802,
-      "sha256": "84e486e669e357416943479f22d5cb1b1e208605a2b33a4f2e72ca195284cd9e"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E030.hgt.gz",
+      "size": 10900414,
+      "raw_size": 25934402,
+      "sha256": "aa89e469c98f12ab5a80745e80864a2f3c6b115da81128bdc554a0359523cff3"
     },
     "N38E031.hgt": {
-      "url": "tiles/N38E031.hgt.gz",
-      "size": 1276279,
-      "raw_size": 2884802,
-      "sha256": "43ad01b84757dd1d381659e62c640fd15d6b2e6999b15f9c46215204c5642dc5"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E031.hgt.gz",
+      "size": 10145866,
+      "raw_size": 25934402,
+      "sha256": "e29c0faa626a666ec44e947250735c246fd3de1c79834ddf161ddcc21d9aadb1"
     },
     "N38E032.hgt": {
-      "url": "tiles/N38E032.hgt.gz",
-      "size": 835194,
-      "raw_size": 2884802,
-      "sha256": "62552491b2ff1a95ba4166c9f41618b3394a31d497db60c4be4fc2e3ad8602f9"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E032.hgt.gz",
+      "size": 6608002,
+      "raw_size": 25934402,
+      "sha256": "02f44be676fd865c1e87bb30352b750539c7ddbe6969ac32fe75c19273f309b1"
     },
     "N38E033.hgt": {
-      "url": "tiles/N38E033.hgt.gz",
-      "size": 568190,
-      "raw_size": 2884802,
-      "sha256": "7238309f3537c40ba27451ac94b15f60152c07e84fc4382e7be1c72b061b523f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E033.hgt.gz",
+      "size": 5117036,
+      "raw_size": 25934402,
+      "sha256": "7974c2c2a864d047512b2c6220ee914e34368adce277d0d7201b77f9906fc896"
     },
     "N38E034.hgt": {
-      "url": "tiles/N38E034.hgt.gz",
-      "size": 1221863,
-      "raw_size": 2884802,
-      "sha256": "9a90afb8f3ab6b14d8239e5d707ba2e7cd639ea50f73359b3dac9d06057855e0"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E034.hgt.gz",
+      "size": 9735200,
+      "raw_size": 25934402,
+      "sha256": "69b0425663c24f3137ed16f0e8cd5fac2fe38f6472ad788b19d0399df839fc98"
     },
     "N38E035.hgt": {
-      "url": "tiles/N38E035.hgt.gz",
-      "size": 1383235,
-      "raw_size": 2884802,
-      "sha256": "b371091a9bd279df604507a22407f9c5d4ef14e9cb332c5edc6a885410e38d84"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E035.hgt.gz",
+      "size": 10835890,
+      "raw_size": 25934402,
+      "sha256": "b8e98eb489ec5c55ecf669196ee12bf2b29820600866479c1769b2771e87cdd2"
     },
     "N38E036.hgt": {
-      "url": "tiles/N38E036.hgt.gz",
-      "size": 1607677,
-      "raw_size": 2884802,
-      "sha256": "0139ee56fa4371db424cd51984c02c7dd0be36a79b3f7a62333e58631df1787c"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E036.hgt.gz",
+      "size": 12833135,
+      "raw_size": 25934402,
+      "sha256": "635bebaed9c094feaff288949b566ee8ac323c11923431737dd035d447894286"
     },
     "N38E037.hgt": {
-      "url": "tiles/N38E037.hgt.gz",
-      "size": 1608342,
-      "raw_size": 2884802,
-      "sha256": "36cd5a9c66f23f47e95a0d979f05b9a6d2ab3ca717ba6236b7aa624dcd853bfe"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E037.hgt.gz",
+      "size": 12842213,
+      "raw_size": 25934402,
+      "sha256": "ed3dd131ab9f860e432c3998959530ecd1e9f53e80985d97df705879bf7e8dff"
     },
     "N38E038.hgt": {
-      "url": "tiles/N38E038.hgt.gz",
-      "size": 1630442,
-      "raw_size": 2884802,
-      "sha256": "f75ffe3cd4f1e019c2aabbc38cdc3f1d5840c2823d60041437ee61f9e7409162"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E038.hgt.gz",
+      "size": 13411618,
+      "raw_size": 25934402,
+      "sha256": "acb2ebee20324dafb59876e9f78c9d6ab04ef9b139f79abc761e249569d01f0f"
     },
     "N38E039.hgt": {
-      "url": "tiles/N38E039.hgt.gz",
-      "size": 1499009,
-      "raw_size": 2884802,
-      "sha256": "d6469c73a371f8c4db54cd50ea23f4443bdf35bba2e2012bd8be3a8b665ae675"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E039.hgt.gz",
+      "size": 12230479,
+      "raw_size": 25934402,
+      "sha256": "08e722f9004ebba89c23b04e377dd31f8d48be6ceff7d79282da2ee5aae9e980"
     },
     "N38E040.hgt": {
-      "url": "tiles/N38E040.hgt.gz",
-      "size": 1467449,
-      "raw_size": 2884802,
-      "sha256": "313971979ad08e13c60797022ac79e8feb3b796472309974a6fd75297734b3f7"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E040.hgt.gz",
+      "size": 12386511,
+      "raw_size": 25934402,
+      "sha256": "90a14d7d661c344b267d13f72124e9c2d438e151958fddd305d44c1bac780591"
     },
     "N38E041.hgt": {
-      "url": "tiles/N38E041.hgt.gz",
-      "size": 1639214,
-      "raw_size": 2884802,
-      "sha256": "b3cd025a42a45c3e5f2bb9ef90e269ff81b761f6c39b8b8af63e45b550111050"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E041.hgt.gz",
+      "size": 13953991,
+      "raw_size": 25934402,
+      "sha256": "3214669b94e11e8cbfc8a7e6fbed82f9e57d70d67cb681db0d169b84ab0e55f0"
     },
     "N38E042.hgt": {
-      "url": "tiles/N38E042.hgt.gz",
-      "size": 1467961,
-      "raw_size": 2884802,
-      "sha256": "6cbcd0bebb8d077e9835538611288bc3c5095c449cfccaa5fe86ec52d5e213e9"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E042.hgt.gz",
+      "size": 11851147,
+      "raw_size": 25934402,
+      "sha256": "2c33d89776e39e360f0fb20ec02ee4f72a6866e013861cacaa73740e0f7c80af"
     },
     "N38E043.hgt": {
-      "url": "tiles/N38E043.hgt.gz",
-      "size": 1359479,
-      "raw_size": 2884802,
-      "sha256": "b4bf189190203aa29c41e778e05151e936a2d69a102119b386a6e5f49999f62a"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E043.hgt.gz",
+      "size": 10796258,
+      "raw_size": 25934402,
+      "sha256": "fb23b9b0230a666f957f4c47b7c46e25fccac08ebdcd7299b94e4919a667b95a"
     },
     "N38E044.hgt": {
-      "url": "tiles/N38E044.hgt.gz",
-      "size": 1672406,
-      "raw_size": 2884802,
-      "sha256": "13f91966bd4f2b3bbcaf7e2316e1e85fe2da7e10581488c26041ebe355e7c28d"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N38E044.hgt.gz",
+      "size": 13858845,
+      "raw_size": 25934402,
+      "sha256": "4c6e345221ee1760ae988325408d00f64e881a5028cba45c779b9955b619f139"
     },
     "N38E045.hgt": {
       "url": "tiles/N38E045.hgt.gz",
@@ -2944,124 +2954,124 @@
       "sha256": "b18bcf54f2d161f11500c502eadc756007bc87f612d4b661ad087efdb66e559b"
     },
     "N39E026.hgt": {
-      "url": "tiles/N39E026.hgt.gz",
-      "size": 1045796,
-      "raw_size": 2884802,
-      "sha256": "c67792b00e5620087297213a00c526854de1ecf8723872ea6af9afe25dc4e421"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E026.hgt.gz",
+      "size": 8504238,
+      "raw_size": 25934402,
+      "sha256": "8ef9c397d7203ca35b65fcec26f4c1cf1efc50199d2f13e3889806c8e6dd78f3"
     },
     "N39E027.hgt": {
-      "url": "tiles/N39E027.hgt.gz",
-      "size": 1508992,
-      "raw_size": 2884802,
-      "sha256": "8a0ce9f26fa7ddb0654684e1111d5ed84ed342407a40127750564f5fbf917a5d"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E027.hgt.gz",
+      "size": 12647858,
+      "raw_size": 25934402,
+      "sha256": "fb8f58fd8f2e4cc54503b32a6515a0c7186020d9e8ad8ed3e1227e545b8a06f6"
     },
     "N39E028.hgt": {
-      "url": "tiles/N39E028.hgt.gz",
-      "size": 1685184,
-      "raw_size": 2884802,
-      "sha256": "33adbd32b2e7f66c0d97af746ddffd42e2bc6c61df79110e5513dacced28f98f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E028.hgt.gz",
+      "size": 13979839,
+      "raw_size": 25934402,
+      "sha256": "1fdb271a0b96b190f5c81e6e2f8edbe5b2a54b14fe9fa42eb82acecd19e337c6"
     },
     "N39E029.hgt": {
-      "url": "tiles/N39E029.hgt.gz",
-      "size": 1558251,
-      "raw_size": 2884802,
-      "sha256": "5b917f1e1d70f5df6c2e1fe0142e1e8a08a3433a32961bc9ce4d8ad5fbaf199d"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E029.hgt.gz",
+      "size": 13094795,
+      "raw_size": 25934402,
+      "sha256": "0ab20d8c46e26bf6072846d80b80b6ec3e4872c04c8943618138882f5b149197"
     },
     "N39E030.hgt": {
-      "url": "tiles/N39E030.hgt.gz",
-      "size": 1196224,
-      "raw_size": 2884802,
-      "sha256": "a45a3444bc45fb837102f74eb0118e4198c833235354ca96c6036e773eb6dfbe"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E030.hgt.gz",
+      "size": 9961819,
+      "raw_size": 25934402,
+      "sha256": "d90c94b3a3889aadd582aba65fbcc30129743bf6bb5a065e1ec1b92eafb9d2f1"
     },
     "N39E031.hgt": {
-      "url": "tiles/N39E031.hgt.gz",
-      "size": 1116862,
-      "raw_size": 2884802,
-      "sha256": "d8a1dd28ce68a46433054fa3149380037490f6c490542b41f3d840c28c044fa1"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E031.hgt.gz",
+      "size": 9241089,
+      "raw_size": 25934402,
+      "sha256": "ce9f152d0bb52b030f47ac3f4a5b3d100fd14fa48f698c2dcc640593ef9e6ce4"
     },
     "N39E032.hgt": {
-      "url": "tiles/N39E032.hgt.gz",
-      "size": 1194531,
-      "raw_size": 2884802,
-      "sha256": "61e2ab058f3b3678b1218a15065bd36006495c08ceb13db506c71613ec09ed99"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E032.hgt.gz",
+      "size": 9818520,
+      "raw_size": 25934402,
+      "sha256": "9581891bd3f8cda082e14f0fcfce4e5f06c637a03a1a3c83b11b7f29975c1dc4"
     },
     "N39E033.hgt": {
-      "url": "tiles/N39E033.hgt.gz",
-      "size": 1259983,
-      "raw_size": 2884802,
-      "sha256": "3d6c35f7ef3f11f73984d9c31491c26d4bc689146a46043a7a02d57c34fe7e59"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E033.hgt.gz",
+      "size": 10343528,
+      "raw_size": 25934402,
+      "sha256": "18a6e90d779ae4f8b9465f58ef46f704d78f21ba873ecc8505dfb56d2ddfb7ee"
     },
     "N39E034.hgt": {
-      "url": "tiles/N39E034.hgt.gz",
-      "size": 1183658,
-      "raw_size": 2884802,
-      "sha256": "92fd25e78cbc4ec0592654b6ffd0566df61af531aa725a529a0462b015153df8"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E034.hgt.gz",
+      "size": 9677966,
+      "raw_size": 25934402,
+      "sha256": "f6f78c11d129dfce0c7ec15f60fc6419836c4e333f27c9631eabe12436aca8c1"
     },
     "N39E035.hgt": {
-      "url": "tiles/N39E035.hgt.gz",
-      "size": 1312886,
-      "raw_size": 2884802,
-      "sha256": "5384be4c2f769b8e01cfd5feee388308fd84d95ab9fed94966bc9d9cfcf1fe73"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E035.hgt.gz",
+      "size": 10483224,
+      "raw_size": 25934402,
+      "sha256": "0cacbd8f7f4aafa14aee5ad3b03d2002ccfb60b7cfd8569b33e85db64451b103"
     },
     "N39E036.hgt": {
-      "url": "tiles/N39E036.hgt.gz",
-      "size": 1387040,
-      "raw_size": 2884802,
-      "sha256": "6c103c868f139793c9e6b05d618e8a28a2cc9d506e8be6c27f83cf6151bf9a41"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E036.hgt.gz",
+      "size": 11346084,
+      "raw_size": 25934402,
+      "sha256": "b9d01510406b900e98c9e3e42238ef96949465634965719d0bf3253f4ad4dc2f"
     },
     "N39E037.hgt": {
-      "url": "tiles/N39E037.hgt.gz",
-      "size": 1471782,
-      "raw_size": 2884802,
-      "sha256": "5668fc007c9e3f84d692d5d999a655ff3257272febc96b9745c649ed8bda8a33"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E037.hgt.gz",
+      "size": 12098557,
+      "raw_size": 25934402,
+      "sha256": "77e8d163a37963637fc555d81b5912aede20d168310e3828e49b8a1bdd89e227"
     },
     "N39E038.hgt": {
-      "url": "tiles/N39E038.hgt.gz",
-      "size": 1850069,
-      "raw_size": 2884802,
-      "sha256": "829939367740410987f01dbd405fd1077177156749ede815ed404933b61b4206"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E038.hgt.gz",
+      "size": 15383815,
+      "raw_size": 25934402,
+      "sha256": "3f4379e8b9a78c20460e8e61ff93fe296a3aabcfc9ed6797760cfea7dc3ef580"
     },
     "N39E039.hgt": {
-      "url": "tiles/N39E039.hgt.gz",
-      "size": 1833376,
-      "raw_size": 2884802,
-      "sha256": "416534fa6892d0e05db4c7f94b9652547ca7788a66d4786e39abfcbfd0302f78"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E039.hgt.gz",
+      "size": 15369764,
+      "raw_size": 25934402,
+      "sha256": "921a8bb7931a45d8bcce2b94ad05590e17d8684041aad18f74acdab88a889220"
     },
     "N39E040.hgt": {
-      "url": "tiles/N39E040.hgt.gz",
-      "size": 1714353,
-      "raw_size": 2884802,
-      "sha256": "12a4426d91680c1669387c533902bba69e20841eaee5b7e1fe78558e26db779b"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E040.hgt.gz",
+      "size": 14048729,
+      "raw_size": 25934402,
+      "sha256": "704417da11fe7660ae49ce71fb11917a3652bad1f5ee954dedb0b016fd606bae"
     },
     "N39E041.hgt": {
-      "url": "tiles/N39E041.hgt.gz",
-      "size": 1518997,
-      "raw_size": 2884802,
-      "sha256": "6d78997911a5f8742045946486586b4a43ad30f965f767ad1db30cd7ff4cfa75"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E041.hgt.gz",
+      "size": 12086103,
+      "raw_size": 25934402,
+      "sha256": "22afdd9097e7ee4434a76bc47756630882b0860e4861a74817385d7a7d2426db"
     },
     "N39E042.hgt": {
-      "url": "tiles/N39E042.hgt.gz",
-      "size": 1369027,
-      "raw_size": 2884802,
-      "sha256": "8f6bb2f047453d0c493df7abb288f310c629a98f0e74b8e5a044af194d3f0982"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E042.hgt.gz",
+      "size": 10951236,
+      "raw_size": 25934402,
+      "sha256": "69260a68e465382385245f2353c1e6ef6d59a314f3f22ea68886abe0031cda53"
     },
     "N39E043.hgt": {
-      "url": "tiles/N39E043.hgt.gz",
-      "size": 1580489,
-      "raw_size": 2884802,
-      "sha256": "1dd91775d6bd6483bc0a26bd9c2587fc30132df0a6136cb81946649ca95ae60d"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E043.hgt.gz",
+      "size": 12429219,
+      "raw_size": 25934402,
+      "sha256": "5e717fd6ff4daf636829f28edf23ccab39a16f1b4810f30ede61d11554a7507d"
     },
     "N39E044.hgt": {
-      "url": "tiles/N39E044.hgt.gz",
-      "size": 1427415,
-      "raw_size": 2884802,
-      "sha256": "cb8dfa35e8b1b6789b0cd70819b7ddebcca9c1c9573b3430697afa9fe803b2dc"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E044.hgt.gz",
+      "size": 12971264,
+      "raw_size": 25934402,
+      "sha256": "87e0d381f7565806721ccfccf131427a1dc3595db3beaa01545836d5960cd365"
     },
     "N39E045.hgt": {
-      "url": "tiles/N39E045.hgt.gz",
-      "size": 1909618,
-      "raw_size": 2884802,
-      "sha256": "9298357616200b75b7af24d1517c8853d4de8fff2b3b1b97b4cec323cf1ecaf7"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N39E045.hgt.gz",
+      "size": 14406447,
+      "raw_size": 25934402,
+      "sha256": "6802fde6f306434d7d584305f9631999635218d07d891f8112f9702021d5ff77"
     },
     "N39E046.hgt": {
       "url": "tiles/N39E046.hgt.gz",
@@ -3244,130 +3254,130 @@
       "sha256": "42918d84b2f819a63e34cfdd1e4bd12f02c260eb7a65b3e6db8d479a1359a05f"
     },
     "N40E025.hgt": {
-      "url": "tiles/N40E025.hgt.gz",
-      "size": 708442,
-      "raw_size": 2884802,
-      "sha256": "a3f028ddad9a6abe2fd588b61fd4cce0d240affe5aa094648e3fe59fba20b229"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E025.hgt.gz",
+      "size": 1896930,
+      "raw_size": 25934402,
+      "sha256": "b819058e343861e201afda70e808b44885aedcdf9d22ca3df9779389b8d50e29"
     },
     "N40E026.hgt": {
-      "url": "tiles/N40E026.hgt.gz",
-      "size": 845725,
-      "raw_size": 2884802,
-      "sha256": "a2b085710b5aee7ea1575355ebd51327e66272ff896b4b09291a5b5684253f85"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E026.hgt.gz",
+      "size": 7000509,
+      "raw_size": 25934402,
+      "sha256": "46c28cc30b249ffa7b72c493722f8162a012418d4ce1a10146878a82bcedad31"
     },
     "N40E027.hgt": {
-      "url": "tiles/N40E027.hgt.gz",
-      "size": 772988,
-      "raw_size": 2884802,
-      "sha256": "d5f19c75838f1352342814f006a28b7b7a8005fbe3e09f8af24486dd64fccb63"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E027.hgt.gz",
+      "size": 6318872,
+      "raw_size": 25934402,
+      "sha256": "e80c9d613a5d5ceef27768390d44f983a8668a724e0107882e8c62b5bfcf46cf"
     },
     "N40E028.hgt": {
-      "url": "tiles/N40E028.hgt.gz",
-      "size": 501091,
-      "raw_size": 2884802,
-      "sha256": "1cca33d7147fb7242b4815e6e8791999e3bff826010e4cebc4bbb34e8aecb895"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E028.hgt.gz",
+      "size": 4086965,
+      "raw_size": 25934402,
+      "sha256": "f50300413041561e1b38f4d6dd6244aeadcfb7b8958dcac37f5b5640058005ef"
     },
     "N40E029.hgt": {
-      "url": "tiles/N40E029.hgt.gz",
-      "size": 1297352,
-      "raw_size": 2884802,
-      "sha256": "59ebe92744ea9151ed70fd089304dc102256d2a175f3d07e45e69fa01d028467"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E029.hgt.gz",
+      "size": 10935830,
+      "raw_size": 25934402,
+      "sha256": "92c91a2ddee9e95a6edf55ea3f8e9445f6b5d1334531e66523db712b6cc82457"
     },
     "N40E030.hgt": {
-      "url": "tiles/N40E030.hgt.gz",
-      "size": 1569675,
-      "raw_size": 2884802,
-      "sha256": "d0a4717c7512817c419ef30da26a1728e4fbdce6ffd196ff0f1a1465a5553937"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E030.hgt.gz",
+      "size": 13414671,
+      "raw_size": 25934402,
+      "sha256": "f1d0fbd68ed95ca7c13eb9568fa44c30385bfe9b246c58bcf9dbff2692fe4989"
     },
     "N40E031.hgt": {
-      "url": "tiles/N40E031.hgt.gz",
-      "size": 1693456,
-      "raw_size": 2884802,
-      "sha256": "83a76300929c1b9bc07294866278bfb27b7c618b04985868f0130404e056f188"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E031.hgt.gz",
+      "size": 14227607,
+      "raw_size": 25934402,
+      "sha256": "e561f46a2898f977f5c7eccb4dc129a096db82c3b36515b0710706d99a0f9750"
     },
     "N40E032.hgt": {
-      "url": "tiles/N40E032.hgt.gz",
-      "size": 1558236,
-      "raw_size": 2884802,
-      "sha256": "aeda0301e036ac61c6dde2120fe965a7316d898a516af371f955fc03341831a7"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E032.hgt.gz",
+      "size": 12794305,
+      "raw_size": 25934402,
+      "sha256": "eb648992b07ab02d58a0b94f6e132b748af2ccd8988a815d4e23b88c620b559e"
     },
     "N40E033.hgt": {
-      "url": "tiles/N40E033.hgt.gz",
-      "size": 1545657,
-      "raw_size": 2884802,
-      "sha256": "064ea5282d2d059089ce6d4115e1827b26d61e7c3f37566d6e6229e8040016c1"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E033.hgt.gz",
+      "size": 12796681,
+      "raw_size": 25934402,
+      "sha256": "26b7a6576d9c7abd352b8bbbca516061d0997ec415ae39b5c02151f03f60157e"
     },
     "N40E034.hgt": {
-      "url": "tiles/N40E034.hgt.gz",
-      "size": 1514272,
-      "raw_size": 2884802,
-      "sha256": "d8933bbc1a8c5c331e37a9f81a9a80716ec142409c6a7111916e59959cea8824"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E034.hgt.gz",
+      "size": 12561762,
+      "raw_size": 25934402,
+      "sha256": "1ce4a192fcd9fabe9a4ef17d4096744748646d379a3a6ba62bcd3a1e70a45120"
     },
     "N40E035.hgt": {
-      "url": "tiles/N40E035.hgt.gz",
-      "size": 1535928,
-      "raw_size": 2884802,
-      "sha256": "6ac629772bfd7b0c075ae8f458314c5b48ad7b49c8d50ba667f5600841c0b457"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E035.hgt.gz",
+      "size": 12593777,
+      "raw_size": 25934402,
+      "sha256": "f3889d7c259bcafd6689e0231f94c2de1db041bd12983dd46fb7818b268965dd"
     },
     "N40E036.hgt": {
-      "url": "tiles/N40E036.hgt.gz",
-      "size": 1673350,
-      "raw_size": 2884802,
-      "sha256": "e7b40b49cc02923c59da3cf9c12d5ef77cf782755718133c7d190ce8b48d1888"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E036.hgt.gz",
+      "size": 13843899,
+      "raw_size": 25934402,
+      "sha256": "45793ab98099caafcce0b6373ff779207462125943aabf5e9605f9d4fb33eda8"
     },
     "N40E037.hgt": {
-      "url": "tiles/N40E037.hgt.gz",
-      "size": 1831148,
-      "raw_size": 2884802,
-      "sha256": "229bf7a4e3b945d7917573ddc6bf60571738b26140c4358183afb2971e7a8ed5"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E037.hgt.gz",
+      "size": 15243756,
+      "raw_size": 25934402,
+      "sha256": "c96b5af6192ec1ffcca33e0a19998326b6ea4068902720e9ad5d79fb5616028b"
     },
     "N40E038.hgt": {
-      "url": "tiles/N40E038.hgt.gz",
-      "size": 1791689,
-      "raw_size": 2884802,
-      "sha256": "923e64595f7c6e1bb80d8348eb71c1b00256f670785faf2a76925613abf62d65"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E038.hgt.gz",
+      "size": 14749750,
+      "raw_size": 25934402,
+      "sha256": "61e79d8f1899cc1887ec8d842bd055a92c4770837edc9465c02b2d3885eb66ab"
     },
     "N40E039.hgt": {
-      "url": "tiles/N40E039.hgt.gz",
-      "size": 1864932,
-      "raw_size": 2884802,
-      "sha256": "a4e1f26a3bbfe3385046b16a08deda3c305ca0bd502a38066ef155bbadba3e8f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E039.hgt.gz",
+      "size": 15401742,
+      "raw_size": 25934402,
+      "sha256": "e79429c6688265c0e9cee31e8f0472773e07b43be5124f6f68361ffe144f8253"
     },
     "N40E040.hgt": {
-      "url": "tiles/N40E040.hgt.gz",
-      "size": 1899324,
-      "raw_size": 2884802,
-      "sha256": "7941d9820d87771c8899211095f23a6b4dc055a7236ea626f1d57dd1051c26de"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E040.hgt.gz",
+      "size": 15693034,
+      "raw_size": 25934402,
+      "sha256": "3658227b3d749ee48c3799895bcaa4e12b580b5ee6fd9265170d673635a76a41"
     },
     "N40E041.hgt": {
-      "url": "tiles/N40E041.hgt.gz",
-      "size": 1934364,
-      "raw_size": 2884802,
-      "sha256": "65f590ccfe6d5838e50589ef5f94235920150c13e877ce569c47a4e5ff8bc7cb"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E041.hgt.gz",
+      "size": 16035889,
+      "raw_size": 25934402,
+      "sha256": "12071766037bc4c01ddadafed79f3474fbaeafbb82b98612aa093720b84fc8fa"
     },
     "N40E042.hgt": {
-      "url": "tiles/N40E042.hgt.gz",
-      "size": 1645478,
-      "raw_size": 2884802,
-      "sha256": "4c05d7516f3c3e8f4dbb2b190f72c827b1845393397745157873340cd91d1eee"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E042.hgt.gz",
+      "size": 12988121,
+      "raw_size": 25934402,
+      "sha256": "2b9041c4aace5b2cf444d4b71fb630a974c4cc2f82086a34f97be8eaf19ec8b5"
     },
     "N40E043.hgt": {
-      "url": "tiles/N40E043.hgt.gz",
-      "size": 1334263,
-      "raw_size": 2884802,
-      "sha256": "362401bd0270cb8820b5e3747262dceaa7362ffcc9e839343535cc3c679edcf8"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E043.hgt.gz",
+      "size": 11876445,
+      "raw_size": 25934402,
+      "sha256": "7ae3e4b49c361c599aa96fdf4e1d99a8745f5560ef743e0a166d49431b66db95"
     },
     "N40E044.hgt": {
-      "url": "tiles/N40E044.hgt.gz",
-      "size": 1601195,
-      "raw_size": 2884802,
-      "sha256": "435c807203aa4273cf54690bd01159556c60c60e36c18b41a0b5f2fa2363b7d2"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E044.hgt.gz",
+      "size": 13583060,
+      "raw_size": 25934402,
+      "sha256": "c60b8700f7640d0074b779a199152e9697db75c5653873ee5b9b4d3aa58e7ade"
     },
     "N40E045.hgt": {
-      "url": "tiles/N40E045.hgt.gz",
-      "size": 1682303,
-      "raw_size": 2884802,
-      "sha256": "7f121d097f90d083a061c06c910d41065c52234de2ece5935412780236433a66"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N40E045.hgt.gz",
+      "size": 12798324,
+      "raw_size": 25934402,
+      "sha256": "942c33dbffe089716ab2f2ba76ef9c98404f313cf4f22f47c41943593b1a6bd2"
     },
     "N40E046.hgt": {
       "url": "tiles/N40E046.hgt.gz",
@@ -3580,130 +3590,130 @@
       "sha256": "e59e3f1a517b849966133d7bde876a5dc5bd35da5f31209e59f3a23116eb1129"
     },
     "N41E025.hgt": {
-      "url": "tiles/N41E025.hgt.gz",
-      "size": 1697154,
-      "raw_size": 2884802,
-      "sha256": "e2c04276068c250d84f35089ee5444eabbb0ec577b86bd37476359aa765b8b39"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E025.hgt.gz",
+      "size": 12395739,
+      "raw_size": 25934402,
+      "sha256": "6bf0c87ccfbc0af526661b18a33bf5ca1cc1af7572a8b1023755404a95bc5edc"
     },
     "N41E026.hgt": {
-      "url": "tiles/N41E026.hgt.gz",
-      "size": 1022523,
-      "raw_size": 2884802,
-      "sha256": "05d928e913325abddebac3e5e5a94149cf33e18a0379cd63613e682ed8153634"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E026.hgt.gz",
+      "size": 8941030,
+      "raw_size": 25934402,
+      "sha256": "87ccf1979e4c86d4550183c2db1994c714862854da4a8d6c11650c2a30b11127"
     },
     "N41E027.hgt": {
-      "url": "tiles/N41E027.hgt.gz",
-      "size": 978850,
-      "raw_size": 2884802,
-      "sha256": "23e0e0d37cb825cd8637040e9316f454efbed914f01b22416cb9a41acef8b05a"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E027.hgt.gz",
+      "size": 8535152,
+      "raw_size": 25934402,
+      "sha256": "d78a65621d8a2cab2fd79a5c79dc8f7b2b569ed5f0eaa0220fb11d9363725722"
     },
     "N41E028.hgt": {
-      "url": "tiles/N41E028.hgt.gz",
-      "size": 479796,
-      "raw_size": 2884802,
-      "sha256": "2af73753492300fce90277abe32a96a344361d4e90ec62cf268e6987db00e2aa"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E028.hgt.gz",
+      "size": 4182082,
+      "raw_size": 25934402,
+      "sha256": "2a1c0b38c4d6279dc403d159d389983eda9eeed174deca50d3e4d2cf691002c8"
     },
     "N41E029.hgt": {
-      "url": "tiles/N41E029.hgt.gz",
-      "size": 242472,
-      "raw_size": 2884802,
-      "sha256": "989b9f83cf51f71c2e9656b786e10aa49403640312598f7b7364807a0b12d927"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E029.hgt.gz",
+      "size": 2198269,
+      "raw_size": 25934402,
+      "sha256": "48f691f6e3698f71b9e46c261a5339bfdb2d4eae18e44dc27189271efcedadd8"
     },
     "N41E030.hgt": {
-      "url": "tiles/N41E030.hgt.gz",
-      "size": 147389,
-      "raw_size": 2884802,
-      "sha256": "7dd448fd0f6410942586b2d3e38344c07a52a4608053f1bbb0404f7847003fdb"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E030.hgt.gz",
+      "size": 1315474,
+      "raw_size": 25934402,
+      "sha256": "7333e94f380a71672dede588677628d174f8e97be4b66d78055f3d6fd3b00d02"
     },
     "N41E031.hgt": {
-      "url": "tiles/N41E031.hgt.gz",
-      "size": 577589,
-      "raw_size": 2884802,
-      "sha256": "2bb4b5d2eb2eee3caba41c49782050c2e29834b90212ed191e0bdfbed99a96ef"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E031.hgt.gz",
+      "size": 4767361,
+      "raw_size": 25934402,
+      "sha256": "24db469c2b80492f2893a9eb6c9e093e7be41c593de196da36163fc65f5194d8"
     },
     "N41E032.hgt": {
-      "url": "tiles/N41E032.hgt.gz",
-      "size": 1395394,
-      "raw_size": 2884802,
-      "sha256": "721d0104ed52c15ed9ac1675937b1a7ddb2630ac1cf6e4041a13eb7cba037569"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E032.hgt.gz",
+      "size": 11531357,
+      "raw_size": 25934402,
+      "sha256": "ac8a7597184938f221a29170d247a39d5879dbd1fea375e90231d71d9bbe1bc6"
     },
     "N41E033.hgt": {
-      "url": "tiles/N41E033.hgt.gz",
-      "size": 1650911,
-      "raw_size": 2884802,
-      "sha256": "d12c18a7302266de587a4a35bafd17ce7f5436d5c970f4509d47773afabd6a59"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E033.hgt.gz",
+      "size": 13784784,
+      "raw_size": 25934402,
+      "sha256": "98982f94261f13ca1fe40b3662094b1d85250a4a4ea8cc93b72c89019b0a0efd"
     },
     "N41E034.hgt": {
-      "url": "tiles/N41E034.hgt.gz",
-      "size": 1699637,
-      "raw_size": 2884802,
-      "sha256": "8952c77dc580287432f3d0b9fe1be2a2ff2c620e7d7bad2368e7e75f4b559bbd"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E034.hgt.gz",
+      "size": 14038401,
+      "raw_size": 25934402,
+      "sha256": "c33db9733682121f12cfc54138dee880e65ed0dba0976f946430fb80a11ca0c5"
     },
     "N41E035.hgt": {
-      "url": "tiles/N41E035.hgt.gz",
-      "size": 1246286,
-      "raw_size": 2884802,
-      "sha256": "0033636848e59a4d4d4bc0a093cbede6ece6267d18e8a8ec17d0a50961c8eb7e"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E035.hgt.gz",
+      "size": 10206284,
+      "raw_size": 25934402,
+      "sha256": "489a0d85a6b38ae9bdd5815c8519989306ca5678270ec5d13369882e4527d354"
     },
     "N41E036.hgt": {
-      "url": "tiles/N41E036.hgt.gz",
-      "size": 492955,
-      "raw_size": 2884802,
-      "sha256": "b7914666f68600a85a2f43c6417a4638832b3cef735d7b98752e7b1529696d5f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E036.hgt.gz",
+      "size": 4354755,
+      "raw_size": 25934402,
+      "sha256": "23d05eee4b3be0eabbdabf7b954845e1c32de6b17eae83023886dfae983fcf76"
     },
     "N41E037.hgt": {
-      "url": "tiles/N41E037.hgt.gz",
-      "size": 159130,
-      "raw_size": 2884802,
-      "sha256": "4bfa3598628c7e59bc825fdf374a3edf4fc79adac64a389933abb646f38d0b3f"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E037.hgt.gz",
+      "size": 1318537,
+      "raw_size": 25934402,
+      "sha256": "5faa95c18abae800d2fb3f618fcbb94d0a11882bbb58e8f53e0001eec74547ab"
     },
     "N41E038.hgt": {
-      "url": "tiles/N41E038.hgt.gz",
-      "size": 15887,
-      "raw_size": 2884802,
-      "sha256": "0f571f1dfe947529ad27f69d020f297714f832d9b6da0d9e1d0a36e7a978b4c1"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E038.hgt.gz",
+      "size": 108581,
+      "raw_size": 25934402,
+      "sha256": "7151e1b3a77ec1961b59c2515d6d4c8f36fe3bb6bae240c60762e9cf5da5440a"
     },
     "N41E039.hgt": {
-      "url": "tiles/N41E039.hgt.gz",
-      "size": 85492,
-      "raw_size": 2884802,
-      "sha256": "6b25dd633c8e752d68ccc7c42c773473d70c9bfce5beb3287969ed6671acec9b"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E039.hgt.gz",
+      "size": 660118,
+      "raw_size": 25934402,
+      "sha256": "d297a37b4324afdf13372e92755420d3978e8d1cbaa7dccaf4d40c9c7563a2bc"
     },
     "N41E040.hgt": {
-      "url": "tiles/N41E040.hgt.gz",
-      "size": 138554,
-      "raw_size": 2884802,
-      "sha256": "c712b15d0bcec0a1aeed2d5b3c10044944adfab2acb769c83f5be9e89d1317d6"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E040.hgt.gz",
+      "size": 1102655,
+      "raw_size": 25934402,
+      "sha256": "40335f3ce77ff194c3e881c231c82fce8a8eac0eff20830563b8f12f81bbfd49"
     },
     "N41E041.hgt": {
-      "url": "tiles/N41E041.hgt.gz",
-      "size": 1177361,
-      "raw_size": 2884802,
-      "sha256": "935688526ffea88c56c5bfcf6ec9e22792b423a1a653d1bb46a77e27ce5c47e5"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E041.hgt.gz",
+      "size": 10050638,
+      "raw_size": 25934402,
+      "sha256": "e6264e7e71e797e80989fcf86589ef6ce93ed5a375e600f0d5710803a7076edb"
     },
     "N41E042.hgt": {
-      "url": "tiles/N41E042.hgt.gz",
-      "size": 1908214,
-      "raw_size": 2884802,
-      "sha256": "119a919ae6c25b56a360b134d9d2712c6c1a481ab9f76cef5abb5790c7b18bed"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E042.hgt.gz",
+      "size": 15590738,
+      "raw_size": 25934402,
+      "sha256": "07a4cb49dc283aa1d13e42bf8d6a4a9e70bbfc53c91eac70fca7761550ca175f"
     },
     "N41E043.hgt": {
-      "url": "tiles/N41E043.hgt.gz",
-      "size": 1682566,
-      "raw_size": 2884802,
-      "sha256": "1cd595ca9538a076f67c927e26120170ea8ec11dc62c2bf170e17b69299a44c9"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E043.hgt.gz",
+      "size": 13789355,
+      "raw_size": 25934402,
+      "sha256": "465f6620d2063bd9a167cdeada61068299d45bed93f5da8ddec34229b8e6acbb"
     },
     "N41E044.hgt": {
-      "url": "tiles/N41E044.hgt.gz",
-      "size": 1661090,
-      "raw_size": 2884802,
-      "sha256": "269c40d32fe6924acb406476bcbe39fb99daa41766c59cbff0091782001b64ad"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E044.hgt.gz",
+      "size": 13509625,
+      "raw_size": 25934402,
+      "sha256": "c7e6b79a6f089a604dc4652f0700899551ce3aa4fac8d86f5a0b307c3aba4d98"
     },
     "N41E045.hgt": {
-      "url": "tiles/N41E045.hgt.gz",
-      "size": 1577181,
-      "raw_size": 2884802,
-      "sha256": "679d86b2a463d400754fd8811d2968670aed77b227189b3052719e93878a77b0"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N41E045.hgt.gz",
+      "size": 10781298,
+      "raw_size": 25934402,
+      "sha256": "407aa4a61555972b1782d24de6a9f3e09ab03132f22fc86550729268782ac359"
     },
     "N41E046.hgt": {
       "url": "tiles/N41E046.hgt.gz",
@@ -3922,22 +3932,22 @@
       "sha256": "618d772faf5e4ef1a3025064407b9e15be68c92c11a375f8c2296e32a3d2bf5f"
     },
     "N42E026.hgt": {
-      "url": "tiles/N42E026.hgt.gz",
-      "size": 1406162,
-      "raw_size": 2884802,
-      "sha256": "08915868a23d841a9936a27fda59046f53062ae2d0b2ca3481ce7a2cfee6c9c8"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N42E026.hgt.gz",
+      "size": 8937800,
+      "raw_size": 25934402,
+      "sha256": "97dfc9e1b8383e077a89e0b13dfee9dbad1fe5dc2b9f7a657f8fed68e5a03f72"
     },
     "N42E027.hgt": {
-      "url": "tiles/N42E027.hgt.gz",
-      "size": 1257662,
-      "raw_size": 2884802,
-      "sha256": "5e743d9e3052e68657b43c891b3a59bdc79e63c3cea4bd362b9f86b03c1ec508"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N42E027.hgt.gz",
+      "size": 8164411,
+      "raw_size": 25934402,
+      "sha256": "2309d27446346a2b105abf1ea334fb5a3e0ad67e29b9590c63baa488939860f9"
     },
     "N42E028.hgt": {
-      "url": "tiles/N42E028.hgt.gz",
-      "size": 471546,
-      "raw_size": 2884802,
-      "sha256": "9b7c727dffb1c4a705e57138ef2033553aaf108df556d4fcdd69bef3ad34189b"
+      "url": "https://github.com/serdispatcher/kairn-regions-data/releases/download/regions-latest/tiles__N42E028.hgt.gz",
+      "size": 34072,
+      "raw_size": 25934402,
+      "sha256": "20f405e7b9c004dfd85a08d0dc6e335cb0ca0bfc7e34fbfa5cecead58953b39c"
     },
     "N42E039.hgt": {
       "url": "tiles/N42E039.hgt.gz",
